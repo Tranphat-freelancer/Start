@@ -1,0 +1,111 @@
+/* Variable css */
+:root{
+    --heading-color: #ccc;
+    --text-color: #fff;
+    --nav-height: 46px;
+}
+
+
+/* Reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    /* rem font size: 1rem = 10px */
+    font-size: 62.5%; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* 
+1. Từ ngoài vào tron
+2. Từ trên xuống dưới
+3. Tù tổng quan đến chi tiết
+*/
+
+/* 
+1. Vị trí
+2. Kích thước (witdh, height)
+3. Màu sắc
+4. Kiểu dáng (kiểu chữ, hình tròn, vuông, ...)
+
+*/
+
+#main{
+height: 1500px;
+}
+#header{
+    position: fixed;
+    top :0px;
+    width: 100%;
+    height: var(--nav-height);
+    background-color: #000;
+}
+
+#nav, .sub-nav{
+    list-style-type: none;
+}
+
+#nav > li{
+    display: inline-block;
+}
+
+#nav li{
+    
+    position: relative;
+}
+#nav  li  a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--text-color);
+    line-height: var(--nav-height);
+    display: inline-block;
+    padding: 0 24px;
+
+}
+
+#nav > li > a{
+    text-transform: uppercase;
+}
+
+
+
+#nav > li:hover > a,
+#nav .sub-nav li:hover {
+    background-color: #ccc!important;
+    color: #000!important;
+}
+
+#nav li:hover .sub-nav{
+    display: block;
+}
+
+#nav .sub-nav{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    background-color: #fff;
+    /* trục x, trục y, dộ dầy, màu*/
+    box-shadow: 0 0 10px #000;
+}
+#nav .sub-nav a{
+    line-height: 38px;
+    color: #000;
+    padding: 0 16px;
+}
+
+#slider{
+    min-height: 500px;
+    background-color: #333;
+}
+
+#container{
+
+}
+#footer{
+
+}
