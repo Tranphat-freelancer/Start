@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Main.Application.Contracts\Main.Application.Contracts.csproj" />
-  </ItemGroup>
+  <ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.HttpApi\TinhThanhModule.HttpApi.csproj" /><ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.HttpApi\TinhThanhModule.HttpApi.csproj" /></ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Account.HttpApi" Version="5.3.0" />

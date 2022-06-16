@@ -41,6 +41,7 @@ using Volo.Abp.UI.Navigation.Urls;
 using Volo.Abp.UI;
 using Volo.Abp.UI.Navigation;
 using Volo.Abp.VirtualFileSystem;
+using TinhThanhModule.Web;
 
 namespace Main.Web;
 
@@ -60,7 +61,8 @@ namespace Main.Web;
     typeof(AbpAspNetCoreSerilogModule),
     typeof(AbpSwashbuckleModule)
     )]
-public class MainWebModule : AbpModule
+[DependsOn(typeof(TinhThanhModuleWebModule))]
+    public class MainWebModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
     {

@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "TinhThanhModule.Domain.Shared": {
+      "path": "src/TinhThanhModule.Domain.Shared/TinhThanhModule.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "TinhThanhModule.Domain": {
+      "path": "src/TinhThanhModule.Domain/TinhThanhModule.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "TinhThanhModule.Application.Contracts": {
+      "path": "src/TinhThanhModule.Application.Contracts/TinhThanhModule.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "TinhThanhModule.Application": {
+      "path": "src/TinhThanhModule.Application/TinhThanhModule.Application.abppkg.json",
+      "folder": "src"
+    },
+    "TinhThanhModule.EntityFrameworkCore": {
+      "path": "src/TinhThanhModule.EntityFrameworkCore/TinhThanhModule.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "TinhThanhModule.MongoDB": {
+      "path": "src/TinhThanhModule.MongoDB/TinhThanhModule.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "TinhThanhModule.HttpApi": {
+      "path": "src/TinhThanhModule.HttpApi/TinhThanhModule.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "TinhThanhModule.HttpApi.Client": {
+      "path": "src/TinhThanhModule.HttpApi.Client/TinhThanhModule.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "TinhThanhModule.TestBase": {
+      "path": "test/TinhThanhModule.TestBase/TinhThanhModule.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "TinhThanhModule.EntityFrameworkCore.Tests": {
+      "path": "test/TinhThanhModule.EntityFrameworkCore.Tests/TinhThanhModule.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "TinhThanhModule.MongoDB.Tests": {
+      "path": "test/TinhThanhModule.MongoDB.Tests/TinhThanhModule.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "TinhThanhModule.Domain.Tests": {
+      "path": "test/TinhThanhModule.Domain.Tests/TinhThanhModule.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "TinhThanhModule.Application.Tests": {
+      "path": "test/TinhThanhModule.Application.Tests/TinhThanhModule.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "TinhThanhModule.HttpApi.Host": {
+      "path": "host/TinhThanhModule.HttpApi.Host/TinhThanhModule.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "TinhThanhModule.Web": {
+      "path": "src/TinhThanhModule.Web/TinhThanhModule.Web.abppkg.json",
+      "folder": "src"
+    },
+    "TinhThanhModule.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/TinhThanhModule.HttpApi.Client.ConsoleTestApp/TinhThanhModule.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "TinhThanhModule.Web.Host": {
+      "path": "host/TinhThanhModule.Web.Host/TinhThanhModule.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "TinhThanhModule.IdentityServer": {
+      "path": "host/TinhThanhModule.IdentityServer/TinhThanhModule.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "TinhThanhModule.Host.Shared": {
+      "path": "host/TinhThanhModule.Host.Shared/TinhThanhModule.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "TinhThanhModule.Web.Unified": {
+      "path": "host/TinhThanhModule.Web.Unified/TinhThanhModule.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "TinhThanhModule.Blazor": {
+      "path": "src/TinhThanhModule.Blazor/TinhThanhModule.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "TinhThanhModule.Blazor.Host": {
+      "path": "host/TinhThanhModule.Blazor.Host/TinhThanhModule.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "TinhThanhModule.Blazor.Server": {
+      "path": "src/TinhThanhModule.Blazor.Server/TinhThanhModule.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "TinhThanhModule.Blazor.WebAssembly": {
+      "path": "src/TinhThanhModule.Blazor.WebAssembly/TinhThanhModule.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "TinhThanhModule.Blazor.Server.Host": {
+      "path": "host/TinhThanhModule.Blazor.Server.Host/TinhThanhModule.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

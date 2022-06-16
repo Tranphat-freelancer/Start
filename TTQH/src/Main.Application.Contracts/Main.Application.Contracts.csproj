@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Main.Domain.Shared\Main.Domain.Shared.csproj" />
-  </ItemGroup>
+  <ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.Application.Contracts\TinhThanhModule.Application.Contracts.csproj" /><ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.Application.Contracts\TinhThanhModule.Application.Contracts.csproj" /></ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Volo.Abp.ObjectExtending" Version="5.3.0" />

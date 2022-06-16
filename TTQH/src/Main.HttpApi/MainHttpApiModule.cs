@@ -1,4 +1,4 @@
-﻿using Localization.Resources.AbpUi;
+using Localization.Resources.AbpUi;
 using Main.Localization;
 using Volo.Abp.Account;
 using Volo.Abp.FeatureManagement;
@@ -8,6 +8,7 @@ using Volo.Abp.Modularity;
 using Volo.Abp.PermissionManagement.HttpApi;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
+using TinhThanhModule;
 
 namespace Main;
 
@@ -20,7 +21,8 @@ namespace Main;
     typeof(AbpFeatureManagementHttpApiModule),
     typeof(AbpSettingManagementHttpApiModule)
     )]
-public class MainHttpApiModule : AbpModule
+[DependsOn(typeof(TinhThanhModuleHttpApiModule))]
+    public class MainHttpApiModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {

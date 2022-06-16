@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "TinhThanhModule": {
+      "path": "TinhThanhModule.abpmdl.json"
+    }
+  }
+}
