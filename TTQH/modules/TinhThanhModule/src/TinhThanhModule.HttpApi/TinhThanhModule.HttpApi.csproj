@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>TinhThanhModule</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="5.3.0" />
+    <ProjectReference Include="..\TinhThanhModule.Application.Contracts\TinhThanhModule.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
