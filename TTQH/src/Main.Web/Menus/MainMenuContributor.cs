@@ -50,6 +50,20 @@ public class MainMenuContributor : IMenuContributor
                 order: 0
             )
         );
+        context.Menu.AddItem(
+            new ApplicationMenuItem(
+                MainMenus.App,
+                l["Menu:Mains"],
+                icon: "fa fa-global"
+            ).AddItem(
+                new ApplicationMenuItem(
+                    "Main.MainApps",
+                    l["Menu:MainApps"],
+                    url: "/MainApps"
+                )
+            )
+        );
+
 
         if (MultiTenancyConsts.IsEnabled)
         {

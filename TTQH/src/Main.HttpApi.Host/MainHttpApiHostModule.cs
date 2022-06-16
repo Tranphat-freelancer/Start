@@ -32,7 +32,7 @@ namespace Main;
 [DependsOn(
     typeof(MainHttpApiModule),
     typeof(AbpAutofacModule),
-    typeof(AbpCachingStackExchangeRedisModule),
+    //typeof(AbpCachingStackExchangeRedisModule),
     typeof(AbpAspNetCoreMvcUiMultiTenancyModule),
     typeof(MainApplicationModule),
     typeof(MainEntityFrameworkCoreModule),
@@ -51,7 +51,7 @@ public class MainHttpApiHostModule : AbpModule
         ConfigureLocalization();
         ConfigureCache(configuration);
         ConfigureVirtualFileSystem(context);
-        ConfigureDataProtection(context, configuration, hostingEnvironment);
+        //ConfigureDataProtection(context, configuration, hostingEnvironment);
         ConfigureCors(context, configuration);
         ConfigureSwaggerServices(context, configuration);
     }
@@ -89,7 +89,7 @@ public class MainHttpApiHostModule : AbpModule
     {
         Configure<AbpAspNetCoreMvcOptions>(options =>
         {
-            options.ConventionalControllers.Create(typeof(MainApplicationModule).Assembly);
+            //options.ConventionalControllers.Create(typeof(MainApplicationModule).Assembly);
         });
     }
 

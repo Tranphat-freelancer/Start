@@ -1,0 +1,17 @@
+﻿@page
+@using Main.Localization
+@model Main.Web.Pages.MainApps.IndexModel
+@using Microsoft.Extensions.Localization
+@inject IStringLocalizer<MainResource> L
+@section scripts
+{
+    <abp-script src="/Pages/MainApps/Index.js" />
+}
+<abp-card>
+    <abp-card-header>
+        <h2>@L["MainApps"]</h2>
+    </abp-card-header>
+    <abp-card-body>
+        <abp-table striped-rows="true" id="MainAppTable"></abp-table>
+    </abp-card-body>
+</abp-card>

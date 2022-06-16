@@ -52,7 +52,7 @@ namespace Main.Web;
     typeof(AbpHttpClientWebModule),
     typeof(AbpAspNetCoreMvcUiBasicThemeModule),
     typeof(AbpAutofacModule),
-    typeof(AbpCachingStackExchangeRedisModule),
+    //typeof(AbpCachingStackExchangeRedisModule),
     typeof(AbpSettingManagementWebModule),
     typeof(AbpHttpClientIdentityModelWebModule),
     typeof(AbpIdentityWebModule),
@@ -82,7 +82,7 @@ public class MainWebModule : AbpModule
 
         ConfigureBundles();
         ConfigureCache();
-        ConfigureDataProtection(context, configuration, hostingEnvironment);
+        //ConfigureDataProtection(context, configuration, hostingEnvironment);
         ConfigureUrls(configuration);
         ConfigureAuthentication(context, configuration);
         ConfigureAutoMapper();

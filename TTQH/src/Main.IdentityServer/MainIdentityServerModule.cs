@@ -36,7 +36,7 @@ namespace Main;
 
 [DependsOn(
     typeof(AbpAutofacModule),
-    typeof(AbpCachingStackExchangeRedisModule),
+    //typeof(AbpCachingStackExchangeRedisModule),
     typeof(AbpAccountWebIdentityServerModule),
     typeof(AbpAccountApplicationModule),
     typeof(AbpAccountHttpApiModule),
@@ -125,12 +125,12 @@ public class MainIdentityServerModule : AbpModule
             options.KeyPrefix = "Main:";
         });
 
-        var dataProtectionBuilder = context.Services.AddDataProtection().SetApplicationName("Main");
-        if (!hostingEnvironment.IsDevelopment())
-        {
-            var redis = ConnectionMultiplexer.Connect(configuration["Redis:Configuration"]);
-            dataProtectionBuilder.PersistKeysToStackExchangeRedis(redis, "Main-Protection-Keys");
-        }
+        //var dataProtectionBuilder = context.Services.AddDataProtection().SetApplicationName("Main");
+        //if (!hostingEnvironment.IsDevelopment())
+        //{
+        //    var redis = ConnectionMultiplexer.Connect(configuration["Redis:Configuration"]);
+        //    dataProtectionBuilder.PersistKeysToStackExchangeRedis(redis, "Main-Protection-Keys");
+        //}
 
         context.Services.AddCors(options =>
         {
