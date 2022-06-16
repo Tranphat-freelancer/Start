@@ -45,12 +45,28 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\MainApps\EditModal.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Pages\**\*.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Pages\**\*.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\MainApps\EditModal.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\MainApps\EditModal.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\MainApps\EditModal.cshtml" />
   </ItemGroup>
 
 </Project>

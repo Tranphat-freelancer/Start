@@ -1,5 +1,7 @@
 ﻿$(function () {
     var l = abp.localization.getResource('Main');
+    var createModal = new abp.ModalManager(abp.appPath + 'MainApps/CreateModal');
+    var editModal = new abp.ModalManager(abp.appPath + 'MainApps/EditModal');
 
     var dataTable = $('#MainAppTable').DataTable(
         abp.libs.datatables.normalizeConfiguration({
@@ -10,6 +12,40 @@
             scrollX: true,
             ajax: abp.libs.datatables.createAjax(main.controllers.mainApp.getList),
             columnDefs: [
+                {
+                    title: l('Actions'),
+                    rowAction: {
+                        items:
+                            [
+                                {
+                                    text: l('Edit'),
+                                    action: function (data) {
+                                        editModal.open({ id: data.record.id });
+                                    }
+                                },
+                                {
+                                    text: l('Delete'),
+                                    confirmMessage: function (data) {
+                                        return l('MainAppDeletionConfirmationMessage',
+                                            data.record.content );
+                                    },
+                                    action: function (data) {
+                                        main.controllers.mainApp
+                                            .delete(data.record.id)
+                                            .then(function () {
+                                                abp.notify.info(l('SuccessfullyDeleted'));
+                                                dataTable.ajax.reload();
+                                            });
+                                    }
+                                }
+
+                            ]
+                    }
+                },
+                {
+                    title: l('Id'),
+                    data: "id"
+                },
                 {
                     title: l('Content'),
                     data: "content"
@@ -27,12 +63,12 @@
             ]
         })
     );
-    //Dynamic Javascript Client Proxies
-
-    //Call Modal
-    var createModal = new abp.ModalManager(abp.appPath + 'MainApps/CreateModal');
 
     createModal.onResult(function () {
+        dataTable.ajax.reload();
+    });
+
+    editModal.onResult(function () {
         dataTable.ajax.reload();
     });
 
@@ -40,5 +76,4 @@
         e.preventDefault();
         createModal.open();
     });
-
-}); 
+});
