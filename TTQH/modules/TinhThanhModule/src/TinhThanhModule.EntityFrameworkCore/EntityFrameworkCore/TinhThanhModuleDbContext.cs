@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using TinhThanhModule.TinhThanhs;
 using Volo.Abp.Data;
 using Volo.Abp.EntityFrameworkCore;
 
@@ -10,7 +11,7 @@ public class TinhThanhModuleDbContext : AbpDbContext<TinhThanhModuleDbContext>, 
     /* Add DbSet for each Aggregate Root here. Example:
      * public DbSet<Question> Questions { get; set; }
      */
-
+    public DbSet<TinhThanh> TinhThanhs { get; set; }
     public TinhThanhModuleDbContext(DbContextOptions<TinhThanhModuleDbContext> options)
         : base(options)
     {

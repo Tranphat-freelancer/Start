@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using TinhThanhModule.TinhThanhs;
 using Volo.Abp;
+using Volo.Abp.EntityFrameworkCore.Modeling;
 
 namespace TinhThanhModule.EntityFrameworkCore;
 
@@ -29,5 +31,12 @@ public static class TinhThanhModuleDbContextModelCreatingExtensions
             b.HasIndex(q => q.CreationTime);
         });
         */
+        builder.Entity<TinhThanh>(b =>
+        {
+            //Configure table & schema name
+            b.ToTable(TinhThanhModuleDbProperties.DbTablePrefix + "TinhThanhs", TinhThanhModuleDbProperties.DbSchema);
+
+            b.ConfigureByConvention();
+        });
     }
 }

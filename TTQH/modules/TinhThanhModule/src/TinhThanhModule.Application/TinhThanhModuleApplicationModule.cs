@@ -18,7 +18,7 @@ public class TinhThanhModuleApplicationModule : AbpModule
         context.Services.AddAutoMapperObjectMapper<TinhThanhModuleApplicationModule>();
         Configure<AbpAutoMapperOptions>(options =>
         {
-            options.AddMaps<TinhThanhModuleApplicationModule>(validate: true);
+            options.AddMaps<TinhThanhModuleApplicationModule>();
         });
     }
 }

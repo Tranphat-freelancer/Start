@@ -1,0 +1,1217 @@
+2022-06-16 18:48:01.058 +07:00 [INF] Starting TinhThanh.HttpApi.Host.
+2022-06-16 18:48:06.098 +07:00 [FTL] Host terminated unexpectedly!
+Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at TinhThanhModule.Program.Main(String[] args) in D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\Program.cs:line 32
+2022-06-16 18:48:32.169 +07:00 [INF] Starting TinhThanh.HttpApi.Host.
+2022-06-16 18:48:33.202 +07:00 [FTL] Host terminated unexpectedly!
+Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at TinhThanhModule.Program.Main(String[] args) in D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\Program.cs:line 32
+2022-06-16 21:51:47.896 +07:00 [INF] Starting TinhThanh.HttpApi.Host.
+2022-06-16 21:51:49.208 +07:00 [INF] Loaded ABP modules:
+2022-06-16 21:51:49.210 +07:00 [INF] - Main.TinhThanhModuleHttpApiHostModule
+2022-06-16 21:51:49.210 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleHttpApiModule
+2022-06-16 21:51:49.210 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleApplicationContractsModule
+2022-06-16 21:51:49.210 +07:00 [INF]       - TinhThanhModule.TinhThanhModuleDomainSharedModule
+2022-06-16 21:51:49.210 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2022-06-16 21:51:49.210 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-06-16 21:51:49.211 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2022-06-16 21:51:49.211 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-06-16 21:51:49.211 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2022-06-16 21:51:49.211 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-06-16 21:51:49.211 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2022-06-16 21:51:49.211 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-06-16 21:51:49.211 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2022-06-16 21:51:49.211 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-06-16 21:51:49.211 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-06-16 21:51:49.211 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-06-16 21:51:49.211 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-06-16 21:51:49.211 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-06-16 21:51:49.211 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-06-16 21:51:49.211 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-06-16 21:51:49.211 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-06-16 21:51:49.211 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-06-16 21:51:49.211 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2022-06-16 21:51:49.211 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2022-06-16 21:51:49.211 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2022-06-16 21:51:49.211 +07:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2022-06-16 21:51:49.211 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-06-16 21:51:49.211 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-06-16 21:51:49.211 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-06-16 21:51:49.211 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-06-16 21:51:49.211 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-06-16 21:51:49.211 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-06-16 21:51:49.211 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-06-16 21:51:49.211 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2022-06-16 21:51:49.211 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-06-16 21:51:49.211 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2022-06-16 21:51:49.211 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2022-06-16 21:51:49.211 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2022-06-16 21:51:49.211 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2022-06-16 21:51:49.211 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-06-16 21:51:49.211 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-06-16 21:51:49.211 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-06-16 21:51:49.211 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-06-16 21:51:49.211 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2022-06-16 21:51:49.211 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-06-16 21:51:49.211 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-06-16 21:51:49.211 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-06-16 21:51:49.211 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-06-16 21:51:49.211 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-06-16 21:51:49.211 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-06-16 21:51:49.211 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-06-16 21:51:49.211 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-06-16 21:51:49.211 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-06-16 21:51:49.211 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-06-16 21:51:49.211 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-06-16 21:51:49.211 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleApplicationModule
+2022-06-16 21:51:49.211 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleDomainModule
+2022-06-16 21:51:49.211 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-06-16 21:51:49.211 +07:00 [INF]   - TinhThanhModule.EntityFrameworkCore.TinhThanhModuleEntityFrameworkCoreModule
+2022-06-16 21:51:49.211 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-06-16 21:51:49.211 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-06-16 21:51:49.211 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-06-16 21:51:49.297 +07:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during the initialize Volo.Abp.Modularity.OnApplicationInitializationModuleLifecycleContributor phase of the module Volo.Abp.AspNetCore.AbpAspNetCoreModule, Volo.Abp.AspNetCore, Version=5.3.0.0, Culture=neutral, PublicKeyToken=null: An exception was thrown while activating λ:Volo.Abp.AspNetCore.VirtualFileSystem.IWebContentFileProvider -> Volo.Abp.AspNetCore.VirtualFileSystem.WebContentFileProvider -> λ:Volo.Abp.VirtualFileSystem.IVirtualFileProvider -> Volo.Abp.VirtualFileSystem.VirtualFileProvider.. See the inner exception for details.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Volo.Abp.AspNetCore.VirtualFileSystem.IWebContentFileProvider -> Volo.Abp.AspNetCore.VirtualFileSystem.WebContentFileProvider -> λ:Volo.Abp.VirtualFileSystem.IVirtualFileProvider -> Volo.Abp.VirtualFileSystem.VirtualFileProvider.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while invoking the constructor 'Void .ctor(Microsoft.Extensions.Options.IOptions`1[Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemOptions], Volo.Abp.VirtualFileSystem.IDynamicFileProvider)' on type 'VirtualFileProvider'.
+ ---> System.IO.DirectoryNotFoundException: D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\Main.Domain.Shared\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Volo.Abp.VirtualFileSystem.VirtualFileSetListExtensions.ReplaceEmbeddedByPhysical[T](VirtualFileSetList fileSets, String physicalPath)
+   at Main.TinhThanhModuleHttpApiHostModule.<>c__DisplayClass2_0.<ConfigureVirtualFileSystem>b__0(AbpVirtualFileSystemOptions options) in D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\TinhThanhModuleHttpApiHostModule.cs:line 74
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at lambda_method610(Closure , Object[] )
+   at Autofac.Core.Activators.Reflection.BoundConstructor.Instantiate()
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Activators.Reflection.BoundConstructor.Instantiate()
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.<>c__DisplayClass5_0.<Execute>b__0()
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid id, Func`1 creator)
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid primaryId, Nullable`1 qualifyingId, Func`1 creator)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Volo.Abp.AspNetCore.AbpAspNetCoreModule.OnApplicationInitialization(ApplicationInitializationContext context)
+   at Volo.Abp.Modularity.AbpModule.OnApplicationInitializationAsync(ApplicationInitializationContext context)
+   at Volo.Abp.Modularity.OnApplicationInitializationModuleLifecycleContributor.InitializeAsync(ApplicationInitializationContext context, IAbpModule module)
+   at Volo.Abp.Modularity.ModuleManager.InitializeModulesAsync(ApplicationInitializationContext context)
+   --- End of inner exception stack trace ---
+   at Volo.Abp.Modularity.ModuleManager.InitializeModulesAsync(ApplicationInitializationContext context)
+   at Volo.Abp.AbpApplicationBase.InitializeModulesAsync()
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider.InitializeAsync(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Builder.AbpApplicationBuilderExtensions.InitializeApplicationAsync(IApplicationBuilder app)
+   at TinhThanhModule.Program.Main(String[] args) in D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\Program.cs:line 33
+2022-06-16 21:53:55.286 +07:00 [INF] Starting TinhThanh.HttpApi.Host.
+2022-06-16 21:54:18.809 +07:00 [INF] Loaded ABP modules:
+2022-06-16 21:54:18.812 +07:00 [INF] - Main.TinhThanhModuleHttpApiHostModule
+2022-06-16 21:54:18.812 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleHttpApiModule
+2022-06-16 21:54:18.812 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleApplicationContractsModule
+2022-06-16 21:54:18.812 +07:00 [INF]       - TinhThanhModule.TinhThanhModuleDomainSharedModule
+2022-06-16 21:54:18.812 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2022-06-16 21:54:18.812 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-06-16 21:54:18.812 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2022-06-16 21:54:18.812 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-06-16 21:54:18.812 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2022-06-16 21:54:18.812 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-06-16 21:54:18.812 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2022-06-16 21:54:18.812 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-06-16 21:54:18.812 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2022-06-16 21:54:18.812 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-06-16 21:54:18.812 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-06-16 21:54:18.812 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-06-16 21:54:18.812 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-06-16 21:54:18.812 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-06-16 21:54:18.812 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-06-16 21:54:18.812 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-06-16 21:54:18.812 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-06-16 21:54:18.812 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-06-16 21:54:18.812 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2022-06-16 21:54:18.812 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2022-06-16 21:54:18.812 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2022-06-16 21:54:18.812 +07:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2022-06-16 21:54:18.812 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-06-16 21:54:18.812 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-06-16 21:54:18.812 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-06-16 21:54:18.812 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-06-16 21:54:18.812 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-06-16 21:54:18.812 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-06-16 21:54:18.812 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-06-16 21:54:18.812 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2022-06-16 21:54:18.812 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-06-16 21:54:18.812 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2022-06-16 21:54:18.812 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2022-06-16 21:54:18.812 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2022-06-16 21:54:18.812 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2022-06-16 21:54:18.812 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-06-16 21:54:18.812 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-06-16 21:54:18.812 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-06-16 21:54:18.812 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-06-16 21:54:18.812 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2022-06-16 21:54:18.812 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-06-16 21:54:18.812 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-06-16 21:54:18.812 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-06-16 21:54:18.812 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-06-16 21:54:18.812 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-06-16 21:54:18.812 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-06-16 21:54:18.812 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-06-16 21:54:18.812 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-06-16 21:54:18.812 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-06-16 21:54:18.812 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-06-16 21:54:18.812 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-06-16 21:54:18.812 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleApplicationModule
+2022-06-16 21:54:18.812 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleDomainModule
+2022-06-16 21:54:18.812 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-06-16 21:54:18.812 +07:00 [INF]   - TinhThanhModule.EntityFrameworkCore.TinhThanhModuleEntityFrameworkCoreModule
+2022-06-16 21:54:18.812 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-06-16 21:54:18.812 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-06-16 21:54:18.812 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-06-16 21:56:06.427 +07:00 [INF] Starting TinhThanh.HttpApi.Host.
+2022-06-16 21:56:07.874 +07:00 [INF] Loaded ABP modules:
+2022-06-16 21:56:07.876 +07:00 [INF] - Main.TinhThanhModuleHttpApiHostModule
+2022-06-16 21:56:07.876 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleHttpApiModule
+2022-06-16 21:56:07.876 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleApplicationContractsModule
+2022-06-16 21:56:07.876 +07:00 [INF]       - TinhThanhModule.TinhThanhModuleDomainSharedModule
+2022-06-16 21:56:07.876 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2022-06-16 21:56:07.876 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-06-16 21:56:07.876 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2022-06-16 21:56:07.876 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-06-16 21:56:07.876 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2022-06-16 21:56:07.876 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-06-16 21:56:07.876 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2022-06-16 21:56:07.876 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-06-16 21:56:07.876 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2022-06-16 21:56:07.876 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-06-16 21:56:07.876 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-06-16 21:56:07.876 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-06-16 21:56:07.876 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-06-16 21:56:07.876 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-06-16 21:56:07.876 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-06-16 21:56:07.876 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-06-16 21:56:07.876 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-06-16 21:56:07.876 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-06-16 21:56:07.876 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2022-06-16 21:56:07.876 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2022-06-16 21:56:07.876 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2022-06-16 21:56:07.876 +07:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2022-06-16 21:56:07.876 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-06-16 21:56:07.876 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-06-16 21:56:07.876 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-06-16 21:56:07.876 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-06-16 21:56:07.876 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-06-16 21:56:07.876 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-06-16 21:56:07.876 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-06-16 21:56:07.876 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2022-06-16 21:56:07.876 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-06-16 21:56:07.876 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2022-06-16 21:56:07.876 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2022-06-16 21:56:07.876 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2022-06-16 21:56:07.876 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2022-06-16 21:56:07.876 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-06-16 21:56:07.876 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-06-16 21:56:07.876 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-06-16 21:56:07.876 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-06-16 21:56:07.876 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2022-06-16 21:56:07.876 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-06-16 21:56:07.876 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-06-16 21:56:07.876 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-06-16 21:56:07.876 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-06-16 21:56:07.876 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-06-16 21:56:07.876 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-06-16 21:56:07.876 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-06-16 21:56:07.876 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-06-16 21:56:07.876 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-06-16 21:56:07.876 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-06-16 21:56:07.876 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-06-16 21:56:07.876 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleApplicationModule
+2022-06-16 21:56:07.876 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleDomainModule
+2022-06-16 21:56:07.876 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-06-16 21:56:07.876 +07:00 [INF]   - TinhThanhModule.EntityFrameworkCore.TinhThanhModuleEntityFrameworkCoreModule
+2022-06-16 21:56:07.876 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-06-16 21:56:07.876 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-06-16 21:56:07.876 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-06-16 21:56:10.040 +07:00 [INF] User profile is available. Using 'C:\Users\mtpha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-16 21:56:10.140 +07:00 [INF] Initialized all ABP modules.
+2022-06-16 21:56:10.222 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-16 21:56:10.222 +07:00 [INF] Hosting environment: Development
+2022-06-16 21:56:10.222 +07:00 [INF] Content root path: D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\
+2022-06-16 21:56:10.278 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/ - -
+2022-06-16 21:56:11.180 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.HomeController.Index (TinhThanhModule.HttpApi.Host)'
+2022-06-16 21:56:11.199 +07:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller TinhThanhModule.Controllers.HomeController (TinhThanhModule.HttpApi.Host).
+2022-06-16 21:56:11.284 +07:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2022-06-16 21:56:11.291 +07:00 [INF] Executed action TinhThanhModule.Controllers.HomeController.Index (TinhThanhModule.HttpApi.Host) in 86.0416ms
+2022-06-16 21:56:11.292 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.HomeController.Index (TinhThanhModule.HttpApi.Host)'
+2022-06-16 21:56:11.326 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/ - - - 302 - - 1049.0002ms
+2022-06-16 21:56:11.347 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-16 21:56:11.637 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 289.8586ms
+2022-06-16 21:56:11.662 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-16 21:56:11.668 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 5.0931ms
+2022-06-16 21:56:12.032 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-16 21:56:12.141 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 109.0870ms
+2022-06-16 21:56:12.386 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-16 21:56:12.654 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 268.0922ms
+2022-06-16 21:56:23.922 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/abp/Swashbuckle/SetCsrfCookie - -
+2022-06-16 21:56:23.925 +07:00 [INF] Executing endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2022-06-16 21:56:23.932 +07:00 [INF] Route matched with {area = "Abp", action = "SetCsrfCookie", controller = "AbpSwashbuckle", page = ""}. Executing controller action with signature Void SetCsrfCookie() on controller Volo.Abp.Swashbuckle.AbpSwashbuckleController (Volo.Abp.Swashbuckle).
+2022-06-16 21:56:23.945 +07:00 [INF] Executed action Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle) in 12.354ms
+2022-06-16 21:56:23.945 +07:00 [INF] Executed endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2022-06-16 21:56:23.946 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/abp/Swashbuckle/SetCsrfCookie - - - 204 - - 24.0285ms
+2022-06-16 21:56:24.123 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/api/app/tinhThanh - -
+2022-06-16 21:56:24.125 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-16 21:56:24.163 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-16 21:56:27.986 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-16 21:56:27.994 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-16 21:56:28.007 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 3844.6485ms
+2022-06-16 21:56:28.008 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-16 21:56:28.009 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-16 21:56:28.014 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/api/app/tinhThanh - - - 200 - application/json;+charset=utf-8 3891.3854ms
+2022-06-16 21:56:43.602 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44344/api/app/tinhThanh application/json 55
+2022-06-16 21:56:43.609 +07:00 [INF] CORS policy execution failed.
+2022-06-16 21:56:43.609 +07:00 [INF] Request origin https://localhost:44344 does not have permission to access the resource.
+2022-06-16 21:56:43.610 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.CreateAsync (TinhThanhModule.HttpApi)'
+2022-06-16 21:56:43.617 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "Create", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[TinhThanhModule.TinhThanhs.TinhThanhDto] CreateAsync(TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-16 21:56:43.827 +07:00 [ERR] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "An internal error occurred during your request!",
+  "details": null,
+  "data": {},
+  "validationErrors": null
+}
+
+2022-06-16 21:56:43.828 +07:00 [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateUpdateTinhThanhDto -> TinhThanh
+TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto -> TinhThanhModule.TinhThanhs.TinhThanh
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateUpdateTinhThanhDto -> TinhThanh
+TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto -> TinhThanhModule.TinhThanhs.TinhThanh
+   at lambda_method1182(Closure , Object , TinhThanh , ResolutionContext )
+   at Volo.Abp.AutoMapper.AutoMapperAutoObjectMappingProvider.Map[TSource,TDestination](Object source)
+   at Volo.Abp.ObjectMapping.DefaultObjectMapper.AutoMap[TSource,TDestination](Object source)
+   at Volo.Abp.ObjectMapping.DefaultObjectMapper.Map[TSource,TDestination](TSource source)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntity(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntityAsync(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.CreateAsync(TCreateInput input)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.GlobalFeatures.GlobalFeatureInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.ProceedByLoggingAsync(IAbpMethodInvocation invocation, IAuditingHelper auditingHelper, IAuditLogScope auditLogScope)
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at lambda_method1169(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-06-16 21:56:43.838 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2022-06-16 21:56:43.843 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.CreateAsync (TinhThanhModule.HttpApi) in 225.8394ms
+2022-06-16 21:56:43.843 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.CreateAsync (TinhThanhModule.HttpApi)'
+2022-06-16 21:56:43.887 +07:00 [INF] AUDIT LOG: [500: POST   ] /api/app/tinhThanh
+- UserName - UserId                 :  - 
+- ClientIpAddress        : ::1
+- ExecutionDuration      : 240
+- Actions:
+  - TinhThanhModule.TinhThanhs.TinhThanhAppService.CreateAsync (141 ms.)
+    {"input":{"maTinhThanh":"001","tenTinhThanh":"Long An"}}
+  - TinhThanhModule.Controllers.TinhThanhController.CreateAsync (149 ms.)
+    {"input":{"maTinhThanh":"001","tenTinhThanh":"Long An"}}
+- Exceptions:
+  - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateUpdateTinhThanhDto -> TinhThanh
+TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto -> TinhThanhModule.TinhThanhs.TinhThanh
+    AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateUpdateTinhThanhDto -> TinhThanh
+TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto -> TinhThanhModule.TinhThanhs.TinhThanh
+   at lambda_method1182(Closure , Object , TinhThanh , ResolutionContext )
+   at Volo.Abp.AutoMapper.AutoMapperAutoObjectMappingProvider.Map[TSource,TDestination](Object source)
+   at Volo.Abp.ObjectMapping.DefaultObjectMapper.AutoMap[TSource,TDestination](Object source)
+   at Volo.Abp.ObjectMapping.DefaultObjectMapper.Map[TSource,TDestination](TSource source)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntity(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntityAsync(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.CreateAsync(TCreateInput input)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.GlobalFeatures.GlobalFeatureInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.ProceedByLoggingAsync(IAbpMethodInvocation invocation, IAuditingHelper auditingHelper, IAuditLogScope auditLogScope)
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at lambda_method1169(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+  - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateUpdateTinhThanhDto -> TinhThanh
+TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto -> TinhThanhModule.TinhThanhs.TinhThanh
+    AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateUpdateTinhThanhDto -> TinhThanh
+TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto -> TinhThanhModule.TinhThanhs.TinhThanh
+   at lambda_method1182(Closure , Object , TinhThanh , ResolutionContext )
+   at Volo.Abp.AutoMapper.AutoMapperAutoObjectMappingProvider.Map[TSource,TDestination](Object source)
+   at Volo.Abp.ObjectMapping.DefaultObjectMapper.AutoMap[TSource,TDestination](Object source)
+   at Volo.Abp.ObjectMapping.DefaultObjectMapper.Map[TSource,TDestination](TSource source)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntity(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntityAsync(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.CreateAsync(TCreateInput input)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.GlobalFeatures.GlobalFeatureInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.ProceedByLoggingAsync(IAbpMethodInvocation invocation, IAuditingHelper auditingHelper, IAuditLogScope auditLogScope)
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at lambda_method1169(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2022-06-16 21:56:43.887 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44344/api/app/tinhThanh application/json 55 - 500 - application/json;+charset=utf-8 285.1595ms
+2022-06-16 21:57:02.098 +07:00 [INF] Starting TinhThanh.HttpApi.Host.
+2022-06-16 21:57:03.299 +07:00 [INF] Loaded ABP modules:
+2022-06-16 21:57:03.301 +07:00 [INF] - Main.TinhThanhModuleHttpApiHostModule
+2022-06-16 21:57:03.301 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleHttpApiModule
+2022-06-16 21:57:03.301 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleApplicationContractsModule
+2022-06-16 21:57:03.301 +07:00 [INF]       - TinhThanhModule.TinhThanhModuleDomainSharedModule
+2022-06-16 21:57:03.301 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2022-06-16 21:57:03.301 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-06-16 21:57:03.301 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2022-06-16 21:57:03.301 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-06-16 21:57:03.301 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2022-06-16 21:57:03.301 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-06-16 21:57:03.301 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2022-06-16 21:57:03.301 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-06-16 21:57:03.301 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2022-06-16 21:57:03.301 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-06-16 21:57:03.301 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-06-16 21:57:03.301 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-06-16 21:57:03.301 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-06-16 21:57:03.301 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-06-16 21:57:03.301 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-06-16 21:57:03.301 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-06-16 21:57:03.301 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-06-16 21:57:03.301 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-06-16 21:57:03.301 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2022-06-16 21:57:03.301 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2022-06-16 21:57:03.301 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2022-06-16 21:57:03.301 +07:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2022-06-16 21:57:03.301 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-06-16 21:57:03.301 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-06-16 21:57:03.301 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-06-16 21:57:03.301 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-06-16 21:57:03.301 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-06-16 21:57:03.301 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-06-16 21:57:03.301 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-06-16 21:57:03.301 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2022-06-16 21:57:03.301 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-06-16 21:57:03.301 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2022-06-16 21:57:03.301 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2022-06-16 21:57:03.301 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2022-06-16 21:57:03.301 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2022-06-16 21:57:03.301 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-06-16 21:57:03.301 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-06-16 21:57:03.301 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-06-16 21:57:03.301 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-06-16 21:57:03.301 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2022-06-16 21:57:03.301 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-06-16 21:57:03.301 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-06-16 21:57:03.301 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-06-16 21:57:03.301 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-06-16 21:57:03.301 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-06-16 21:57:03.301 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-06-16 21:57:03.301 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-06-16 21:57:03.301 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-06-16 21:57:03.301 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-06-16 21:57:03.301 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-06-16 21:57:03.301 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-06-16 21:57:03.301 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleApplicationModule
+2022-06-16 21:57:03.301 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleDomainModule
+2022-06-16 21:57:03.301 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-06-16 21:57:03.301 +07:00 [INF]   - TinhThanhModule.EntityFrameworkCore.TinhThanhModuleEntityFrameworkCoreModule
+2022-06-16 21:57:03.301 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-06-16 21:57:03.301 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-06-16 21:57:03.301 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-06-16 21:57:03.686 +07:00 [INF] User profile is available. Using 'C:\Users\mtpha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-16 21:57:03.823 +07:00 [INF] Initialized all ABP modules.
+2022-06-16 21:57:03.978 +07:00 [INF] Now listening on: https://localhost:44344
+2022-06-16 21:57:03.978 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-16 21:57:03.978 +07:00 [INF] Hosting environment: Development
+2022-06-16 21:57:03.978 +07:00 [INF] Content root path: D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\
+2022-06-16 21:57:04.171 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-16 21:57:04.591 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 419.3641ms
+2022-06-16 21:57:04.591 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-16 21:57:04.591 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-16 21:57:04.594 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 2.9607ms
+2022-06-16 21:57:04.620 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.6069ms
+2022-06-16 21:57:04.883 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-16 21:57:05.111 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 228.5705ms
+2022-06-16 21:57:32.795 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/abp/Swashbuckle/SetCsrfCookie application/json -
+2022-06-16 21:57:32.852 +07:00 [INF] Executing endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2022-06-16 21:57:32.903 +07:00 [INF] Route matched with {area = "Abp", action = "SetCsrfCookie", controller = "AbpSwashbuckle", page = ""}. Executing controller action with signature Void SetCsrfCookie() on controller Volo.Abp.Swashbuckle.AbpSwashbuckleController (Volo.Abp.Swashbuckle).
+2022-06-16 21:57:32.959 +07:00 [INF] Executed action Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle) in 49.549ms
+2022-06-16 21:57:32.959 +07:00 [INF] Executed endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2022-06-16 21:57:32.977 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/abp/Swashbuckle/SetCsrfCookie application/json - - 204 - - 181.2937ms
+2022-06-16 21:57:33.028 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44344/api/app/tinhThanh application/json 55
+2022-06-16 21:57:33.034 +07:00 [INF] CORS policy execution failed.
+2022-06-16 21:57:33.034 +07:00 [INF] Request origin https://localhost:44344 does not have permission to access the resource.
+2022-06-16 21:57:33.035 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.CreateAsync (TinhThanhModule.HttpApi)'
+2022-06-16 21:57:33.060 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "Create", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[TinhThanhModule.TinhThanhs.TinhThanhDto] CreateAsync(TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-16 21:57:33.781 +07:00 [ERR] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "An internal error occurred during your request!",
+  "details": null,
+  "data": {},
+  "validationErrors": null
+}
+
+2022-06-16 21:57:33.783 +07:00 [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateUpdateTinhThanhDto -> TinhThanh
+TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto -> TinhThanhModule.TinhThanhs.TinhThanh
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateUpdateTinhThanhDto -> TinhThanh
+TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto -> TinhThanhModule.TinhThanhs.TinhThanh
+   at lambda_method1154(Closure , Object , TinhThanh , ResolutionContext )
+   at Volo.Abp.AutoMapper.AutoMapperAutoObjectMappingProvider.Map[TSource,TDestination](Object source)
+   at Volo.Abp.ObjectMapping.DefaultObjectMapper.AutoMap[TSource,TDestination](Object source)
+   at Volo.Abp.ObjectMapping.DefaultObjectMapper.Map[TSource,TDestination](TSource source)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntity(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntityAsync(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.CreateAsync(TCreateInput input)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.GlobalFeatures.GlobalFeatureInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.ProceedByLoggingAsync(IAbpMethodInvocation invocation, IAuditingHelper auditingHelper, IAuditLogScope auditLogScope)
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at lambda_method1099(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-06-16 21:57:33.819 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2022-06-16 21:57:33.833 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.CreateAsync (TinhThanhModule.HttpApi) in 773.003ms
+2022-06-16 21:57:33.833 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.CreateAsync (TinhThanhModule.HttpApi)'
+2022-06-16 21:57:33.854 +07:00 [INF] AUDIT LOG: [500: POST   ] /api/app/tinhThanh
+- UserName - UserId                 :  - 
+- ClientIpAddress        : ::1
+- ExecutionDuration      : 802
+- Actions:
+  - TinhThanhModule.TinhThanhs.TinhThanhAppService.CreateAsync (136 ms.)
+    {"input":{"maTinhThanh":"001","tenTinhThanh":"Long An"}}
+  - TinhThanhModule.Controllers.TinhThanhController.CreateAsync (191 ms.)
+    {"input":{"maTinhThanh":"001","tenTinhThanh":"Long An"}}
+- Exceptions:
+  - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateUpdateTinhThanhDto -> TinhThanh
+TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto -> TinhThanhModule.TinhThanhs.TinhThanh
+    AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateUpdateTinhThanhDto -> TinhThanh
+TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto -> TinhThanhModule.TinhThanhs.TinhThanh
+   at lambda_method1154(Closure , Object , TinhThanh , ResolutionContext )
+   at Volo.Abp.AutoMapper.AutoMapperAutoObjectMappingProvider.Map[TSource,TDestination](Object source)
+   at Volo.Abp.ObjectMapping.DefaultObjectMapper.AutoMap[TSource,TDestination](Object source)
+   at Volo.Abp.ObjectMapping.DefaultObjectMapper.Map[TSource,TDestination](TSource source)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntity(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntityAsync(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.CreateAsync(TCreateInput input)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.GlobalFeatures.GlobalFeatureInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.ProceedByLoggingAsync(IAbpMethodInvocation invocation, IAuditingHelper auditingHelper, IAuditLogScope auditLogScope)
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at lambda_method1099(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+  - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateUpdateTinhThanhDto -> TinhThanh
+TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto -> TinhThanhModule.TinhThanhs.TinhThanh
+    AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateUpdateTinhThanhDto -> TinhThanh
+TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto -> TinhThanhModule.TinhThanhs.TinhThanh
+   at lambda_method1154(Closure , Object , TinhThanh , ResolutionContext )
+   at Volo.Abp.AutoMapper.AutoMapperAutoObjectMappingProvider.Map[TSource,TDestination](Object source)
+   at Volo.Abp.ObjectMapping.DefaultObjectMapper.AutoMap[TSource,TDestination](Object source)
+   at Volo.Abp.ObjectMapping.DefaultObjectMapper.Map[TSource,TDestination](TSource source)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntity(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntityAsync(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.CreateAsync(TCreateInput input)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.GlobalFeatures.GlobalFeatureInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.ProceedByLoggingAsync(IAbpMethodInvocation invocation, IAuditingHelper auditingHelper, IAuditLogScope auditLogScope)
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at lambda_method1099(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2022-06-16 21:57:33.857 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44344/api/app/tinhThanh application/json 55 - 500 - application/json;+charset=utf-8 829.1274ms
+2022-06-16 21:59:05.556 +07:00 [INF] Starting TinhThanh.HttpApi.Host.
+2022-06-16 21:59:06.892 +07:00 [INF] Loaded ABP modules:
+2022-06-16 21:59:06.893 +07:00 [INF] - Main.TinhThanhModuleHttpApiHostModule
+2022-06-16 21:59:06.893 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleHttpApiModule
+2022-06-16 21:59:06.893 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleApplicationContractsModule
+2022-06-16 21:59:06.893 +07:00 [INF]       - TinhThanhModule.TinhThanhModuleDomainSharedModule
+2022-06-16 21:59:06.893 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2022-06-16 21:59:06.893 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-06-16 21:59:06.893 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2022-06-16 21:59:06.893 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-06-16 21:59:06.893 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2022-06-16 21:59:06.893 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-06-16 21:59:06.893 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2022-06-16 21:59:06.893 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-06-16 21:59:06.893 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2022-06-16 21:59:06.893 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-06-16 21:59:06.893 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-06-16 21:59:06.893 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-06-16 21:59:06.893 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-06-16 21:59:06.893 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-06-16 21:59:06.893 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-06-16 21:59:06.893 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-06-16 21:59:06.893 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-06-16 21:59:06.893 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-06-16 21:59:06.893 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2022-06-16 21:59:06.893 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2022-06-16 21:59:06.893 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2022-06-16 21:59:06.894 +07:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2022-06-16 21:59:06.894 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-06-16 21:59:06.894 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-06-16 21:59:06.894 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-06-16 21:59:06.894 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-06-16 21:59:06.894 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-06-16 21:59:06.894 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-06-16 21:59:06.894 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-06-16 21:59:06.894 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2022-06-16 21:59:06.894 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-06-16 21:59:06.894 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2022-06-16 21:59:06.894 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2022-06-16 21:59:06.894 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2022-06-16 21:59:06.894 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2022-06-16 21:59:06.894 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-06-16 21:59:06.894 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-06-16 21:59:06.894 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-06-16 21:59:06.894 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-06-16 21:59:06.894 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2022-06-16 21:59:06.894 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-06-16 21:59:06.894 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-06-16 21:59:06.894 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-06-16 21:59:06.894 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-06-16 21:59:06.894 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-06-16 21:59:06.894 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-06-16 21:59:06.894 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-06-16 21:59:06.894 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-06-16 21:59:06.894 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-06-16 21:59:06.894 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-06-16 21:59:06.894 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-06-16 21:59:06.894 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleApplicationModule
+2022-06-16 21:59:06.894 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleDomainModule
+2022-06-16 21:59:06.894 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-06-16 21:59:06.894 +07:00 [INF]   - TinhThanhModule.EntityFrameworkCore.TinhThanhModuleEntityFrameworkCoreModule
+2022-06-16 21:59:06.894 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-06-16 21:59:06.894 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-06-16 21:59:06.894 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-06-16 21:59:07.380 +07:00 [INF] User profile is available. Using 'C:\Users\mtpha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-16 21:59:07.554 +07:00 [INF] Initialized all ABP modules.
+2022-06-16 21:59:07.891 +07:00 [INF] Now listening on: https://localhost:44344
+2022-06-16 21:59:07.892 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-16 21:59:07.892 +07:00 [INF] Hosting environment: Development
+2022-06-16 21:59:07.892 +07:00 [INF] Content root path: D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\
+2022-06-16 21:59:08.220 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-16 21:59:08.723 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-16 21:59:08.723 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-16 21:59:08.724 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 504.1647ms
+2022-06-16 21:59:08.729 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 6.0121ms
+2022-06-16 21:59:08.820 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 97.0749ms
+2022-06-16 21:59:09.295 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-16 21:59:09.666 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 370.0730ms
+2022-06-16 21:59:43.371 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/abp/Swashbuckle/SetCsrfCookie application/json -
+2022-06-16 21:59:43.434 +07:00 [INF] Executing endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2022-06-16 21:59:43.459 +07:00 [INF] Route matched with {area = "Abp", action = "SetCsrfCookie", controller = "AbpSwashbuckle", page = ""}. Executing controller action with signature Void SetCsrfCookie() on controller Volo.Abp.Swashbuckle.AbpSwashbuckleController (Volo.Abp.Swashbuckle).
+2022-06-16 21:59:43.536 +07:00 [INF] Executed action Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle) in 69.5572ms
+2022-06-16 21:59:43.536 +07:00 [INF] Executed endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2022-06-16 21:59:43.554 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/abp/Swashbuckle/SetCsrfCookie application/json - - 204 - - 183.2062ms
+2022-06-16 21:59:43.618 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44344/api/app/tinhThanh application/json 57
+2022-06-16 21:59:43.624 +07:00 [INF] CORS policy execution failed.
+2022-06-16 21:59:43.625 +07:00 [INF] Request origin https://localhost:44344 does not have permission to access the resource.
+2022-06-16 21:59:43.626 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.CreateAsync (TinhThanhModule.HttpApi)'
+2022-06-16 21:59:43.653 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "Create", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[TinhThanhModule.TinhThanhs.TinhThanhDto] CreateAsync(TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-16 21:59:44.610 +07:00 [ERR] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "An internal error occurred during your request!",
+  "details": null,
+  "data": {
+    "ActivatorChain": "Volo.Abp.ObjectMapping.DefaultObjectMapper -> Volo.Abp.AutoMapper.AutoMapperAutoObjectMappingProvider -> λ:Volo.Abp.AutoMapper.IMapperAccessor -> λ:Volo.Abp.AutoMapper.MapperAccessor"
+  },
+  "validationErrors": null
+}
+
+2022-06-16 21:59:44.612 +07:00 [ERR] An exception was thrown while activating Volo.Abp.ObjectMapping.DefaultObjectMapper -> Volo.Abp.AutoMapper.AutoMapperAutoObjectMappingProvider -> λ:Volo.Abp.AutoMapper.IMapperAccessor -> λ:Volo.Abp.AutoMapper.MapperAccessor.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Volo.Abp.ObjectMapping.DefaultObjectMapper -> Volo.Abp.AutoMapper.AutoMapperAutoObjectMappingProvider -> λ:Volo.Abp.AutoMapper.IMapperAccessor -> λ:Volo.Abp.AutoMapper.MapperAccessor.
+ ---> AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+============================================================================================
+CreateUpdateTinhThanhDto -> TinhThanh (Destination member list)
+TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto -> TinhThanhModule.TinhThanhs.TinhThanh (Destination member list)
+
+Unmapped properties:
+LastModificationTime
+LastModifierId
+CreationTime
+CreatorId
+ExtraProperties
+ConcurrencyStamp
+Id
+
+   at Volo.Abp.AutoMapper.AbpAutoMapperModule.<>c__DisplayClass2_1.<CreateMappings>g__ValidateAll|2(IConfigurationProvider config)
+   at Volo.Abp.AutoMapper.AbpAutoMapperModule.CreateMappings(IServiceProvider serviceProvider)
+   at Autofac.Extensions.DependencyInjection.AutofacRegistration.<>c__DisplayClass3_0.<Register>b__0(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.<ConfigurePipeline>b__2_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Volo.Abp.Application.Services.ApplicationService.<get_ObjectMapper>b__24_0(IServiceProvider provider)
+   at Volo.Abp.DependencyInjection.AbpLazyServiceProvider.<>c__DisplayClass16_0.<LazyGetService>b__0()
+   at System.Collections.Generic.AbpDictionaryExtensions.<>c__DisplayClass6_0`2.<GetOrAdd>b__0(TKey k)
+   at System.Collections.Generic.AbpDictionaryExtensions.GetOrAdd[TKey,TValue](IDictionary`2 dictionary, TKey key, Func`2 factory)
+   at System.Collections.Generic.AbpDictionaryExtensions.GetOrAdd[TKey,TValue](IDictionary`2 dictionary, TKey key, Func`1 factory)
+   at Volo.Abp.DependencyInjection.AbpLazyServiceProvider.LazyGetService(Type serviceType, Func`2 factory)
+   at Volo.Abp.DependencyInjection.AbpLazyServiceProvider.LazyGetService[T](Func`2 factory)
+   at Volo.Abp.Application.Services.ApplicationService.get_ObjectMapper()
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntity(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntityAsync(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.CreateAsync(TCreateInput input)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.GlobalFeatures.GlobalFeatureInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.ProceedByLoggingAsync(IAbpMethodInvocation invocation, IAuditingHelper auditingHelper, IAuditLogScope auditLogScope)
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at lambda_method1099(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-06-16 21:59:44.623 +07:00 [ERR] ---------- Exception Data ----------
+ActivatorChain = Volo.Abp.ObjectMapping.DefaultObjectMapper -> Volo.Abp.AutoMapper.AutoMapperAutoObjectMappingProvider -> λ:Volo.Abp.AutoMapper.IMapperAccessor -> λ:Volo.Abp.AutoMapper.MapperAccessor
+
+2022-06-16 21:59:44.655 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2022-06-16 21:59:44.674 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.CreateAsync (TinhThanhModule.HttpApi) in 1020.5489ms
+2022-06-16 21:59:44.674 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.CreateAsync (TinhThanhModule.HttpApi)'
+2022-06-16 21:59:44.713 +07:00 [INF] AUDIT LOG: [500: POST   ] /api/app/tinhThanh
+- UserName - UserId                 :  - 
+- ClientIpAddress        : ::1
+- ExecutionDuration      : 1053
+- Actions:
+  - TinhThanhModule.TinhThanhs.TinhThanhAppService.CreateAsync (316 ms.)
+    {"input":{"maTinhThanh":"TT001","tenTinhThanh":"Long An"}}
+  - TinhThanhModule.Controllers.TinhThanhController.CreateAsync (371 ms.)
+    {"input":{"maTinhThanh":"TT001","tenTinhThanh":"Long An"}}
+- Exceptions:
+  - An exception was thrown while activating Volo.Abp.ObjectMapping.DefaultObjectMapper -> Volo.Abp.AutoMapper.AutoMapperAutoObjectMappingProvider -> λ:Volo.Abp.AutoMapper.IMapperAccessor -> λ:Volo.Abp.AutoMapper.MapperAccessor.
+    Autofac.Core.DependencyResolutionException: An exception was thrown while activating Volo.Abp.ObjectMapping.DefaultObjectMapper -> Volo.Abp.AutoMapper.AutoMapperAutoObjectMappingProvider -> λ:Volo.Abp.AutoMapper.IMapperAccessor -> λ:Volo.Abp.AutoMapper.MapperAccessor.
+ ---> AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+============================================================================================
+CreateUpdateTinhThanhDto -> TinhThanh (Destination member list)
+TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto -> TinhThanhModule.TinhThanhs.TinhThanh (Destination member list)
+
+Unmapped properties:
+LastModificationTime
+LastModifierId
+CreationTime
+CreatorId
+ExtraProperties
+ConcurrencyStamp
+Id
+
+   at Volo.Abp.AutoMapper.AbpAutoMapperModule.<>c__DisplayClass2_1.<CreateMappings>g__ValidateAll|2(IConfigurationProvider config)
+   at Volo.Abp.AutoMapper.AbpAutoMapperModule.CreateMappings(IServiceProvider serviceProvider)
+   at Autofac.Extensions.DependencyInjection.AutofacRegistration.<>c__DisplayClass3_0.<Register>b__0(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.<ConfigurePipeline>b__2_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Volo.Abp.Application.Services.ApplicationService.<get_ObjectMapper>b__24_0(IServiceProvider provider)
+   at Volo.Abp.DependencyInjection.AbpLazyServiceProvider.<>c__DisplayClass16_0.<LazyGetService>b__0()
+   at System.Collections.Generic.AbpDictionaryExtensions.<>c__DisplayClass6_0`2.<GetOrAdd>b__0(TKey k)
+   at System.Collections.Generic.AbpDictionaryExtensions.GetOrAdd[TKey,TValue](IDictionary`2 dictionary, TKey key, Func`2 factory)
+   at System.Collections.Generic.AbpDictionaryExtensions.GetOrAdd[TKey,TValue](IDictionary`2 dictionary, TKey key, Func`1 factory)
+   at Volo.Abp.DependencyInjection.AbpLazyServiceProvider.LazyGetService(Type serviceType, Func`2 factory)
+   at Volo.Abp.DependencyInjection.AbpLazyServiceProvider.LazyGetService[T](Func`2 factory)
+   at Volo.Abp.Application.Services.ApplicationService.get_ObjectMapper()
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntity(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntityAsync(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.CreateAsync(TCreateInput input)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.GlobalFeatures.GlobalFeatureInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.ProceedByLoggingAsync(IAbpMethodInvocation invocation, IAuditingHelper auditingHelper, IAuditLogScope auditLogScope)
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at lambda_method1099(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+  - An exception was thrown while activating Volo.Abp.ObjectMapping.DefaultObjectMapper -> Volo.Abp.AutoMapper.AutoMapperAutoObjectMappingProvider -> λ:Volo.Abp.AutoMapper.IMapperAccessor -> λ:Volo.Abp.AutoMapper.MapperAccessor.
+    Autofac.Core.DependencyResolutionException: An exception was thrown while activating Volo.Abp.ObjectMapping.DefaultObjectMapper -> Volo.Abp.AutoMapper.AutoMapperAutoObjectMappingProvider -> λ:Volo.Abp.AutoMapper.IMapperAccessor -> λ:Volo.Abp.AutoMapper.MapperAccessor.
+ ---> AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+============================================================================================
+CreateUpdateTinhThanhDto -> TinhThanh (Destination member list)
+TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto -> TinhThanhModule.TinhThanhs.TinhThanh (Destination member list)
+
+Unmapped properties:
+LastModificationTime
+LastModifierId
+CreationTime
+CreatorId
+ExtraProperties
+ConcurrencyStamp
+Id
+
+   at Volo.Abp.AutoMapper.AbpAutoMapperModule.<>c__DisplayClass2_1.<CreateMappings>g__ValidateAll|2(IConfigurationProvider config)
+   at Volo.Abp.AutoMapper.AbpAutoMapperModule.CreateMappings(IServiceProvider serviceProvider)
+   at Autofac.Extensions.DependencyInjection.AutofacRegistration.<>c__DisplayClass3_0.<Register>b__0(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.<ConfigurePipeline>b__2_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Volo.Abp.Application.Services.ApplicationService.<get_ObjectMapper>b__24_0(IServiceProvider provider)
+   at Volo.Abp.DependencyInjection.AbpLazyServiceProvider.<>c__DisplayClass16_0.<LazyGetService>b__0()
+   at System.Collections.Generic.AbpDictionaryExtensions.<>c__DisplayClass6_0`2.<GetOrAdd>b__0(TKey k)
+   at System.Collections.Generic.AbpDictionaryExtensions.GetOrAdd[TKey,TValue](IDictionary`2 dictionary, TKey key, Func`2 factory)
+   at System.Collections.Generic.AbpDictionaryExtensions.GetOrAdd[TKey,TValue](IDictionary`2 dictionary, TKey key, Func`1 factory)
+   at Volo.Abp.DependencyInjection.AbpLazyServiceProvider.LazyGetService(Type serviceType, Func`2 factory)
+   at Volo.Abp.DependencyInjection.AbpLazyServiceProvider.LazyGetService[T](Func`2 factory)
+   at Volo.Abp.Application.Services.ApplicationService.get_ObjectMapper()
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntity(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.MapToEntityAsync(TCreateInput createInput)
+   at Volo.Abp.Application.Services.AbstractKeyCrudAppService`7.CreateAsync(TCreateInput input)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.GlobalFeatures.GlobalFeatureInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.ProceedByLoggingAsync(IAbpMethodInvocation invocation, IAuditingHelper auditingHelper, IAuditLogScope auditLogScope)
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at lambda_method1099(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2022-06-16 21:59:44.714 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44344/api/app/tinhThanh application/json 57 - 500 - application/json;+charset=utf-8 1095.3721ms
+2022-06-16 22:17:06.753 +07:00 [INF] Starting TinhThanh.HttpApi.Host.
+2022-06-16 22:17:07.679 +07:00 [INF] Loaded ABP modules:
+2022-06-16 22:17:07.680 +07:00 [INF] - Main.TinhThanhModuleHttpApiHostModule
+2022-06-16 22:17:07.680 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleHttpApiModule
+2022-06-16 22:17:07.680 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleApplicationContractsModule
+2022-06-16 22:17:07.680 +07:00 [INF]       - TinhThanhModule.TinhThanhModuleDomainSharedModule
+2022-06-16 22:17:07.680 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2022-06-16 22:17:07.680 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-06-16 22:17:07.680 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2022-06-16 22:17:07.680 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-06-16 22:17:07.680 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2022-06-16 22:17:07.680 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-06-16 22:17:07.680 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2022-06-16 22:17:07.680 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-06-16 22:17:07.680 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2022-06-16 22:17:07.680 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-06-16 22:17:07.680 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-06-16 22:17:07.680 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-06-16 22:17:07.680 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-06-16 22:17:07.680 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-06-16 22:17:07.680 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-06-16 22:17:07.680 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-06-16 22:17:07.680 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-06-16 22:17:07.680 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-06-16 22:17:07.680 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2022-06-16 22:17:07.680 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2022-06-16 22:17:07.680 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2022-06-16 22:17:07.680 +07:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2022-06-16 22:17:07.680 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-06-16 22:17:07.680 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-06-16 22:17:07.681 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-06-16 22:17:07.681 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-06-16 22:17:07.681 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-06-16 22:17:07.681 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-06-16 22:17:07.681 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-06-16 22:17:07.681 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2022-06-16 22:17:07.681 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-06-16 22:17:07.681 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2022-06-16 22:17:07.681 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2022-06-16 22:17:07.681 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2022-06-16 22:17:07.681 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2022-06-16 22:17:07.681 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-06-16 22:17:07.681 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-06-16 22:17:07.681 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-06-16 22:17:07.681 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-06-16 22:17:07.681 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2022-06-16 22:17:07.681 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-06-16 22:17:07.681 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-06-16 22:17:07.681 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-06-16 22:17:07.681 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-06-16 22:17:07.681 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-06-16 22:17:07.681 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-06-16 22:17:07.681 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-06-16 22:17:07.681 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-06-16 22:17:07.681 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-06-16 22:17:07.681 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-06-16 22:17:07.681 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-06-16 22:17:07.681 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleApplicationModule
+2022-06-16 22:17:07.681 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleDomainModule
+2022-06-16 22:17:07.681 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-06-16 22:17:07.681 +07:00 [INF]   - TinhThanhModule.EntityFrameworkCore.TinhThanhModuleEntityFrameworkCoreModule
+2022-06-16 22:17:07.681 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-06-16 22:17:07.681 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-06-16 22:17:07.681 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-06-16 22:17:08.049 +07:00 [INF] User profile is available. Using 'C:\Users\mtpha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-16 22:17:08.154 +07:00 [INF] Initialized all ABP modules.
+2022-06-16 22:17:08.353 +07:00 [INF] Now listening on: https://localhost:44344
+2022-06-16 22:17:08.354 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-16 22:17:08.354 +07:00 [INF] Hosting environment: Development
+2022-06-16 22:17:08.354 +07:00 [INF] Content root path: D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\
+2022-06-16 22:17:08.770 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/ - -
+2022-06-16 22:17:09.037 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.HomeController.Index (TinhThanhModule.HttpApi.Host)'
+2022-06-16 22:17:09.060 +07:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller TinhThanhModule.Controllers.HomeController (TinhThanhModule.HttpApi.Host).
+2022-06-16 22:17:09.097 +07:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2022-06-16 22:17:09.104 +07:00 [INF] Executed action TinhThanhModule.Controllers.HomeController.Index (TinhThanhModule.HttpApi.Host) in 37.7357ms
+2022-06-16 22:17:09.104 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.HomeController.Index (TinhThanhModule.HttpApi.Host)'
+2022-06-16 22:17:09.138 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/ - - - 302 0 - 371.9226ms
+2022-06-16 22:17:09.143 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-16 22:17:09.318 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 175.0819ms
+2022-06-16 22:17:09.326 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-16 22:17:09.330 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 4.1076ms
+2022-06-16 22:17:09.339 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-16 22:17:09.363 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.3794ms
+2022-06-16 22:17:09.675 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-16 22:17:09.940 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 264.6814ms
+2022-06-16 22:17:34.505 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/abp/Swashbuckle/SetCsrfCookie - -
+2022-06-16 22:17:34.508 +07:00 [INF] Executing endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2022-06-16 22:17:34.512 +07:00 [INF] Route matched with {area = "Abp", action = "SetCsrfCookie", controller = "AbpSwashbuckle", page = ""}. Executing controller action with signature Void SetCsrfCookie() on controller Volo.Abp.Swashbuckle.AbpSwashbuckleController (Volo.Abp.Swashbuckle).
+2022-06-16 22:17:34.520 +07:00 [INF] Executed action Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle) in 7.522ms
+2022-06-16 22:17:34.520 +07:00 [INF] Executed endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2022-06-16 22:17:34.521 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/abp/Swashbuckle/SetCsrfCookie - - - 204 - - 15.5186ms
+2022-06-16 22:17:34.638 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/api/app/tinhThanh - -
+2022-06-16 22:17:34.638 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-16 22:17:34.667 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-16 22:17:37.093 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-16 22:17:37.102 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-16 22:17:37.115 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 2447.651ms
+2022-06-16 22:17:37.116 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-16 22:17:37.117 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-16 22:17:37.120 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/api/app/tinhThanh - - - 200 - application/json;+charset=utf-8 2482.9239ms
+2022-06-16 22:17:54.369 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44344/api/app/tinhThanh application/json 57
+2022-06-16 22:17:54.375 +07:00 [INF] CORS policy execution failed.
+2022-06-16 22:17:54.375 +07:00 [INF] Request origin https://localhost:44344 does not have permission to access the resource.
+2022-06-16 22:17:54.376 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.CreateAsync (TinhThanhModule.HttpApi)'
+2022-06-16 22:17:54.382 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "Create", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[TinhThanhModule.TinhThanhs.TinhThanhDto] CreateAsync(TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-16 22:17:54.939 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-16 22:17:54.945 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-16 22:17:54.945 +07:00 [INF] Executing ObjectResult, writing value of type 'TinhThanhModule.TinhThanhs.TinhThanhDto'.
+2022-06-16 22:17:54.950 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.CreateAsync (TinhThanhModule.HttpApi) in 568.5618ms
+2022-06-16 22:17:54.951 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.CreateAsync (TinhThanhModule.HttpApi)'
+2022-06-16 22:17:54.955 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-16 22:17:54.972 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-16 22:17:54.997 +07:00 [INF] AUDIT LOG: [200: POST   ] /api/app/tinhThanh
+- UserName - UserId                 :  - 
+- ClientIpAddress        : ::1
+- ExecutionDuration      : 611
+- Actions:
+  - TinhThanhModule.TinhThanhs.TinhThanhAppService.CreateAsync (539 ms.)
+    {"input":{"maTinhThanh":"TT001","tenTinhThanh":"Long An"}}
+  - TinhThanhModule.Controllers.TinhThanhController.CreateAsync (543 ms.)
+    {"input":{"maTinhThanh":"TT001","tenTinhThanh":"Long An"}}
+
+2022-06-16 22:17:54.997 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44344/api/app/tinhThanh application/json 57 - 200 - application/json;+charset=utf-8 628.6061ms
+2022-06-16 22:18:17.153 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44344/api/app/tinhThanh application/json 61
+2022-06-16 22:18:17.154 +07:00 [INF] CORS policy execution failed.
+2022-06-16 22:18:17.154 +07:00 [INF] Request origin https://localhost:44344 does not have permission to access the resource.
+2022-06-16 22:18:17.155 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.CreateAsync (TinhThanhModule.HttpApi)'
+2022-06-16 22:18:17.155 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "Create", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[TinhThanhModule.TinhThanhs.TinhThanhDto] CreateAsync(TinhThanhModule.TinhThanhs.CreateUpdateTinhThanhDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-16 22:18:17.229 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-16 22:18:17.231 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-16 22:18:17.231 +07:00 [INF] Executing ObjectResult, writing value of type 'TinhThanhModule.TinhThanhs.TinhThanhDto'.
+2022-06-16 22:18:17.232 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.CreateAsync (TinhThanhModule.HttpApi) in 76.4647ms
+2022-06-16 22:18:17.232 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.CreateAsync (TinhThanhModule.HttpApi)'
+2022-06-16 22:18:17.233 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-16 22:18:17.238 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-16 22:18:17.239 +07:00 [INF] AUDIT LOG: [200: POST   ] /api/app/tinhThanh
+- UserName - UserId                 :  - 
+- ClientIpAddress        : ::1
+- ExecutionDuration      : 84
+- Actions:
+  - TinhThanhModule.TinhThanhs.TinhThanhAppService.CreateAsync (73 ms.)
+    {"input":{"maTinhThanh":"TT002","tenTinhThanh":"Bến Lức"}}
+  - TinhThanhModule.Controllers.TinhThanhController.CreateAsync (74 ms.)
+    {"input":{"maTinhThanh":"TT002","tenTinhThanh":"Bến Lức"}}
+
+2022-06-16 22:18:17.239 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44344/api/app/tinhThanh application/json 61 - 200 - application/json;+charset=utf-8 86.4539ms
+2022-06-16 22:18:22.757 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/api/app/tinhThanh - -
+2022-06-16 22:18:22.758 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-16 22:18:22.758 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-16 22:18:22.788 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-16 22:18:22.788 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-16 22:18:22.789 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 30.8382ms
+2022-06-16 22:18:22.789 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-16 22:18:22.789 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-16 22:18:22.789 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/api/app/tinhThanh - - - 200 - application/json;+charset=utf-8 32.7492ms
