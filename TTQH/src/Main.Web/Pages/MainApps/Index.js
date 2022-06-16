@@ -27,5 +27,18 @@
             ]
         })
     );
+    //Dynamic Javascript Client Proxies
+
+    //Call Modal
+    var createModal = new abp.ModalManager(abp.appPath + 'MainApps/CreateModal');
+
+    createModal.onResult(function () {
+        dataTable.ajax.reload();
+    });
+
+    $('#NewMainAppButton').click(function (e) {
+        e.preventDefault();
+        createModal.open();
+    });
+
 }); 
-//Dynamic Javascript Client Proxies

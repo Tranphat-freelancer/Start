@@ -1,0 +1,23 @@
+﻿@page
+@using Main.Localization
+@using Microsoft.Extensions.Localization
+@using Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.TagHelpers.Modal
+@model Main.Web.Pages.MainApps.CreateModalModel
+@inject IStringLocalizer<MainResource> L
+@{
+    Layout = null;
+}
+<abp-dynamic-form abp-model="MainApp"  asp-page="/MainApps/CreateModal">
+    <abp-modal>
+        <abp-modal-header title="@L["NewApp"].Value"></abp-modal-header>
+        <abp-modal-body>
+            <abp-form-content />
+        </abp-modal-body>
+        <abp-modal-footer buttons="@(AbpModalButtons.Cancel|AbpModalButtons.Save)"></abp-modal-footer>
+    </abp-modal>
+</abp-dynamic-form>
+@*
+    Trong đó abp-model là tên của CreateUpdateMainAppDto đã được khai báo trong CreateModalModel
+    asp-page là đường dẫn đến file modal
+    @L['NewApp'].Value lấy giá trị NewApp trong Localization
+*@

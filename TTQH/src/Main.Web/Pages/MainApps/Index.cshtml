@@ -7,11 +7,21 @@
 {
     <abp-script src="/Pages/MainApps/Index.js" />
 }
-<abp-card>
-    <abp-card-header>
-        <h2>@L["MainApps"]</h2>
-    </abp-card-header>
-    <abp-card-body>
-        <abp-table striped-rows="true" id="MainAppTable"></abp-table>
-    </abp-card-body>
-</abp-card>
+    <abp-card>
+        <abp-card-header>
+             <abp-row>
+            <abp-column size-md="_6">
+                <abp-card-title>@L["MainApps"]</abp-card-title>
+            </abp-column>
+            <abp-column size-md="_6" class="text-end">
+                <abp-button id="NewMainAppButton"
+                        text="@L["NewApp"].Value"
+                        icon="plus"
+                        button-type="Primary"/>
+            </abp-column>
+        </abp-row>
+        </abp-card-header>
+        <abp-card-body>
+            <abp-table striped-rows="true" id="MainAppTable"></abp-table>
+        </abp-card-body>
+    </abp-card>
