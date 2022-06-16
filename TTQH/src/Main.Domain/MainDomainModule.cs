@@ -1,4 +1,4 @@
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Main.MultiTenancy;
 using Volo.Abp.AuditLogging;
@@ -13,7 +13,6 @@ using Volo.Abp.PermissionManagement.Identity;
 using Volo.Abp.PermissionManagement.IdentityServer;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
-using TinhThanhModule;
 
 namespace Main;
 
@@ -30,8 +29,7 @@ namespace Main;
     typeof(AbpTenantManagementDomainModule),
     typeof(AbpEmailingModule)
 )]
-[DependsOn(typeof(TinhThanhModuleDomainModule))]
-    public class MainDomainModule : AbpModule
+public class MainDomainModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {

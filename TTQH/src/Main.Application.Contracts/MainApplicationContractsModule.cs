@@ -1,4 +1,4 @@
-using Volo.Abp.Account;
+﻿using Volo.Abp.Account;
 using Volo.Abp.FeatureManagement;
 using Volo.Abp.Identity;
 using Volo.Abp.Modularity;
@@ -6,7 +6,6 @@ using Volo.Abp.ObjectExtending;
 using Volo.Abp.PermissionManagement;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
-using TinhThanhModule;
 
 namespace Main;
 
@@ -20,8 +19,7 @@ namespace Main;
     typeof(AbpTenantManagementApplicationContractsModule),
     typeof(AbpObjectExtendingModule)
 )]
-[DependsOn(typeof(TinhThanhModuleApplicationContractsModule))]
-    public class MainApplicationContractsModule : AbpModule
+public class MainApplicationContractsModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
     {
