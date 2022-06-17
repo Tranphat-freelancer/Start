@@ -8,6 +8,7 @@ using Volo.Abp.TenantManagement;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.VirtualFileSystem;
 using TinhThanhModule;
+using QuanHuyenModule;
 
 namespace Main;
 
@@ -23,6 +24,7 @@ namespace Main;
 [DependsOn(
     typeof(TinhThanhModuleHttpApiClientModule)
     )]
+    [DependsOn(typeof(QuanHuyenModuleHttpApiClientModule))]
     public class MainHttpApiClientModule : AbpModule
 {
     public const string RemoteServiceName = "Default";

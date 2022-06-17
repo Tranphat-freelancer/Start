@@ -7,6 +7,7 @@ using Volo.Abp.PermissionManagement;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
 using TinhThanhModule;
+using QuanHuyenModule;
 
 namespace Main;
 
@@ -21,6 +22,7 @@ namespace Main;
     typeof(AbpSettingManagementApplicationModule)
     )]
 [DependsOn(typeof(TinhThanhModuleApplicationModule))]
+    [DependsOn(typeof(QuanHuyenModuleApplicationModule))]
     public class MainApplicationModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)

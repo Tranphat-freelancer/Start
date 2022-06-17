@@ -15,6 +15,7 @@ using Volo.Abp.SettingManagement.EntityFrameworkCore;
 using Volo.Abp.TenantManagement;
 using Volo.Abp.TenantManagement.EntityFrameworkCore;
 using TinhThanhModule.EntityFrameworkCore;
+using QuanHuyenModule.EntityFrameworkCore;
 
 namespace Main.EntityFrameworkCore;
 
@@ -90,5 +91,6 @@ public class MainDbContext :
             b.ConfigureByConvention(); //auto configure for the base class props
         });
         builder.ConfigureTinhThanhModule();
+            builder.ConfigureQuanHuyenModule();
         }
 }

@@ -13,6 +13,7 @@ using Volo.Abp.TenantManagement;
 using Volo.Abp.Validation.Localization;
 using Volo.Abp.VirtualFileSystem;
 using TinhThanhModule;
+using QuanHuyenModule;
 
 namespace Main;
 
@@ -27,6 +28,7 @@ namespace Main;
     typeof(AbpTenantManagementDomainSharedModule)
     )]
 [DependsOn(typeof(TinhThanhModuleDomainSharedModule))]
+    [DependsOn(typeof(QuanHuyenModuleDomainSharedModule))]
     public class MainDomainSharedModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)

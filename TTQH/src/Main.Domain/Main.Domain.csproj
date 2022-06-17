@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Main.Domain.Shared\Main.Domain.Shared.csproj" />
-  <ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.Domain\TinhThanhModule.Domain.csproj" /><ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.Domain\TinhThanhModule.Domain.csproj" /></ItemGroup>
+  <ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.Domain\TinhThanhModule.Domain.csproj" /><ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.Domain\TinhThanhModule.Domain.csproj" /><ProjectReference Include="..\..\modules\QuanHuyenModule\src\QuanHuyenModule.Domain\QuanHuyenModule.Domain.csproj" /></ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Emailing" Version="5.3.0" />

@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<Import Project="..\..\common.props" />
 
@@ -19,7 +19,7 @@
 		<PackageReference Include="Volo.Abp.TenantManagement.EntityFrameworkCore" Version="5.3.0" />
 		<PackageReference Include="Volo.Abp.FeatureManagement.EntityFrameworkCore" Version="5.3.0" />
 		<ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.EntityFrameworkCore\TinhThanhModule.EntityFrameworkCore.csproj" />
-	</ItemGroup>
+	<ProjectReference Include="..\..\modules\QuanHuyenModule\src\QuanHuyenModule.EntityFrameworkCore\QuanHuyenModule.EntityFrameworkCore.csproj" /></ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.5">

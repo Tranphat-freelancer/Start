@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Main.Application.Contracts\Main.Application.Contracts.csproj" />
-  <ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Client\TinhThanhModule.HttpApi.Client.csproj" /><ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Client\TinhThanhModule.HttpApi.Client.csproj" /></ItemGroup>
+  <ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Client\TinhThanhModule.HttpApi.Client.csproj" /><ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Client\TinhThanhModule.HttpApi.Client.csproj" /><ProjectReference Include="..\..\modules\QuanHuyenModule\src\QuanHuyenModule.HttpApi.Client\QuanHuyenModule.HttpApi.Client.csproj" /></ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Account.HttpApi.Client" Version="5.3.0" />

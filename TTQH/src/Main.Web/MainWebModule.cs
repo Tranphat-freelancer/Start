@@ -42,6 +42,7 @@ using Volo.Abp.UI;
 using Volo.Abp.UI.Navigation;
 using Volo.Abp.VirtualFileSystem;
 using TinhThanhModule.Web;
+using QuanHuyenModule.Web;
 
 namespace Main.Web;
 
@@ -62,6 +63,7 @@ namespace Main.Web;
     typeof(AbpSwashbuckleModule)
     )]
 [DependsOn(typeof(TinhThanhModuleWebModule))]
+    [DependsOn(typeof(QuanHuyenModuleWebModule))]
     public class MainWebModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)

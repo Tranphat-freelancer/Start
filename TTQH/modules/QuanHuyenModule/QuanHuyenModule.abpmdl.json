@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "QuanHuyenModule.Domain.Shared": {
+      "path": "src/QuanHuyenModule.Domain.Shared/QuanHuyenModule.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "QuanHuyenModule.Domain": {
+      "path": "src/QuanHuyenModule.Domain/QuanHuyenModule.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "QuanHuyenModule.Application.Contracts": {
+      "path": "src/QuanHuyenModule.Application.Contracts/QuanHuyenModule.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "QuanHuyenModule.Application": {
+      "path": "src/QuanHuyenModule.Application/QuanHuyenModule.Application.abppkg.json",
+      "folder": "src"
+    },
+    "QuanHuyenModule.EntityFrameworkCore": {
+      "path": "src/QuanHuyenModule.EntityFrameworkCore/QuanHuyenModule.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "QuanHuyenModule.MongoDB": {
+      "path": "src/QuanHuyenModule.MongoDB/QuanHuyenModule.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "QuanHuyenModule.HttpApi": {
+      "path": "src/QuanHuyenModule.HttpApi/QuanHuyenModule.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "QuanHuyenModule.HttpApi.Client": {
+      "path": "src/QuanHuyenModule.HttpApi.Client/QuanHuyenModule.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "QuanHuyenModule.TestBase": {
+      "path": "test/QuanHuyenModule.TestBase/QuanHuyenModule.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "QuanHuyenModule.EntityFrameworkCore.Tests": {
+      "path": "test/QuanHuyenModule.EntityFrameworkCore.Tests/QuanHuyenModule.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "QuanHuyenModule.MongoDB.Tests": {
+      "path": "test/QuanHuyenModule.MongoDB.Tests/QuanHuyenModule.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "QuanHuyenModule.Domain.Tests": {
+      "path": "test/QuanHuyenModule.Domain.Tests/QuanHuyenModule.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "QuanHuyenModule.Application.Tests": {
+      "path": "test/QuanHuyenModule.Application.Tests/QuanHuyenModule.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "QuanHuyenModule.HttpApi.Host": {
+      "path": "host/QuanHuyenModule.HttpApi.Host/QuanHuyenModule.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "QuanHuyenModule.Web": {
+      "path": "src/QuanHuyenModule.Web/QuanHuyenModule.Web.abppkg.json",
+      "folder": "src"
+    },
+    "QuanHuyenModule.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/QuanHuyenModule.HttpApi.Client.ConsoleTestApp/QuanHuyenModule.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "QuanHuyenModule.Web.Host": {
+      "path": "host/QuanHuyenModule.Web.Host/QuanHuyenModule.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "QuanHuyenModule.IdentityServer": {
+      "path": "host/QuanHuyenModule.IdentityServer/QuanHuyenModule.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "QuanHuyenModule.Host.Shared": {
+      "path": "host/QuanHuyenModule.Host.Shared/QuanHuyenModule.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "QuanHuyenModule.Web.Unified": {
+      "path": "host/QuanHuyenModule.Web.Unified/QuanHuyenModule.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "QuanHuyenModule.Blazor": {
+      "path": "src/QuanHuyenModule.Blazor/QuanHuyenModule.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "QuanHuyenModule.Blazor.Host": {
+      "path": "host/QuanHuyenModule.Blazor.Host/QuanHuyenModule.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "QuanHuyenModule.Blazor.Server": {
+      "path": "src/QuanHuyenModule.Blazor.Server/QuanHuyenModule.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "QuanHuyenModule.Blazor.WebAssembly": {
+      "path": "src/QuanHuyenModule.Blazor.WebAssembly/QuanHuyenModule.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "QuanHuyenModule.Blazor.Server.Host": {
+      "path": "host/QuanHuyenModule.Blazor.Server.Host/QuanHuyenModule.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}
