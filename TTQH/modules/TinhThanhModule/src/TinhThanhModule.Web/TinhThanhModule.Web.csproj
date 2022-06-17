@@ -37,4 +37,8 @@
     <Content Remove="wwwroot\**\*.*" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Pages\TinhThanhs\Index.js" />
+  </ItemGroup>
+
 </Project>

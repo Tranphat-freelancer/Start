@@ -1,4 +1,4 @@
-namespace TinhThanhModule.Web.Pages.TinhThanhModule;
+namespace TinhThanhModule.Web.Pages.TinhThanhs;
 
 public class IndexModel : TinhThanhModulePageModel
 {

@@ -1,4 +1,3 @@
-using Main;
 using Serilog;
 using Serilog.Events;
 

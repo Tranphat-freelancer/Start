@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Main.Mains;
+using TinhThanhModule.TinhThanhs;
 
 namespace Main.Web;
 

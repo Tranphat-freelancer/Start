@@ -66,6 +66,7 @@ public class IdentityServerDataSeedContributor : IDataSeedContributor, ITransien
     private async Task CreateApiScopesAsync()
     {
         await CreateApiScopeAsync("Main");
+        await CreateApiScopeAsync("TinhThanhModule");
     }
 
     private async Task CreateApiResourcesAsync()
@@ -81,6 +82,7 @@ public class IdentityServerDataSeedContributor : IDataSeedContributor, ITransien
             };
 
         await CreateApiResourceAsync("Main", commonApiUserClaims);
+        await CreateApiResourceAsync("TinhThanhModule", commonApiUserClaims);
     }
 
     private async Task<ApiResource> CreateApiResourceAsync(string name, IEnumerable<string> claims)
@@ -137,7 +139,8 @@ public class IdentityServerDataSeedContributor : IDataSeedContributor, ITransien
                 "role",
                 "phone",
                 "address",
-                "Main"
+                "Main",
+                "TinhThanhModule"
             };
 
         var configurationSection = _configuration.GetSection("IdentityServer:Clients");
@@ -193,6 +196,22 @@ public class IdentityServerDataSeedContributor : IDataSeedContributor, ITransien
                 scopes: commonScopes,
                 grantTypes: new[] { "authorization_code" },
                 secret: configurationSection["Main_Swagger:ClientSecret"]?.Sha256(),
+                requireClientSecret: false,
+                redirectUri: $"{swaggerRootUrl}/swagger/oauth2-redirect.html",
+                corsOrigins: new[] { swaggerRootUrl.RemovePostFix("/") }
+            );
+        }
+
+        var swaggerClientIdTinhThanhModule = configurationSection["TinhThanhModule_Swagger:ClientId"];
+        if (!swaggerClientIdTinhThanhModule.IsNullOrWhiteSpace())
+        {
+            var swaggerRootUrl = configurationSection["TinhThanhModule_Swagger:RootUrl"].TrimEnd('/');
+
+            await CreateClientAsync(
+                name: swaggerClientIdTinhThanhModule,
+                scopes: commonScopes,
+                grantTypes: new[] { "authorization_code" },
+                secret: configurationSection["TinhThanhModule_Swagger:ClientSecret"]?.Sha256(),
                 requireClientSecret: false,
                 redirectUri: $"{swaggerRootUrl}/swagger/oauth2-redirect.html",
                 corsOrigins: new[] { swaggerRootUrl.RemovePostFix("/") }

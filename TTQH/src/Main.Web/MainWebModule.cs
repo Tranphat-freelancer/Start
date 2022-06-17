@@ -159,6 +159,7 @@ namespace Main.Web;
                 options.Scope.Add("email");
                 options.Scope.Add("phone");
                 options.Scope.Add("Main");
+                options.Scope.Add("TinhThanhModule");
             });
     }
 

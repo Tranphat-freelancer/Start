@@ -29,7 +29,7 @@ using Volo.Abp.VirtualFileSystem;
 using TinhThanhModule;
 using TinhThanhModule.EntityFrameworkCore;
 
-namespace Main;
+namespace TinhThanhModule;
 
 [DependsOn(
     typeof(TinhThanhModuleHttpApiModule),
@@ -60,7 +60,7 @@ public class TinhThanhModuleHttpApiHostModule : AbpModule
 
     private void ConfigureCache(IConfiguration configuration)
     {
-        Configure<AbpDistributedCacheOptions>(options => { options.KeyPrefix = "Main:"; });
+        Configure<AbpDistributedCacheOptions>(options => { options.KeyPrefix = "TinhThanhModule:"; });
     }
 
     private void ConfigureVirtualFileSystem(ServiceConfigurationContext context)
@@ -102,7 +102,7 @@ public class TinhThanhModuleHttpApiHostModule : AbpModule
             {
                 options.Authority = configuration["AuthServer:Authority"];
                 options.RequireHttpsMetadata = Convert.ToBoolean(configuration["AuthServer:RequireHttpsMetadata"]);
-                options.Audience = "Main";
+                options.Audience = "TinhThanhModule";
             });
     }
 
@@ -112,11 +112,11 @@ public class TinhThanhModuleHttpApiHostModule : AbpModule
             configuration["AuthServer:Authority"],
             new Dictionary<string, string>
             {
-                    {"Main", "Main API"}
+                    {"TinhThanhModule", "TinhThanhModule API"}
             },
             options =>
             {
-                options.SwaggerDoc("v1", new OpenApiInfo { Title = "Main API", Version = "v1" });
+                options.SwaggerDoc("v1", new OpenApiInfo { Title = "TinhThanhModule API", Version = "v1" });
                 options.DocInclusionPredicate((docName, description) => true);
                 options.CustomSchemaIds(type => type.FullName);
             });
@@ -153,7 +153,7 @@ public class TinhThanhModuleHttpApiHostModule : AbpModule
         IConfiguration configuration,
         IWebHostEnvironment hostingEnvironment)
     {
-        var dataProtectionBuilder = context.Services.AddDataProtection().SetApplicationName("Main");
+        var dataProtectionBuilder = context.Services.AddDataProtection().SetApplicationName("TinhThanhModule");
         if (!hostingEnvironment.IsDevelopment())
         {
             var redis = ConnectionMultiplexer.Connect(configuration["Redis:Configuration"]);
@@ -210,12 +210,12 @@ public class TinhThanhModuleHttpApiHostModule : AbpModule
         app.UseSwagger();
         app.UseAbpSwaggerUI(options =>
         {
-            options.SwaggerEndpoint("/swagger/v1/swagger.json", "Main API");
+            options.SwaggerEndpoint("/swagger/v1/swagger.json", "TinhThanhModule API");
 
             var configuration = context.GetConfiguration();
             options.OAuthClientId(configuration["AuthServer:SwaggerClientId"]);
             options.OAuthClientSecret(configuration["AuthServer:SwaggerClientSecret"]);
-            options.OAuthScopes("Main");
+            options.OAuthScopes("TinhThanhModule");
         });
 
         app.UseAuditing();

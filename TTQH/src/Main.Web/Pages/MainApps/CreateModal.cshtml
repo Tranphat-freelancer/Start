@@ -1,9 +1,8 @@
 ﻿@page
-@using Main.Localization
-@using Microsoft.Extensions.Localization
 @using Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.TagHelpers.Modal
 @model Main.Web.Pages.MainApps.CreateModalModel
-@inject IStringLocalizer<MainResource> L
+@inherits Main.Web.Pages.MainPage
+
 @{
     Layout = null;
 }
