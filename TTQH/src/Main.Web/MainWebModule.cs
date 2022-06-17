@@ -162,6 +162,7 @@ namespace Main.Web;
                 options.Scope.Add("phone");
                 options.Scope.Add("Main");
                 options.Scope.Add("TinhThanhModule");
+                options.Scope.Add("QuanHuyenModule");
             });
     }
 

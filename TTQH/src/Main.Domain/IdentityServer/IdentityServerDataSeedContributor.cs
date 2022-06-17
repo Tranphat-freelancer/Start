@@ -67,6 +67,7 @@ public class IdentityServerDataSeedContributor : IDataSeedContributor, ITransien
     {
         await CreateApiScopeAsync("Main");
         await CreateApiScopeAsync("TinhThanhModule");
+        await CreateApiScopeAsync("QuanHuyenModule");
     }
 
     private async Task CreateApiResourcesAsync()
@@ -83,6 +84,7 @@ public class IdentityServerDataSeedContributor : IDataSeedContributor, ITransien
 
         await CreateApiResourceAsync("Main", commonApiUserClaims);
         await CreateApiResourceAsync("TinhThanhModule", commonApiUserClaims);
+        await CreateApiResourceAsync("QuanHuyenModule", commonApiUserClaims);
     }
 
     private async Task<ApiResource> CreateApiResourceAsync(string name, IEnumerable<string> claims)
@@ -140,7 +142,8 @@ public class IdentityServerDataSeedContributor : IDataSeedContributor, ITransien
                 "phone",
                 "address",
                 "Main",
-                "TinhThanhModule"
+                "TinhThanhModule",
+                "QuanHuyenModule"
             };
 
         var configurationSection = _configuration.GetSection("IdentityServer:Clients");
@@ -212,6 +215,22 @@ public class IdentityServerDataSeedContributor : IDataSeedContributor, ITransien
                 scopes: commonScopes,
                 grantTypes: new[] { "authorization_code" },
                 secret: configurationSection["TinhThanhModule_Swagger:ClientSecret"]?.Sha256(),
+                requireClientSecret: false,
+                redirectUri: $"{swaggerRootUrl}/swagger/oauth2-redirect.html",
+                corsOrigins: new[] { swaggerRootUrl.RemovePostFix("/") }
+            );
+        }
+
+        var swaggerClientIdQuanHuyenModule = configurationSection["QuanHuyenModule_Swagger:ClientId"];
+        if (!swaggerClientIdQuanHuyenModule.IsNullOrWhiteSpace())
+        {
+            var swaggerRootUrl = configurationSection["QuanHuyenModule_Swagger:RootUrl"].TrimEnd('/');
+
+            await CreateClientAsync(
+                name: swaggerClientIdQuanHuyenModule,
+                scopes: commonScopes,
+                grantTypes: new[] { "authorization_code" },
+                secret: configurationSection["QuanHuyenModule_Swagger:ClientSecret"]?.Sha256(),
                 requireClientSecret: false,
                 redirectUri: $"{swaggerRootUrl}/swagger/oauth2-redirect.html",
                 corsOrigins: new[] { swaggerRootUrl.RemovePostFix("/") }

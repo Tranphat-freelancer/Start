@@ -35,10 +35,6 @@ namespace Main;
             typeof(MainApplicationContractsModule).Assembly,
             RemoteServiceName
         );
-        //context.Services.AddHttpClientProxies(
-        //    typeof(TinhThanhModuleApplicationContractsModule).Assembly,
-        //    TinhThanhModuleRemoteServiceConsts.RemoteServiceName
-        //);
         Configure<AbpVirtualFileSystemOptions>(options =>
         {
             options.FileSets.AddEmbedded<MainHttpApiClientModule>();

@@ -1158,3 +1158,191 @@ ActivatorChain = QuanHuyenModule.EntityFrameworkCore.QuanHuyenModuleDbContext ->
 2022-06-17 17:55:32.149 +07:00 [INF] Executed endpoint 'QuanHuyenModule.Controllers.QuanHuyenController.GetListAsync (QuanHuyenModule.HttpApi)'
 2022-06-17 17:55:32.149 +07:00 [DBG] Added 0 entity changes to the current audit log
 2022-06-17 17:55:32.150 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44343/api/app/quanHuyens - - - 200 - application/json;+charset=utf-8 371.1756ms
+2022-06-17 17:57:26.174 +07:00 [INF] Application is shutting down...
+2022-06-17 18:07:21.126 +07:00 [INF] Starting QuanHuyen.HttpApi.Host.
+2022-06-17 18:07:22.178 +07:00 [INF] Loaded ABP modules:
+2022-06-17 18:07:22.180 +07:00 [INF] - QuanHuyenModule.QuanHuyenModuleHttpApiHostModule
+2022-06-17 18:07:22.180 +07:00 [INF]   - QuanHuyenModule.QuanHuyenModuleHttpApiModule
+2022-06-17 18:07:22.180 +07:00 [INF]     - QuanHuyenModule.QuanHuyenModuleApplicationContractsModule
+2022-06-17 18:07:22.180 +07:00 [INF]       - QuanHuyenModule.QuanHuyenModuleDomainSharedModule
+2022-06-17 18:07:22.180 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2022-06-17 18:07:22.180 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-06-17 18:07:22.180 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2022-06-17 18:07:22.180 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-06-17 18:07:22.180 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2022-06-17 18:07:22.180 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-06-17 18:07:22.180 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2022-06-17 18:07:22.180 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-06-17 18:07:22.180 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2022-06-17 18:07:22.180 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-06-17 18:07:22.180 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-06-17 18:07:22.180 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-06-17 18:07:22.180 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-06-17 18:07:22.180 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-06-17 18:07:22.180 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-06-17 18:07:22.180 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-06-17 18:07:22.180 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-06-17 18:07:22.180 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-06-17 18:07:22.180 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2022-06-17 18:07:22.180 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2022-06-17 18:07:22.180 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2022-06-17 18:07:22.180 +07:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2022-06-17 18:07:22.180 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-06-17 18:07:22.180 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-06-17 18:07:22.180 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-06-17 18:07:22.180 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-06-17 18:07:22.180 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-06-17 18:07:22.180 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-06-17 18:07:22.180 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-06-17 18:07:22.180 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2022-06-17 18:07:22.180 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-06-17 18:07:22.180 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2022-06-17 18:07:22.180 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2022-06-17 18:07:22.180 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2022-06-17 18:07:22.180 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2022-06-17 18:07:22.180 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-06-17 18:07:22.180 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-06-17 18:07:22.180 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-06-17 18:07:22.180 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-06-17 18:07:22.180 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2022-06-17 18:07:22.180 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-06-17 18:07:22.180 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-06-17 18:07:22.180 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-06-17 18:07:22.180 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-06-17 18:07:22.180 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-06-17 18:07:22.180 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-06-17 18:07:22.180 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-06-17 18:07:22.180 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-06-17 18:07:22.180 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-06-17 18:07:22.180 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-06-17 18:07:22.180 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-06-17 18:07:22.180 +07:00 [INF]   - QuanHuyenModule.QuanHuyenModuleApplicationModule
+2022-06-17 18:07:22.180 +07:00 [INF]     - QuanHuyenModule.QuanHuyenModuleDomainModule
+2022-06-17 18:07:22.180 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-06-17 18:07:22.180 +07:00 [INF]   - QuanHuyenModule.EntityFrameworkCore.QuanHuyenModuleEntityFrameworkCoreModule
+2022-06-17 18:07:22.180 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-06-17 18:07:22.180 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-06-17 18:07:22.180 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-06-17 18:07:22.614 +07:00 [INF] User profile is available. Using 'C:\Users\mtpha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-17 18:07:22.729 +07:00 [INF] Initialized all ABP modules.
+2022-06-17 18:07:22.897 +07:00 [INF] Now listening on: https://localhost:44343
+2022-06-17 18:07:22.898 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-17 18:07:22.898 +07:00 [INF] Hosting environment: Development
+2022-06-17 18:07:22.898 +07:00 [INF] Content root path: D:\TranPhat\Projects\Start\TTQH\modules\QuanHuyenModule\src\QuanHuyenModule.HttpApi.Host\
+2022-06-17 18:07:23.483 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44343/ - -
+2022-06-17 18:07:23.768 +07:00 [INF] Executing endpoint 'QuanHuyenModule.Controllers.HomeController.Index (QuanHuyenModule.HttpApi.Host)'
+2022-06-17 18:07:23.789 +07:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller QuanHuyenModule.Controllers.HomeController (QuanHuyenModule.HttpApi.Host).
+2022-06-17 18:07:23.820 +07:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2022-06-17 18:07:23.825 +07:00 [INF] Executed action QuanHuyenModule.Controllers.HomeController.Index (QuanHuyenModule.HttpApi.Host) in 30.7289ms
+2022-06-17 18:07:23.825 +07:00 [INF] Executed endpoint 'QuanHuyenModule.Controllers.HomeController.Index (QuanHuyenModule.HttpApi.Host)'
+2022-06-17 18:07:23.857 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44343/ - - - 302 0 - 374.5554ms
+2022-06-17 18:07:23.857 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44343/swagger/index.html - -
+2022-06-17 18:07:24.013 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44343/swagger/index.html - - - 200 - text/html;charset=utf-8 155.8812ms
+2022-06-17 18:07:24.028 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44343/_framework/aspnetcore-browser-refresh.js - -
+2022-06-17 18:07:24.031 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44343/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 3.0993ms
+2022-06-17 18:07:24.071 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44343/_vs/browserLink - -
+2022-06-17 18:07:24.107 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44343/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.0852ms
+2022-06-17 18:07:24.465 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44343/swagger/v1/swagger.json - -
+2022-06-17 18:07:24.642 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44343/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 176.9054ms
+2022-06-17 18:07:52.429 +07:00 [INF] Application is shutting down...
+2022-06-17 18:09:36.004 +07:00 [INF] Starting QuanHuyen.HttpApi.Host.
+2022-06-17 18:09:37.277 +07:00 [INF] Loaded ABP modules:
+2022-06-17 18:09:37.279 +07:00 [INF] - QuanHuyenModule.QuanHuyenModuleHttpApiHostModule
+2022-06-17 18:09:37.279 +07:00 [INF]   - QuanHuyenModule.QuanHuyenModuleHttpApiModule
+2022-06-17 18:09:37.279 +07:00 [INF]     - QuanHuyenModule.QuanHuyenModuleApplicationContractsModule
+2022-06-17 18:09:37.279 +07:00 [INF]       - QuanHuyenModule.QuanHuyenModuleDomainSharedModule
+2022-06-17 18:09:37.279 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2022-06-17 18:09:37.280 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-06-17 18:09:37.280 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2022-06-17 18:09:37.280 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-06-17 18:09:37.280 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2022-06-17 18:09:37.280 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-06-17 18:09:37.280 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2022-06-17 18:09:37.280 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-06-17 18:09:37.280 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2022-06-17 18:09:37.280 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-06-17 18:09:37.280 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-06-17 18:09:37.280 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-06-17 18:09:37.280 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-06-17 18:09:37.280 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-06-17 18:09:37.280 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-06-17 18:09:37.280 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-06-17 18:09:37.280 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-06-17 18:09:37.280 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-06-17 18:09:37.280 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2022-06-17 18:09:37.280 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2022-06-17 18:09:37.280 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2022-06-17 18:09:37.280 +07:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2022-06-17 18:09:37.280 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-06-17 18:09:37.280 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-06-17 18:09:37.280 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-06-17 18:09:37.280 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-06-17 18:09:37.280 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-06-17 18:09:37.280 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-06-17 18:09:37.280 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-06-17 18:09:37.280 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2022-06-17 18:09:37.280 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-06-17 18:09:37.280 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2022-06-17 18:09:37.280 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2022-06-17 18:09:37.280 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2022-06-17 18:09:37.280 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2022-06-17 18:09:37.280 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-06-17 18:09:37.280 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-06-17 18:09:37.280 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-06-17 18:09:37.280 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-06-17 18:09:37.280 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2022-06-17 18:09:37.280 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-06-17 18:09:37.280 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-06-17 18:09:37.280 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-06-17 18:09:37.280 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-06-17 18:09:37.280 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-06-17 18:09:37.280 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-06-17 18:09:37.280 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-06-17 18:09:37.280 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-06-17 18:09:37.280 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-06-17 18:09:37.280 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-06-17 18:09:37.280 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-06-17 18:09:37.280 +07:00 [INF]   - QuanHuyenModule.QuanHuyenModuleApplicationModule
+2022-06-17 18:09:37.280 +07:00 [INF]     - QuanHuyenModule.QuanHuyenModuleDomainModule
+2022-06-17 18:09:37.280 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-06-17 18:09:37.280 +07:00 [INF]   - QuanHuyenModule.EntityFrameworkCore.QuanHuyenModuleEntityFrameworkCoreModule
+2022-06-17 18:09:37.280 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-06-17 18:09:37.280 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-06-17 18:09:37.280 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-06-17 18:09:37.686 +07:00 [INF] User profile is available. Using 'C:\Users\mtpha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-17 18:09:37.790 +07:00 [INF] Initialized all ABP modules.
+2022-06-17 18:09:38.008 +07:00 [INF] Now listening on: https://localhost:44343
+2022-06-17 18:09:38.008 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-17 18:09:38.008 +07:00 [INF] Hosting environment: Development
+2022-06-17 18:09:38.008 +07:00 [INF] Content root path: D:\TranPhat\Projects\Start\TTQH\modules\QuanHuyenModule\src\QuanHuyenModule.HttpApi.Host\
+2022-06-17 18:09:38.309 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44343/swagger/index.html - -
+2022-06-17 18:09:38.664 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44343/_vs/browserLink - -
+2022-06-17 18:09:38.665 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44343/swagger/index.html - - - 200 - text/html;charset=utf-8 356.5462ms
+2022-06-17 18:09:38.674 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44343/_framework/aspnetcore-browser-refresh.js - -
+2022-06-17 18:09:38.677 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44343/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 2.8334ms
+2022-06-17 18:09:38.687 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44343/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.6073ms
+2022-06-17 18:09:38.982 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44343/swagger/v1/swagger.json - -
+2022-06-17 18:09:39.155 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44343/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 173.0003ms
+2022-06-17 18:09:45.280 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44343/swagger/oauth2-redirect.html?code=5A0D10D29FDA6AC00EDABC75867228E9D3DA08355006D6463FD9B13FF1CB0E6F&scope=QuanHuyenModule&state=RnJpIEp1biAxNyAyMDIyIDE4OjA5OjQzIEdNVCswNzAwIChHaeG7nSDEkMO0bmcgRMawxqFuZyk%3D - -
+2022-06-17 18:09:45.300 +07:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2022-06-17 18:09:45.303 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44343/swagger/oauth2-redirect.html?code=5A0D10D29FDA6AC00EDABC75867228E9D3DA08355006D6463FD9B13FF1CB0E6F&scope=QuanHuyenModule&state=RnJpIEp1biAxNyAyMDIyIDE4OjA5OjQzIEdNVCswNzAwIChHaeG7nSDEkMO0bmcgRMawxqFuZyk%3D - - - 200 - text/html 22.6896ms
+2022-06-17 18:09:45.327 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44343/_vs/browserLink - -
+2022-06-17 18:09:45.334 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44343/_framework/aspnetcore-browser-refresh.js - -
+2022-06-17 18:09:45.334 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44343/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 0.4613ms
+2022-06-17 18:09:45.352 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44343/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.6594ms
+2022-06-17 18:09:52.227 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44343/abp/Swashbuckle/SetCsrfCookie - -
+2022-06-17 18:09:53.271 +07:00 [INF] Executing endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2022-06-17 18:09:53.294 +07:00 [INF] Route matched with {area = "Abp", action = "SetCsrfCookie", controller = "AbpSwashbuckle", page = ""}. Executing controller action with signature Void SetCsrfCookie() on controller Volo.Abp.Swashbuckle.AbpSwashbuckleController (Volo.Abp.Swashbuckle).
+2022-06-17 18:09:53.374 +07:00 [INF] Executed action Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle) in 67.486ms
+2022-06-17 18:09:53.374 +07:00 [INF] Executed endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2022-06-17 18:09:53.406 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44343/abp/Swashbuckle/SetCsrfCookie - - - 204 - - 1178.3785ms
+2022-06-17 18:09:53.570 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44343/api/app/quanHuyens - -
+2022-06-17 18:09:53.573 +07:00 [INF] Executing endpoint 'QuanHuyenModule.Controllers.QuanHuyenController.GetListAsync (QuanHuyenModule.HttpApi)'
+2022-06-17 18:09:53.604 +07:00 [INF] Route matched with {controller = "QuanHuyen", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[QuanHuyenModule.QuanHuyens.QuanHuyenDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller QuanHuyenModule.Controllers.QuanHuyenController (QuanHuyenModule.HttpApi).
+2022-06-17 18:09:56.286 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-17 18:09:56.291 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[QuanHuyenModule.QuanHuyens.QuanHuyenDto, QuanHuyenModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-17 18:09:56.311 +07:00 [INF] Executed action QuanHuyenModule.Controllers.QuanHuyenController.GetListAsync (QuanHuyenModule.HttpApi) in 2706.8641ms
+2022-06-17 18:09:56.314 +07:00 [INF] Executed endpoint 'QuanHuyenModule.Controllers.QuanHuyenController.GetListAsync (QuanHuyenModule.HttpApi)'
+2022-06-17 18:09:56.316 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-17 18:09:56.323 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44343/api/app/quanHuyens - - - 200 - application/json;+charset=utf-8 2753.0319ms
+2022-06-17 18:10:04.763 +07:00 [INF] Application is shutting down...
