@@ -18,7 +18,7 @@ public class QuanHuyenModuleApplicationModule : AbpModule
         context.Services.AddAutoMapperObjectMapper<QuanHuyenModuleApplicationModule>();
         Configure<AbpAutoMapperOptions>(options =>
         {
-            options.AddMaps<QuanHuyenModuleApplicationModule>(validate: true);
+            options.AddMaps<QuanHuyenModuleApplicationModule>();
         });
     }
 }

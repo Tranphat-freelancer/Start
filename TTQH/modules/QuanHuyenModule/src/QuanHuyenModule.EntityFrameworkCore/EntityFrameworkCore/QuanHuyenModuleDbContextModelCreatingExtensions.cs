@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using QuanHuyenModule.QuanHuyens;
 using Volo.Abp;
+using Volo.Abp.EntityFrameworkCore.Modeling;
 
 namespace QuanHuyenModule.EntityFrameworkCore;
 
@@ -29,5 +31,12 @@ public static class QuanHuyenModuleDbContextModelCreatingExtensions
             b.HasIndex(q => q.CreationTime);
         });
         */
+        builder.Entity<QuanHuyen>(b =>
+        {
+            //Configure table & schema name
+            b.ToTable(QuanHuyenModuleDbProperties.DbTablePrefix + "QuanHuyens", QuanHuyenModuleDbProperties.DbSchema);
+
+            b.ConfigureByConvention();
+        });
     }
 }

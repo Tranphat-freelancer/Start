@@ -14,9 +14,14 @@ public class QuanHuyenModuleEntityFrameworkCoreModule : AbpModule
     {
         context.Services.AddAbpDbContext<QuanHuyenModuleDbContext>(options =>
         {
-                /* Add custom repositories here. Example:
-                 * options.AddRepository<Question, EfCoreQuestionRepository>();
-                 */
+            /* Add custom repositories here. Example:
+             * options.AddRepository<Question, EfCoreQuestionRepository>();
+             */
+            options.AddDefaultRepositories(includeAllEntities: true);
+        });
+        Configure<AbpDbContextOptions>(options =>
+        {
+            options.UseSqlServer();
         });
     }
 }

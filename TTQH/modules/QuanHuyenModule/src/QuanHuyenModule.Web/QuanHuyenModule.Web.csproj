@@ -37,4 +37,8 @@
     <Content Remove="wwwroot\**\*.*" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\QuanHuyens\" />
+  </ItemGroup>
+
 </Project>
