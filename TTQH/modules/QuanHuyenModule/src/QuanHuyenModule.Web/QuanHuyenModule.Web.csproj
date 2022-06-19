@@ -38,7 +38,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\QuanHuyens\" />
+    <None Remove="Pages\QuanHuyens\Index.js" />
   </ItemGroup>
 
 </Project>

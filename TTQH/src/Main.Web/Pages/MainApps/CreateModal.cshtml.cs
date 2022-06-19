@@ -10,7 +10,6 @@ namespace Main.Web.Pages.MainApps
         public CreateUpdateMainAppDto MainApp { get; set; }
 
         private readonly IMainAppService MainAppService;
-
         public CreateModalModel(IMainAppService MainAppService)
         {
             this.MainAppService = MainAppService;

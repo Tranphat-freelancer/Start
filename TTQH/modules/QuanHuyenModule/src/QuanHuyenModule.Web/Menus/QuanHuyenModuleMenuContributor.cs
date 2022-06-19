@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using QuanHuyenModule.Localization;
+using System.Threading.Tasks;
 using Volo.Abp.UI.Navigation;
 
 namespace QuanHuyenModule.Web.Menus;
@@ -15,8 +16,22 @@ public class QuanHuyenModuleMenuContributor : IMenuContributor
 
     private Task ConfigureMainMenuAsync(MenuConfigurationContext context)
     {
+        var l = context.GetLocalizer<QuanHuyenModuleResource>();
+
         //Add main menu items.
-        context.Menu.AddItem(new ApplicationMenuItem(QuanHuyenModuleMenus.Prefix, displayName: "QuanHuyenModule", "~/QuanHuyenModule", icon: "fa fa-globe"));
+        context.Menu.AddItem(
+            new ApplicationMenuItem(
+                QuanHuyenModuleMenus.Prefix,
+                l["Menu:QuanHuyenModule"],
+                icon: "fa fa-global"
+            ).AddItem(
+                new ApplicationMenuItem(
+                   QuanHuyenModuleMenus.QuanHuyen,
+                    l["Menu:QuanHuyen"],
+                    url: "/QuanHuyens"
+                )
+            )
+        );
 
         return Task.CompletedTask;
     }
