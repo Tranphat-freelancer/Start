@@ -10,6 +10,9 @@ public class QuanHuyenModuleWebAutoMapperProfile : Profile
         /* You can configure your AutoMapper mapping configuration here.
          * Alternatively, you can split your mapping configurations
          * into multiple profile classes for a better organization. */
-        CreateMap<QuanHuyenDto,CreateUpdateQuanHuyenDto>();
+        //CreateMap<QuanHuyenDto,CreateUpdateQuanHuyenDto>();
+        CreateMap<QuanHuyenDto, Pages.QuanHuyens.EditModalModel.EditQuanHuyenViewModel>();
+        CreateMap<Pages.QuanHuyens.CreateModalModel.CreateQuanHuyenViewModel, CreateUpdateQuanHuyenDto>();
+        CreateMap<Pages.QuanHuyens.EditModalModel.EditQuanHuyenViewModel, CreateUpdateQuanHuyenDto>();
     }
 }

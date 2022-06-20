@@ -31,7 +31,7 @@
                                             data.record.tenQuanHuyen);
                                     },
                                     action: function (data) {
-                                        QuanHuyenModule.controllers.QuanHuyen
+                                        quanHuyenModule.controllers.quanHuyen
                                             .delete(data.record.id)
                                             .then(function () {
                                                 abp.notify.info(l('SuccessfullyDeleted'));
@@ -85,6 +85,11 @@
     $('#NewQuanHuyenButton').click(function (e) {
         e.preventDefault();
         createModal.open();
+    });
+    tinhThanhModule.controllers.tinhThanh.getList({
+        maxResultCount: 10
+    }).then(function (result) {
+        console.log(result.items);
     });
 
 });

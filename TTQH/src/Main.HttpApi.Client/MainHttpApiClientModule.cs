@@ -24,8 +24,8 @@ namespace Main;
 [DependsOn(
     typeof(TinhThanhModuleHttpApiClientModule)
     )]
-    [DependsOn(typeof(QuanHuyenModuleHttpApiClientModule))]
-    public class MainHttpApiClientModule : AbpModule
+[DependsOn(typeof(QuanHuyenModuleHttpApiClientModule))]
+public class MainHttpApiClientModule : AbpModule
 {
     public const string RemoteServiceName = "Default";
 

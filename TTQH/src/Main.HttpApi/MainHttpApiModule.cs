@@ -23,8 +23,8 @@ namespace Main;
     typeof(AbpSettingManagementHttpApiModule)
     )]
 [DependsOn(typeof(TinhThanhModuleHttpApiModule))]
-    [DependsOn(typeof(QuanHuyenModuleHttpApiModule))]
-    public class MainHttpApiModule : AbpModule
+[DependsOn(typeof(QuanHuyenModuleHttpApiModule))]
+public class MainHttpApiModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {

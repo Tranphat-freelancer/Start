@@ -4460,3 +4460,1372 @@ Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostExce
 2022-06-19 23:32:50.478 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
 2022-06-19 23:32:50.547 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 69.8227ms
 2022-06-19 23:33:34.472 +07:00 [INF] Application is shutting down...
+2022-06-20 10:42:12.178 +07:00 [INF] Starting TinhThanh.HttpApi.Host.
+2022-06-20 10:42:13.508 +07:00 [INF] Loaded ABP modules:
+2022-06-20 10:42:13.510 +07:00 [INF] - TinhThanhModule.TinhThanhModuleHttpApiHostModule
+2022-06-20 10:42:13.510 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleHttpApiModule
+2022-06-20 10:42:13.510 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleApplicationContractsModule
+2022-06-20 10:42:13.510 +07:00 [INF]       - TinhThanhModule.TinhThanhModuleDomainSharedModule
+2022-06-20 10:42:13.510 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2022-06-20 10:42:13.510 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-06-20 10:42:13.510 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2022-06-20 10:42:13.510 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-06-20 10:42:13.510 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2022-06-20 10:42:13.510 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-06-20 10:42:13.510 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2022-06-20 10:42:13.510 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-06-20 10:42:13.510 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2022-06-20 10:42:13.510 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-06-20 10:42:13.510 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-06-20 10:42:13.510 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-06-20 10:42:13.510 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-06-20 10:42:13.510 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-06-20 10:42:13.510 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-06-20 10:42:13.510 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-06-20 10:42:13.510 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-06-20 10:42:13.510 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-06-20 10:42:13.510 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2022-06-20 10:42:13.510 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2022-06-20 10:42:13.510 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2022-06-20 10:42:13.510 +07:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2022-06-20 10:42:13.510 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-06-20 10:42:13.510 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-06-20 10:42:13.510 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-06-20 10:42:13.510 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-06-20 10:42:13.510 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-06-20 10:42:13.510 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-06-20 10:42:13.510 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-06-20 10:42:13.510 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2022-06-20 10:42:13.510 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-06-20 10:42:13.510 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2022-06-20 10:42:13.510 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2022-06-20 10:42:13.510 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2022-06-20 10:42:13.510 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2022-06-20 10:42:13.510 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-06-20 10:42:13.510 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-06-20 10:42:13.510 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-06-20 10:42:13.511 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-06-20 10:42:13.511 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2022-06-20 10:42:13.511 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-06-20 10:42:13.511 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-06-20 10:42:13.511 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-06-20 10:42:13.511 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-06-20 10:42:13.511 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-06-20 10:42:13.511 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-06-20 10:42:13.511 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-06-20 10:42:13.511 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-06-20 10:42:13.511 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-06-20 10:42:13.511 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-06-20 10:42:13.511 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-06-20 10:42:13.511 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleApplicationModule
+2022-06-20 10:42:13.511 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleDomainModule
+2022-06-20 10:42:13.511 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-06-20 10:42:13.511 +07:00 [INF]   - TinhThanhModule.EntityFrameworkCore.TinhThanhModuleEntityFrameworkCoreModule
+2022-06-20 10:42:13.511 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-06-20 10:42:13.511 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-06-20 10:42:13.511 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-06-20 10:42:13.990 +07:00 [INF] User profile is available. Using 'C:\Users\mtpha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-20 10:42:14.131 +07:00 [INF] Initialized all ABP modules.
+2022-06-20 10:42:14.222 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-20 10:42:14.222 +07:00 [INF] Hosting environment: Development
+2022-06-20 10:42:14.222 +07:00 [INF] Content root path: D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\
+2022-06-20 10:42:14.249 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/ - -
+2022-06-20 10:42:14.555 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.HomeController.Index (TinhThanhModule.HttpApi.Host)'
+2022-06-20 10:42:14.585 +07:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller TinhThanhModule.Controllers.HomeController (TinhThanhModule.HttpApi.Host).
+2022-06-20 10:42:14.638 +07:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2022-06-20 10:42:14.644 +07:00 [INF] Executed action TinhThanhModule.Controllers.HomeController.Index (TinhThanhModule.HttpApi.Host) in 53.0221ms
+2022-06-20 10:42:14.644 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.HomeController.Index (TinhThanhModule.HttpApi.Host)'
+2022-06-20 10:42:14.719 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/ - - - 302 - - 471.1981ms
+2022-06-20 10:42:14.852 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-20 10:42:15.085 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 232.6813ms
+2022-06-20 10:42:17.887 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-20 10:42:17.891 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 3.4427ms
+2022-06-20 10:42:17.902 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-20 10:42:17.941 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.5593ms
+2022-06-20 10:42:19.482 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-20 10:42:19.649 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 166.6894ms
+2022-06-20 10:44:09.502 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-20 10:44:09.524 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 22.4729ms
+2022-06-20 10:44:09.590 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-20 10:44:09.595 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-20 10:44:09.597 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 2.6760ms
+2022-06-20 10:44:09.630 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.2320ms
+2022-06-20 10:44:11.079 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-20 10:44:11.107 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 27.2327ms
+2022-06-20 10:45:16.985 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-20 10:45:16.997 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 12.1312ms
+2022-06-20 10:45:17.277 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-20 10:45:17.301 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-20 10:45:17.304 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 2.4642ms
+2022-06-20 10:45:17.321 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.4141ms
+2022-06-20 10:45:18.538 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-20 10:45:18.559 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 21.2199ms
+2022-06-20 10:47:36.680 +07:00 [INF] Starting TinhThanh.HttpApi.Host.
+2022-06-20 10:47:38.383 +07:00 [INF] Loaded ABP modules:
+2022-06-20 10:47:38.385 +07:00 [INF] - TinhThanhModule.TinhThanhModuleHttpApiHostModule
+2022-06-20 10:47:38.385 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleHttpApiModule
+2022-06-20 10:47:38.385 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleApplicationContractsModule
+2022-06-20 10:47:38.385 +07:00 [INF]       - TinhThanhModule.TinhThanhModuleDomainSharedModule
+2022-06-20 10:47:38.385 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2022-06-20 10:47:38.385 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-06-20 10:47:38.385 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2022-06-20 10:47:38.385 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-06-20 10:47:38.385 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2022-06-20 10:47:38.385 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-06-20 10:47:38.385 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2022-06-20 10:47:38.385 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-06-20 10:47:38.385 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2022-06-20 10:47:38.385 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-06-20 10:47:38.385 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-06-20 10:47:38.385 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-06-20 10:47:38.385 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-06-20 10:47:38.385 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-06-20 10:47:38.385 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-06-20 10:47:38.385 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-06-20 10:47:38.385 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-06-20 10:47:38.385 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-06-20 10:47:38.385 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2022-06-20 10:47:38.385 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2022-06-20 10:47:38.385 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2022-06-20 10:47:38.385 +07:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2022-06-20 10:47:38.385 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-06-20 10:47:38.385 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-06-20 10:47:38.385 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-06-20 10:47:38.385 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-06-20 10:47:38.385 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-06-20 10:47:38.385 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-06-20 10:47:38.385 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-06-20 10:47:38.385 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2022-06-20 10:47:38.385 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-06-20 10:47:38.385 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2022-06-20 10:47:38.385 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2022-06-20 10:47:38.385 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2022-06-20 10:47:38.385 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2022-06-20 10:47:38.385 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-06-20 10:47:38.385 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-06-20 10:47:38.385 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-06-20 10:47:38.385 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-06-20 10:47:38.385 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2022-06-20 10:47:38.385 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-06-20 10:47:38.385 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-06-20 10:47:38.385 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-06-20 10:47:38.385 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-06-20 10:47:38.385 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-06-20 10:47:38.385 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-06-20 10:47:38.385 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-06-20 10:47:38.385 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-06-20 10:47:38.385 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-06-20 10:47:38.385 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-06-20 10:47:38.385 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-06-20 10:47:38.385 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleApplicationModule
+2022-06-20 10:47:38.385 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleDomainModule
+2022-06-20 10:47:38.385 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-06-20 10:47:38.385 +07:00 [INF]   - TinhThanhModule.EntityFrameworkCore.TinhThanhModuleEntityFrameworkCoreModule
+2022-06-20 10:47:38.385 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-06-20 10:47:38.385 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-06-20 10:47:38.385 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-06-20 10:47:38.810 +07:00 [INF] User profile is available. Using 'C:\Users\mtpha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-20 10:47:38.940 +07:00 [INF] Initialized all ABP modules.
+2022-06-20 10:47:39.022 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-20 10:47:39.022 +07:00 [INF] Hosting environment: Development
+2022-06-20 10:47:39.022 +07:00 [INF] Content root path: D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\
+2022-06-20 10:47:39.048 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-20 10:47:39.600 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 552.4657ms
+2022-06-20 10:47:39.905 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-20 10:47:39.982 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 77.3988ms
+2022-06-20 10:47:40.044 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-20 10:47:40.047 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 2.4409ms
+2022-06-20 10:47:45.210 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-20 10:47:45.475 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 264.0932ms
+2022-06-20 10:47:49.071 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/abp/api-definition - -
+2022-06-20 10:47:49.172 +07:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2022-06-20 10:47:49.240 +07:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApiDefinition", page = ""}. Executing controller action with signature Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel Get(Volo.Abp.Http.Modeling.ApplicationApiDescriptionModelRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController (Volo.Abp.AspNetCore.Mvc).
+2022-06-20 10:47:49.527 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.CreateAsyncByInput
+2022-06-20 10:47:49.549 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.DeleteAsyncById
+2022-06-20 10:47:49.549 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.GetAsyncById
+2022-06-20 10:47:49.550 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.GetListAsyncByInput
+2022-06-20 10:47:49.550 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.UpdateAsyncByIdAndInput
+2022-06-20 10:47:49.551 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByNameAsyncByName
+2022-06-20 10:47:49.551 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByIdAsyncById
+2022-06-20 10:47:49.551 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2022-06-20 10:47:49.551 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.GetByModel
+2022-06-20 10:47:49.571 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2022-06-20 10:47:49.613 +07:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 365.3217ms
+2022-06-20 10:47:49.613 +07:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2022-06-20 10:47:49.628 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/abp/api-definition - - - 200 - application/json;+charset=utf-8 557.0234ms
+2022-06-20 10:47:49.676 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 10:47:50.603 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:47:50.627 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 10:47:53.941 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:47:53.947 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 10:47:53.962 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 3334.7725ms
+2022-06-20 10:47:53.963 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:47:53.964 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:47:53.968 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 4292.1748ms
+2022-06-20 10:47:56.577 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 10:47:56.580 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:47:56.581 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 10:47:56.613 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:47:56.613 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 10:47:56.614 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 33.3676ms
+2022-06-20 10:47:56.614 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:47:56.614 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:47:56.615 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 37.4607ms
+2022-06-20 10:48:35.055 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 10:48:35.057 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:48:35.057 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 10:48:35.325 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:48:35.326 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 10:48:35.327 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 269.2272ms
+2022-06-20 10:48:35.327 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:48:35.327 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:48:35.327 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 271.9324ms
+2022-06-20 10:48:35.960 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-20 10:48:35.990 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 30.1798ms
+2022-06-20 10:48:36.166 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-20 10:48:36.304 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 137.9177ms
+2022-06-20 10:48:36.317 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-20 10:48:36.318 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 0.7535ms
+2022-06-20 10:50:01.873 +07:00 [INF] Starting TinhThanh.HttpApi.Host.
+2022-06-20 10:50:03.262 +07:00 [INF] Loaded ABP modules:
+2022-06-20 10:50:03.265 +07:00 [INF] - TinhThanhModule.TinhThanhModuleHttpApiHostModule
+2022-06-20 10:50:03.265 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleHttpApiModule
+2022-06-20 10:50:03.265 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleApplicationContractsModule
+2022-06-20 10:50:03.265 +07:00 [INF]       - TinhThanhModule.TinhThanhModuleDomainSharedModule
+2022-06-20 10:50:03.265 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2022-06-20 10:50:03.265 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-06-20 10:50:03.265 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2022-06-20 10:50:03.265 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-06-20 10:50:03.265 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2022-06-20 10:50:03.265 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-06-20 10:50:03.265 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2022-06-20 10:50:03.265 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-06-20 10:50:03.265 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2022-06-20 10:50:03.265 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-06-20 10:50:03.265 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-06-20 10:50:03.265 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-06-20 10:50:03.265 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-06-20 10:50:03.265 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-06-20 10:50:03.265 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-06-20 10:50:03.265 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-06-20 10:50:03.265 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-06-20 10:50:03.265 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-06-20 10:50:03.265 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2022-06-20 10:50:03.265 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2022-06-20 10:50:03.265 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2022-06-20 10:50:03.265 +07:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2022-06-20 10:50:03.265 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-06-20 10:50:03.265 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-06-20 10:50:03.265 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-06-20 10:50:03.265 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-06-20 10:50:03.265 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-06-20 10:50:03.265 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-06-20 10:50:03.265 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-06-20 10:50:03.265 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2022-06-20 10:50:03.265 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-06-20 10:50:03.265 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2022-06-20 10:50:03.265 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2022-06-20 10:50:03.265 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2022-06-20 10:50:03.265 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2022-06-20 10:50:03.265 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-06-20 10:50:03.265 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-06-20 10:50:03.265 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-06-20 10:50:03.265 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-06-20 10:50:03.265 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2022-06-20 10:50:03.265 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-06-20 10:50:03.265 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-06-20 10:50:03.265 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-06-20 10:50:03.265 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-06-20 10:50:03.265 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-06-20 10:50:03.265 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-06-20 10:50:03.265 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-06-20 10:50:03.265 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-06-20 10:50:03.265 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-06-20 10:50:03.265 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-06-20 10:50:03.265 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-06-20 10:50:03.265 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleApplicationModule
+2022-06-20 10:50:03.265 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleDomainModule
+2022-06-20 10:50:03.265 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-06-20 10:50:03.265 +07:00 [INF]   - TinhThanhModule.EntityFrameworkCore.TinhThanhModuleEntityFrameworkCoreModule
+2022-06-20 10:50:03.265 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-06-20 10:50:03.265 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-06-20 10:50:03.265 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-06-20 10:50:03.763 +07:00 [INF] User profile is available. Using 'C:\Users\mtpha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-20 10:50:03.895 +07:00 [INF] Initialized all ABP modules.
+2022-06-20 10:50:04.019 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-20 10:50:04.020 +07:00 [INF] Hosting environment: Development
+2022-06-20 10:50:04.020 +07:00 [INF] Content root path: D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\
+2022-06-20 10:50:04.060 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-20 10:50:04.977 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 919.2073ms
+2022-06-20 10:50:07.579 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-20 10:50:07.583 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 4.3831ms
+2022-06-20 10:50:07.596 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-20 10:50:07.884 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 287.7953ms
+2022-06-20 10:50:12.151 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/abp/api-definition - -
+2022-06-20 10:50:12.208 +07:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2022-06-20 10:50:12.254 +07:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApiDefinition", page = ""}. Executing controller action with signature Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel Get(Volo.Abp.Http.Modeling.ApplicationApiDescriptionModelRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController (Volo.Abp.AspNetCore.Mvc).
+2022-06-20 10:50:12.458 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.CreateAsyncByInput
+2022-06-20 10:50:12.470 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.DeleteAsyncById
+2022-06-20 10:50:12.470 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.GetAsyncById
+2022-06-20 10:50:12.470 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.GetListAsyncByInput
+2022-06-20 10:50:12.471 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.UpdateAsyncByIdAndInput
+2022-06-20 10:50:12.472 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByNameAsyncByName
+2022-06-20 10:50:12.473 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByIdAsyncById
+2022-06-20 10:50:12.473 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2022-06-20 10:50:12.473 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.GetByModel
+2022-06-20 10:50:12.488 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2022-06-20 10:50:12.529 +07:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 268.7138ms
+2022-06-20 10:50:12.529 +07:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2022-06-20 10:50:12.546 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/abp/api-definition - - - 200 - application/json;+charset=utf-8 395.3247ms
+2022-06-20 10:50:12.552 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 10:50:13.295 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:50:13.317 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 10:50:13.773 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 10:50:13.775 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:50:13.775 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 10:50:16.200 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 10:50:16.202 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:50:16.202 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 10:50:17.964 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:50:17.964 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:50:17.964 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:50:17.970 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 10:50:17.970 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 10:50:17.970 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 10:50:17.984 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 1782.0534ms
+2022-06-20 10:50:17.984 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 4208.7056ms
+2022-06-20 10:50:17.985 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:50:17.985 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:50:17.985 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 4667.4471ms
+2022-06-20 10:50:17.985 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:50:17.990 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:50:17.990 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:50:17.991 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:50:17.993 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 0 - application/json;+charset=utf-8 5441.1475ms
+2022-06-20 10:50:17.994 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 1793.4675ms
+2022-06-20 10:50:17.994 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 0 - application/json;+charset=utf-8 4219.9017ms
+2022-06-20 10:50:19.622 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 10:50:19.627 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:50:19.627 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 10:50:20.065 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:50:20.065 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 10:50:20.066 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 438.9003ms
+2022-06-20 10:50:20.066 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:50:20.066 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:50:20.067 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 445.1026ms
+2022-06-20 10:50:20.798 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 10:50:20.799 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:50:20.799 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 10:50:20.844 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:50:20.844 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 10:50:20.846 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 46.1185ms
+2022-06-20 10:50:20.846 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:50:20.846 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:50:20.848 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 50.7549ms
+2022-06-20 10:50:24.619 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-20 10:50:24.796 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 177.0498ms
+2022-06-20 10:50:25.610 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 10:50:25.611 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:50:25.611 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 10:50:25.628 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:50:25.628 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 10:50:25.628 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 17.1989ms
+2022-06-20 10:50:25.628 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:50:25.629 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:50:25.629 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 19.3849ms
+2022-06-20 10:51:52.821 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 10:51:52.825 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:51:52.825 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 10:51:52.843 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:51:52.843 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 10:51:52.844 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 18.7967ms
+2022-06-20 10:51:52.844 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:51:52.845 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:51:52.845 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 24.4371ms
+2022-06-20 10:51:53.284 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-20 10:51:53.305 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 20.4888ms
+2022-06-20 10:51:53.368 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-20 10:51:53.370 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-20 10:51:53.371 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 0.8822ms
+2022-06-20 10:51:53.406 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.8875ms
+2022-06-20 10:51:55.593 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-20 10:51:55.619 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 25.0821ms
+2022-06-20 10:52:17.265 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-20 10:52:17.278 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 13.4087ms
+2022-06-20 10:52:17.526 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-20 10:52:17.534 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-20 10:52:17.534 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 0.6237ms
+2022-06-20 10:52:17.567 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.5834ms
+2022-06-20 10:52:19.098 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 10:52:19.101 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:52:19.105 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 10:52:19.117 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:52:19.117 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 10:52:19.121 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 16.6548ms
+2022-06-20 10:52:19.121 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 10:52:19.122 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 10:52:19.123 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 24.7761ms
+2022-06-20 10:52:19.470 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-20 10:52:19.500 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 30.0504ms
+2022-06-20 11:01:48.323 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-20 11:01:48.336 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 12.3893ms
+2022-06-20 11:01:48.556 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-20 11:01:48.556 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-20 11:01:48.557 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 0.9259ms
+2022-06-20 11:01:48.589 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.5994ms
+2022-06-20 11:01:50.083 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-20 11:01:50.102 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 19.3810ms
+2022-06-20 11:01:50.321 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:01:50.323 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:01:50.327 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:02:54.463 +07:00 [INF] Starting TinhThanh.HttpApi.Host.
+2022-06-20 11:02:55.546 +07:00 [INF] Loaded ABP modules:
+2022-06-20 11:02:55.549 +07:00 [INF] - TinhThanhModule.TinhThanhModuleHttpApiHostModule
+2022-06-20 11:02:55.549 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleHttpApiModule
+2022-06-20 11:02:55.549 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleApplicationContractsModule
+2022-06-20 11:02:55.549 +07:00 [INF]       - TinhThanhModule.TinhThanhModuleDomainSharedModule
+2022-06-20 11:02:55.549 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2022-06-20 11:02:55.549 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-06-20 11:02:55.549 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2022-06-20 11:02:55.549 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-06-20 11:02:55.549 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2022-06-20 11:02:55.549 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-06-20 11:02:55.549 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2022-06-20 11:02:55.549 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-06-20 11:02:55.549 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2022-06-20 11:02:55.549 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-06-20 11:02:55.549 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-06-20 11:02:55.549 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-06-20 11:02:55.549 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-06-20 11:02:55.549 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-06-20 11:02:55.549 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-06-20 11:02:55.549 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-06-20 11:02:55.549 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-06-20 11:02:55.549 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-06-20 11:02:55.549 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2022-06-20 11:02:55.549 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2022-06-20 11:02:55.549 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2022-06-20 11:02:55.549 +07:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2022-06-20 11:02:55.549 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-06-20 11:02:55.549 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-06-20 11:02:55.549 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-06-20 11:02:55.549 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-06-20 11:02:55.549 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-06-20 11:02:55.549 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-06-20 11:02:55.549 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-06-20 11:02:55.549 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2022-06-20 11:02:55.549 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-06-20 11:02:55.549 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2022-06-20 11:02:55.549 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2022-06-20 11:02:55.549 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2022-06-20 11:02:55.549 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2022-06-20 11:02:55.549 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-06-20 11:02:55.549 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-06-20 11:02:55.549 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-06-20 11:02:55.549 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-06-20 11:02:55.549 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2022-06-20 11:02:55.549 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-06-20 11:02:55.549 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-06-20 11:02:55.549 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-06-20 11:02:55.549 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-06-20 11:02:55.549 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-06-20 11:02:55.549 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-06-20 11:02:55.549 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-06-20 11:02:55.549 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-06-20 11:02:55.549 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-06-20 11:02:55.549 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-06-20 11:02:55.549 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-06-20 11:02:55.549 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleApplicationModule
+2022-06-20 11:02:55.549 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleDomainModule
+2022-06-20 11:02:55.549 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-06-20 11:02:55.549 +07:00 [INF]   - TinhThanhModule.EntityFrameworkCore.TinhThanhModuleEntityFrameworkCoreModule
+2022-06-20 11:02:55.549 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-06-20 11:02:55.549 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-06-20 11:02:55.549 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-06-20 11:02:56.049 +07:00 [INF] User profile is available. Using 'C:\Users\mtpha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-20 11:02:56.214 +07:00 [INF] Initialized all ABP modules.
+2022-06-20 11:02:56.350 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-20 11:02:56.350 +07:00 [INF] Hosting environment: Development
+2022-06-20 11:02:56.350 +07:00 [INF] Content root path: D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\
+2022-06-20 11:02:56.397 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-20 11:02:57.028 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 632.1800ms
+2022-06-20 11:02:58.143 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-20 11:02:58.171 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-20 11:02:58.174 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 3.0462ms
+2022-06-20 11:02:58.192 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.1547ms
+2022-06-20 11:03:02.843 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/abp/api-definition - -
+2022-06-20 11:03:02.915 +07:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2022-06-20 11:03:03.048 +07:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApiDefinition", page = ""}. Executing controller action with signature Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel Get(Volo.Abp.Http.Modeling.ApplicationApiDescriptionModelRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController (Volo.Abp.AspNetCore.Mvc).
+2022-06-20 11:03:03.431 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.CreateAsyncByInput
+2022-06-20 11:03:03.441 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.DeleteAsyncById
+2022-06-20 11:03:03.442 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.GetAsyncById
+2022-06-20 11:03:03.442 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.GetListAsyncByInput
+2022-06-20 11:03:03.442 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.UpdateAsyncByIdAndInput
+2022-06-20 11:03:03.443 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByNameAsyncByName
+2022-06-20 11:03:03.443 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByIdAsyncById
+2022-06-20 11:03:03.443 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2022-06-20 11:03:03.443 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.GetByModel
+2022-06-20 11:03:03.460 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2022-06-20 11:03:03.498 +07:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 442.2956ms
+2022-06-20 11:03:03.498 +07:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2022-06-20 11:03:03.533 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/abp/api-definition - - - 200 - application/json;+charset=utf-8 689.2838ms
+2022-06-20 11:03:03.631 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:03:04.346 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:03:04.362 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:03:09.343 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:03:09.353 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:03:09.371 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 5008.2968ms
+2022-06-20 11:03:09.371 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:03:09.372 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:03:09.378 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 5746.7715ms
+2022-06-20 11:03:10.705 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-20 11:03:10.869 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 163.1608ms
+2022-06-20 11:05:21.485 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:05:21.497 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:05:21.497 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:05:21.563 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:05:21.564 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:05:21.565 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 67.4515ms
+2022-06-20 11:05:21.565 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:05:21.565 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:05:21.567 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 80.3244ms
+2022-06-20 11:11:26.165 +07:00 [INF] Starting TinhThanh.HttpApi.Host.
+2022-06-20 11:11:28.174 +07:00 [INF] Loaded ABP modules:
+2022-06-20 11:11:28.176 +07:00 [INF] - TinhThanhModule.TinhThanhModuleHttpApiHostModule
+2022-06-20 11:11:28.176 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleHttpApiModule
+2022-06-20 11:11:28.176 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleApplicationContractsModule
+2022-06-20 11:11:28.176 +07:00 [INF]       - TinhThanhModule.TinhThanhModuleDomainSharedModule
+2022-06-20 11:11:28.176 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2022-06-20 11:11:28.176 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-06-20 11:11:28.176 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2022-06-20 11:11:28.176 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-06-20 11:11:28.176 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2022-06-20 11:11:28.176 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-06-20 11:11:28.176 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2022-06-20 11:11:28.176 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-06-20 11:11:28.176 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2022-06-20 11:11:28.176 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-06-20 11:11:28.176 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-06-20 11:11:28.176 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-06-20 11:11:28.176 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-06-20 11:11:28.176 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-06-20 11:11:28.176 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-06-20 11:11:28.176 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-06-20 11:11:28.176 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-06-20 11:11:28.176 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-06-20 11:11:28.176 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2022-06-20 11:11:28.176 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2022-06-20 11:11:28.176 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2022-06-20 11:11:28.176 +07:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2022-06-20 11:11:28.176 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-06-20 11:11:28.176 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-06-20 11:11:28.176 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-06-20 11:11:28.176 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-06-20 11:11:28.176 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-06-20 11:11:28.176 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-06-20 11:11:28.176 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-06-20 11:11:28.176 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2022-06-20 11:11:28.176 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-06-20 11:11:28.176 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2022-06-20 11:11:28.176 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2022-06-20 11:11:28.176 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2022-06-20 11:11:28.176 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2022-06-20 11:11:28.176 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-06-20 11:11:28.176 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-06-20 11:11:28.176 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-06-20 11:11:28.176 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-06-20 11:11:28.176 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2022-06-20 11:11:28.176 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-06-20 11:11:28.176 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-06-20 11:11:28.176 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-06-20 11:11:28.176 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-06-20 11:11:28.176 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-06-20 11:11:28.176 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-06-20 11:11:28.176 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-06-20 11:11:28.176 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-06-20 11:11:28.176 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-06-20 11:11:28.176 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-06-20 11:11:28.176 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-06-20 11:11:28.176 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleApplicationModule
+2022-06-20 11:11:28.176 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleDomainModule
+2022-06-20 11:11:28.176 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-06-20 11:11:28.176 +07:00 [INF]   - TinhThanhModule.EntityFrameworkCore.TinhThanhModuleEntityFrameworkCoreModule
+2022-06-20 11:11:28.176 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-06-20 11:11:28.176 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-06-20 11:11:28.176 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-06-20 11:11:28.740 +07:00 [INF] User profile is available. Using 'C:\Users\mtpha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-20 11:11:28.853 +07:00 [INF] Initialized all ABP modules.
+2022-06-20 11:11:28.940 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-20 11:11:28.940 +07:00 [INF] Hosting environment: Development
+2022-06-20 11:11:28.940 +07:00 [INF] Content root path: D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\
+2022-06-20 11:11:28.973 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-20 11:11:29.459 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 486.4606ms
+2022-06-20 11:11:31.183 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-20 11:11:31.184 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-20 11:11:31.191 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 6.6515ms
+2022-06-20 11:11:31.264 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 81.0705ms
+2022-06-20 11:11:37.126 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-20 11:11:37.320 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 194.6131ms
+2022-06-20 11:11:41.670 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/abp/api-definition - -
+2022-06-20 11:11:41.770 +07:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2022-06-20 11:11:41.821 +07:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApiDefinition", page = ""}. Executing controller action with signature Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel Get(Volo.Abp.Http.Modeling.ApplicationApiDescriptionModelRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController (Volo.Abp.AspNetCore.Mvc).
+2022-06-20 11:11:42.014 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.CreateAsyncByInput
+2022-06-20 11:11:42.025 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.DeleteAsyncById
+2022-06-20 11:11:42.026 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.GetAsyncById
+2022-06-20 11:11:42.026 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.GetListAsyncByInput
+2022-06-20 11:11:42.027 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.UpdateAsyncByIdAndInput
+2022-06-20 11:11:42.027 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByNameAsyncByName
+2022-06-20 11:11:42.028 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByIdAsyncById
+2022-06-20 11:11:42.029 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2022-06-20 11:11:42.029 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.GetByModel
+2022-06-20 11:11:42.048 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2022-06-20 11:11:42.080 +07:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 252.7192ms
+2022-06-20 11:11:42.082 +07:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2022-06-20 11:11:42.099 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/abp/api-definition - - - 200 - application/json;+charset=utf-8 429.0405ms
+2022-06-20 11:11:42.107 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:11:42.610 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:11:42.624 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:11:45.547 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:11:45.554 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:11:45.568 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 2943.357ms
+2022-06-20 11:11:45.568 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:11:45.570 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:11:45.574 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 3467.0474ms
+2022-06-20 11:20:03.974 +07:00 [INF] Starting TinhThanh.HttpApi.Host.
+2022-06-20 11:20:05.231 +07:00 [INF] Loaded ABP modules:
+2022-06-20 11:20:05.232 +07:00 [INF] - TinhThanhModule.TinhThanhModuleHttpApiHostModule
+2022-06-20 11:20:05.233 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleHttpApiModule
+2022-06-20 11:20:05.233 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleApplicationContractsModule
+2022-06-20 11:20:05.233 +07:00 [INF]       - TinhThanhModule.TinhThanhModuleDomainSharedModule
+2022-06-20 11:20:05.233 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2022-06-20 11:20:05.233 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-06-20 11:20:05.233 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2022-06-20 11:20:05.233 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-06-20 11:20:05.233 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2022-06-20 11:20:05.233 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-06-20 11:20:05.233 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2022-06-20 11:20:05.233 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-06-20 11:20:05.233 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2022-06-20 11:20:05.233 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-06-20 11:20:05.233 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-06-20 11:20:05.233 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-06-20 11:20:05.233 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-06-20 11:20:05.233 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-06-20 11:20:05.233 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-06-20 11:20:05.233 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-06-20 11:20:05.233 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-06-20 11:20:05.233 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-06-20 11:20:05.233 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2022-06-20 11:20:05.233 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2022-06-20 11:20:05.233 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2022-06-20 11:20:05.233 +07:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2022-06-20 11:20:05.233 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-06-20 11:20:05.233 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-06-20 11:20:05.233 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-06-20 11:20:05.233 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-06-20 11:20:05.233 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-06-20 11:20:05.233 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-06-20 11:20:05.233 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-06-20 11:20:05.233 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2022-06-20 11:20:05.233 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-06-20 11:20:05.233 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2022-06-20 11:20:05.233 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2022-06-20 11:20:05.233 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2022-06-20 11:20:05.233 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2022-06-20 11:20:05.233 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-06-20 11:20:05.233 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-06-20 11:20:05.233 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-06-20 11:20:05.233 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-06-20 11:20:05.233 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2022-06-20 11:20:05.233 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-06-20 11:20:05.233 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-06-20 11:20:05.233 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-06-20 11:20:05.233 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-06-20 11:20:05.233 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-06-20 11:20:05.233 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-06-20 11:20:05.233 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-06-20 11:20:05.233 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-06-20 11:20:05.233 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-06-20 11:20:05.233 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-06-20 11:20:05.233 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-06-20 11:20:05.233 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleApplicationModule
+2022-06-20 11:20:05.233 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleDomainModule
+2022-06-20 11:20:05.233 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-06-20 11:20:05.233 +07:00 [INF]   - TinhThanhModule.EntityFrameworkCore.TinhThanhModuleEntityFrameworkCoreModule
+2022-06-20 11:20:05.233 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-06-20 11:20:05.233 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-06-20 11:20:05.233 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-06-20 11:20:05.786 +07:00 [INF] User profile is available. Using 'C:\Users\mtpha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-20 11:20:05.925 +07:00 [INF] Initialized all ABP modules.
+2022-06-20 11:20:06.021 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-20 11:20:06.021 +07:00 [INF] Hosting environment: Development
+2022-06-20 11:20:06.021 +07:00 [INF] Content root path: D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\
+2022-06-20 11:20:06.049 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-20 11:20:06.534 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 484.9464ms
+2022-06-20 11:20:08.440 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-20 11:20:08.491 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-20 11:20:08.495 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 3.2532ms
+2022-06-20 11:20:08.501 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 60.8894ms
+2022-06-20 11:20:09.629 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-20 11:20:09.809 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 179.9452ms
+2022-06-20 11:20:17.445 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/abp/api-definition - -
+2022-06-20 11:20:17.495 +07:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2022-06-20 11:20:17.532 +07:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApiDefinition", page = ""}. Executing controller action with signature Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel Get(Volo.Abp.Http.Modeling.ApplicationApiDescriptionModelRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController (Volo.Abp.AspNetCore.Mvc).
+2022-06-20 11:20:17.712 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.CreateAsyncByInput
+2022-06-20 11:20:17.722 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.DeleteAsyncById
+2022-06-20 11:20:17.723 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.GetAsyncById
+2022-06-20 11:20:17.723 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.GetListAsyncByInput
+2022-06-20 11:20:17.724 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.UpdateAsyncByIdAndInput
+2022-06-20 11:20:17.724 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByNameAsyncByName
+2022-06-20 11:20:17.725 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByIdAsyncById
+2022-06-20 11:20:17.725 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2022-06-20 11:20:17.726 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.GetByModel
+2022-06-20 11:20:17.741 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2022-06-20 11:20:17.772 +07:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 234.1865ms
+2022-06-20 11:20:17.773 +07:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2022-06-20 11:20:17.789 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/abp/api-definition - - - 200 - application/json;+charset=utf-8 344.8018ms
+2022-06-20 11:20:17.795 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:20:18.249 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:20:18.263 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:20:20.765 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:20:20.771 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:20:20.784 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 2521.803ms
+2022-06-20 11:20:20.785 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:20:20.786 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:20:20.791 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 2995.4872ms
+2022-06-20 11:21:08.588 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:21:08.592 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:21:08.593 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:21:08.619 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:21:08.620 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:21:08.622 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 28.8465ms
+2022-06-20 11:21:08.622 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:21:08.623 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:21:08.624 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 36.0897ms
+2022-06-20 11:21:09.538 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:21:09.543 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:21:09.543 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:21:09.614 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:21:09.614 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:21:09.615 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 71.3714ms
+2022-06-20 11:21:09.615 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:21:09.615 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:21:09.616 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 77.9489ms
+2022-06-20 11:21:27.150 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:21:27.156 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:21:27.156 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:21:27.162 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:21:27.163 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:21:27.163 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 6.7003ms
+2022-06-20 11:21:27.163 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:21:27.163 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:21:27.164 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 13.8794ms
+2022-06-20 11:33:51.869 +07:00 [INF] Starting TinhThanh.HttpApi.Host.
+2022-06-20 11:33:53.182 +07:00 [INF] Loaded ABP modules:
+2022-06-20 11:33:53.183 +07:00 [INF] - TinhThanhModule.TinhThanhModuleHttpApiHostModule
+2022-06-20 11:33:53.183 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleHttpApiModule
+2022-06-20 11:33:53.183 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleApplicationContractsModule
+2022-06-20 11:33:53.183 +07:00 [INF]       - TinhThanhModule.TinhThanhModuleDomainSharedModule
+2022-06-20 11:33:53.183 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2022-06-20 11:33:53.183 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-06-20 11:33:53.183 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2022-06-20 11:33:53.183 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-06-20 11:33:53.184 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2022-06-20 11:33:53.184 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-06-20 11:33:53.184 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2022-06-20 11:33:53.184 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-06-20 11:33:53.184 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2022-06-20 11:33:53.184 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-06-20 11:33:53.184 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-06-20 11:33:53.184 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-06-20 11:33:53.184 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-06-20 11:33:53.184 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-06-20 11:33:53.184 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-06-20 11:33:53.184 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-06-20 11:33:53.184 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-06-20 11:33:53.184 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-06-20 11:33:53.184 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2022-06-20 11:33:53.184 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2022-06-20 11:33:53.184 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2022-06-20 11:33:53.184 +07:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2022-06-20 11:33:53.184 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-06-20 11:33:53.184 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-06-20 11:33:53.184 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-06-20 11:33:53.184 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-06-20 11:33:53.184 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-06-20 11:33:53.184 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-06-20 11:33:53.184 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-06-20 11:33:53.184 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2022-06-20 11:33:53.184 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-06-20 11:33:53.184 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2022-06-20 11:33:53.184 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2022-06-20 11:33:53.184 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2022-06-20 11:33:53.184 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2022-06-20 11:33:53.184 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-06-20 11:33:53.184 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-06-20 11:33:53.184 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-06-20 11:33:53.184 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-06-20 11:33:53.184 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2022-06-20 11:33:53.184 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-06-20 11:33:53.184 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-06-20 11:33:53.184 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-06-20 11:33:53.184 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-06-20 11:33:53.184 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-06-20 11:33:53.184 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-06-20 11:33:53.184 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-06-20 11:33:53.184 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-06-20 11:33:53.184 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-06-20 11:33:53.184 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-06-20 11:33:53.184 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-06-20 11:33:53.184 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleApplicationModule
+2022-06-20 11:33:53.184 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleDomainModule
+2022-06-20 11:33:53.184 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-06-20 11:33:53.184 +07:00 [INF]   - TinhThanhModule.EntityFrameworkCore.TinhThanhModuleEntityFrameworkCoreModule
+2022-06-20 11:33:53.184 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-06-20 11:33:53.184 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-06-20 11:33:53.184 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-06-20 11:33:53.664 +07:00 [INF] User profile is available. Using 'C:\Users\mtpha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-20 11:33:53.811 +07:00 [INF] Initialized all ABP modules.
+2022-06-20 11:33:53.891 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-20 11:33:53.891 +07:00 [INF] Hosting environment: Development
+2022-06-20 11:33:53.891 +07:00 [INF] Content root path: D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\
+2022-06-20 11:33:53.923 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-20 11:33:54.458 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 535.7047ms
+2022-06-20 11:33:56.853 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-20 11:33:56.984 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 130.7976ms
+2022-06-20 11:33:57.031 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-20 11:33:57.034 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 2.6995ms
+2022-06-20 11:33:59.276 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-20 11:33:59.512 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 236.5154ms
+2022-06-20 11:34:01.821 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/abp/api-definition - -
+2022-06-20 11:34:01.889 +07:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2022-06-20 11:34:01.923 +07:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApiDefinition", page = ""}. Executing controller action with signature Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel Get(Volo.Abp.Http.Modeling.ApplicationApiDescriptionModelRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController (Volo.Abp.AspNetCore.Mvc).
+2022-06-20 11:34:02.140 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.CreateAsyncByInput
+2022-06-20 11:34:02.150 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.DeleteAsyncById
+2022-06-20 11:34:02.151 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.GetAsyncById
+2022-06-20 11:34:02.151 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.GetListAsyncByInput
+2022-06-20 11:34:02.153 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.UpdateAsyncByIdAndInput
+2022-06-20 11:34:02.154 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByNameAsyncByName
+2022-06-20 11:34:02.154 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByIdAsyncById
+2022-06-20 11:34:02.154 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2022-06-20 11:34:02.155 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.GetByModel
+2022-06-20 11:34:02.181 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2022-06-20 11:34:02.222 +07:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 285.5969ms
+2022-06-20 11:34:02.222 +07:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2022-06-20 11:34:02.237 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/abp/api-definition - - - 200 - application/json;+charset=utf-8 415.3663ms
+2022-06-20 11:34:02.244 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:34:03.098 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:34:03.111 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:34:03.831 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:34:03.833 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:34:03.833 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:34:07.067 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:34:07.067 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:34:07.077 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:34:07.077 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:34:07.093 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 3981.8621ms
+2022-06-20 11:34:07.093 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 3259.7626ms
+2022-06-20 11:34:07.093 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:34:07.093 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:34:07.094 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:34:07.094 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:34:07.098 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 4854.0658ms
+2022-06-20 11:34:07.098 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 3267.0061ms
+2022-06-20 11:34:30.967 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-20 11:34:30.986 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 18.1809ms
+2022-06-20 11:34:31.017 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-20 11:34:31.018 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-20 11:34:31.019 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 0.9823ms
+2022-06-20 11:34:31.049 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.2776ms
+2022-06-20 11:34:57.850 +07:00 [INF] Starting TinhThanh.HttpApi.Host.
+2022-06-20 11:34:59.051 +07:00 [INF] Loaded ABP modules:
+2022-06-20 11:34:59.053 +07:00 [INF] - TinhThanhModule.TinhThanhModuleHttpApiHostModule
+2022-06-20 11:34:59.053 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleHttpApiModule
+2022-06-20 11:34:59.053 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleApplicationContractsModule
+2022-06-20 11:34:59.053 +07:00 [INF]       - TinhThanhModule.TinhThanhModuleDomainSharedModule
+2022-06-20 11:34:59.053 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2022-06-20 11:34:59.053 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-06-20 11:34:59.053 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2022-06-20 11:34:59.053 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-06-20 11:34:59.053 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2022-06-20 11:34:59.053 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-06-20 11:34:59.053 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2022-06-20 11:34:59.053 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-06-20 11:34:59.053 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2022-06-20 11:34:59.053 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-06-20 11:34:59.053 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-06-20 11:34:59.053 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-06-20 11:34:59.053 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-06-20 11:34:59.053 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-06-20 11:34:59.053 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-06-20 11:34:59.053 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-06-20 11:34:59.053 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-06-20 11:34:59.053 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-06-20 11:34:59.053 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2022-06-20 11:34:59.053 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2022-06-20 11:34:59.053 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2022-06-20 11:34:59.053 +07:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2022-06-20 11:34:59.053 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-06-20 11:34:59.053 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-06-20 11:34:59.053 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-06-20 11:34:59.053 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-06-20 11:34:59.053 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-06-20 11:34:59.053 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-06-20 11:34:59.053 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-06-20 11:34:59.054 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2022-06-20 11:34:59.054 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-06-20 11:34:59.054 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2022-06-20 11:34:59.054 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2022-06-20 11:34:59.054 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2022-06-20 11:34:59.054 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2022-06-20 11:34:59.054 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-06-20 11:34:59.054 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-06-20 11:34:59.054 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-06-20 11:34:59.054 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-06-20 11:34:59.054 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2022-06-20 11:34:59.054 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-06-20 11:34:59.054 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-06-20 11:34:59.054 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-06-20 11:34:59.054 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-06-20 11:34:59.054 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-06-20 11:34:59.054 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-06-20 11:34:59.054 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-06-20 11:34:59.054 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-06-20 11:34:59.054 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-06-20 11:34:59.054 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-06-20 11:34:59.054 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-06-20 11:34:59.054 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleApplicationModule
+2022-06-20 11:34:59.054 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleDomainModule
+2022-06-20 11:34:59.054 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-06-20 11:34:59.054 +07:00 [INF]   - TinhThanhModule.EntityFrameworkCore.TinhThanhModuleEntityFrameworkCoreModule
+2022-06-20 11:34:59.054 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-06-20 11:34:59.054 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-06-20 11:34:59.054 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-06-20 11:34:59.596 +07:00 [INF] User profile is available. Using 'C:\Users\mtpha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-20 11:34:59.752 +07:00 [INF] Initialized all ABP modules.
+2022-06-20 11:34:59.850 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-20 11:34:59.850 +07:00 [INF] Hosting environment: Development
+2022-06-20 11:34:59.850 +07:00 [INF] Content root path: D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\
+2022-06-20 11:34:59.890 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-20 11:35:00.337 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 446.5245ms
+2022-06-20 11:35:06.843 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-20 11:35:06.911 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 67.5523ms
+2022-06-20 11:35:06.922 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-20 11:35:06.925 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 2.0898ms
+2022-06-20 11:35:11.810 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/abp/api-definition - -
+2022-06-20 11:35:11.871 +07:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2022-06-20 11:35:11.911 +07:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApiDefinition", page = ""}. Executing controller action with signature Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel Get(Volo.Abp.Http.Modeling.ApplicationApiDescriptionModelRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController (Volo.Abp.AspNetCore.Mvc).
+2022-06-20 11:35:12.137 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.CreateAsyncByInput
+2022-06-20 11:35:12.149 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.DeleteAsyncById
+2022-06-20 11:35:12.149 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.GetAsyncById
+2022-06-20 11:35:12.149 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.GetListAsyncByInput
+2022-06-20 11:35:12.150 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.UpdateAsyncByIdAndInput
+2022-06-20 11:35:12.150 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByNameAsyncByName
+2022-06-20 11:35:12.150 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByIdAsyncById
+2022-06-20 11:35:12.150 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2022-06-20 11:35:12.151 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.GetByModel
+2022-06-20 11:35:12.164 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2022-06-20 11:35:12.193 +07:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 275.8737ms
+2022-06-20 11:35:12.193 +07:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2022-06-20 11:35:12.213 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/abp/api-definition - - - 200 - application/json;+charset=utf-8 402.6835ms
+2022-06-20 11:35:12.221 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:35:12.777 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:35:12.790 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:35:15.016 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-20 11:35:15.169 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.3509ms
+2022-06-20 11:35:15.668 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:35:15.675 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:35:15.691 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 2900.9973ms
+2022-06-20 11:35:15.692 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:35:15.693 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:35:15.698 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 3477.1165ms
+2022-06-20 11:35:17.769 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:35:17.773 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:35:17.773 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:35:17.804 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:35:17.805 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:35:17.806 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 32.2834ms
+2022-06-20 11:35:17.806 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:35:17.806 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:35:17.811 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 41.6586ms
+2022-06-20 11:36:12.951 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-20 11:36:12.966 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 15.3022ms
+2022-06-20 11:36:12.996 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-20 11:36:13.003 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-20 11:36:13.004 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 0.8151ms
+2022-06-20 11:36:13.031 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.6226ms
+2022-06-20 11:36:13.610 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-20 11:36:13.649 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 39.1609ms
+2022-06-20 11:36:15.536 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:36:15.539 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:36:15.543 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:36:15.616 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:36:15.617 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:36:15.620 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 77.5208ms
+2022-06-20 11:36:15.621 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:36:15.621 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:36:15.622 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 86.3608ms
+2022-06-20 11:36:49.302 +07:00 [INF] Starting TinhThanh.HttpApi.Host.
+2022-06-20 11:36:50.639 +07:00 [INF] Loaded ABP modules:
+2022-06-20 11:36:50.641 +07:00 [INF] - TinhThanhModule.TinhThanhModuleHttpApiHostModule
+2022-06-20 11:36:50.641 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleHttpApiModule
+2022-06-20 11:36:50.641 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleApplicationContractsModule
+2022-06-20 11:36:50.641 +07:00 [INF]       - TinhThanhModule.TinhThanhModuleDomainSharedModule
+2022-06-20 11:36:50.641 +07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2022-06-20 11:36:50.641 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-06-20 11:36:50.641 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2022-06-20 11:36:50.641 +07:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-06-20 11:36:50.641 +07:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2022-06-20 11:36:50.641 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-06-20 11:36:50.641 +07:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2022-06-20 11:36:50.641 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-06-20 11:36:50.641 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2022-06-20 11:36:50.641 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-06-20 11:36:50.641 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-06-20 11:36:50.641 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-06-20 11:36:50.641 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-06-20 11:36:50.641 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-06-20 11:36:50.641 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-06-20 11:36:50.641 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-06-20 11:36:50.641 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-06-20 11:36:50.641 +07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-06-20 11:36:50.641 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2022-06-20 11:36:50.641 +07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2022-06-20 11:36:50.641 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2022-06-20 11:36:50.641 +07:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2022-06-20 11:36:50.641 +07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-06-20 11:36:50.641 +07:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-06-20 11:36:50.641 +07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-06-20 11:36:50.641 +07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-06-20 11:36:50.641 +07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-06-20 11:36:50.641 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-06-20 11:36:50.641 +07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-06-20 11:36:50.641 +07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2022-06-20 11:36:50.641 +07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-06-20 11:36:50.641 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2022-06-20 11:36:50.641 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2022-06-20 11:36:50.641 +07:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2022-06-20 11:36:50.641 +07:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2022-06-20 11:36:50.641 +07:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-06-20 11:36:50.641 +07:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-06-20 11:36:50.641 +07:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-06-20 11:36:50.641 +07:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-06-20 11:36:50.641 +07:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2022-06-20 11:36:50.641 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-06-20 11:36:50.641 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-06-20 11:36:50.641 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-06-20 11:36:50.641 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-06-20 11:36:50.641 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-06-20 11:36:50.641 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-06-20 11:36:50.641 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-06-20 11:36:50.641 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-06-20 11:36:50.641 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-06-20 11:36:50.641 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-06-20 11:36:50.641 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-06-20 11:36:50.641 +07:00 [INF]   - TinhThanhModule.TinhThanhModuleApplicationModule
+2022-06-20 11:36:50.641 +07:00 [INF]     - TinhThanhModule.TinhThanhModuleDomainModule
+2022-06-20 11:36:50.641 +07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-06-20 11:36:50.641 +07:00 [INF]   - TinhThanhModule.EntityFrameworkCore.TinhThanhModuleEntityFrameworkCoreModule
+2022-06-20 11:36:50.641 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-06-20 11:36:50.641 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-06-20 11:36:50.641 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-06-20 11:36:51.170 +07:00 [INF] User profile is available. Using 'C:\Users\mtpha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-20 11:36:51.371 +07:00 [INF] Initialized all ABP modules.
+2022-06-20 11:36:51.449 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-20 11:36:51.449 +07:00 [INF] Hosting environment: Development
+2022-06-20 11:36:51.449 +07:00 [INF] Content root path: D:\TranPhat\Projects\Start\TTQH\modules\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\
+2022-06-20 11:36:51.476 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2022-06-20 11:36:52.144 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 668.3044ms
+2022-06-20 11:36:53.759 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_vs/browserLink - -
+2022-06-20 11:36:53.889 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - -
+2022-06-20 11:36:53.892 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_framework/aspnetcore-browser-refresh.js - - - 200 12026 application/javascript;+charset=utf-8 3.1696ms
+2022-06-20 11:36:53.905 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 145.9428ms
+2022-06-20 11:36:56.218 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2022-06-20 11:36:56.424 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 206.3467ms
+2022-06-20 11:37:06.871 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/abp/api-definition - -
+2022-06-20 11:37:06.930 +07:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2022-06-20 11:37:06.966 +07:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApiDefinition", page = ""}. Executing controller action with signature Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel Get(Volo.Abp.Http.Modeling.ApplicationApiDescriptionModelRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController (Volo.Abp.AspNetCore.Mvc).
+2022-06-20 11:37:07.139 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.CreateAsyncByInput
+2022-06-20 11:37:07.151 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.DeleteAsyncById
+2022-06-20 11:37:07.152 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.GetAsyncById
+2022-06-20 11:37:07.153 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.GetListAsyncByInput
+2022-06-20 11:37:07.153 +07:00 [DBG] ActionApiDescriptionModel.Create: TinhThanh.UpdateAsyncByIdAndInput
+2022-06-20 11:37:07.154 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByNameAsyncByName
+2022-06-20 11:37:07.154 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByIdAsyncById
+2022-06-20 11:37:07.155 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2022-06-20 11:37:07.155 +07:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.GetByModel
+2022-06-20 11:37:07.170 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2022-06-20 11:37:07.205 +07:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 234.3904ms
+2022-06-20 11:37:07.207 +07:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2022-06-20 11:37:07.223 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/abp/api-definition - - - 200 - application/json;+charset=utf-8 352.0114ms
+2022-06-20 11:37:07.227 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:37:07.786 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:37:07.799 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:37:10.646 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:37:10.654 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:37:10.671 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 2871.5486ms
+2022-06-20 11:37:10.672 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:37:10.675 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:37:10.680 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 3453.3552ms
+2022-06-20 11:37:29.917 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:37:29.920 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:37:29.920 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:37:29.951 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:37:29.952 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:37:29.954 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 33.0226ms
+2022-06-20 11:37:29.954 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:37:29.954 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:37:29.954 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 36.9596ms
+2022-06-20 11:37:31.993 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:37:31.995 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:37:31.995 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:37:32.055 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:37:32.055 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:37:32.056 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 61.09ms
+2022-06-20 11:37:32.056 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:37:32.056 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:37:32.057 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 63.6194ms
+2022-06-20 11:37:38.378 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:37:38.379 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:37:38.380 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:37:38.386 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:37:38.387 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:37:38.388 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 7.8896ms
+2022-06-20 11:37:38.388 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:37:38.388 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:37:38.388 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 10.1392ms
+2022-06-20 11:37:47.916 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:37:47.917 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:37:47.918 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:37:47.929 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:37:47.930 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:37:47.930 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 12.4228ms
+2022-06-20 11:37:47.930 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:37:47.930 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:37:47.931 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 14.8368ms
+2022-06-20 11:37:55.581 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:37:55.583 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:37:55.583 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:37:55.597 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:37:55.598 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:37:55.598 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 14.7445ms
+2022-06-20 11:37:55.598 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:37:55.599 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:37:55.599 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 18.5488ms
+2022-06-20 11:37:58.267 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:37:58.268 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:37:58.268 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:37:58.273 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:37:58.274 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:37:58.274 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 5.9198ms
+2022-06-20 11:37:58.274 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:37:58.275 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:37:58.275 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 8.2372ms
+2022-06-20 11:38:06.673 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:38:06.674 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:38:06.674 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:38:06.687 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:38:06.688 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:38:06.688 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 13.822ms
+2022-06-20 11:38:06.688 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:38:06.688 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:38:06.689 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 15.9398ms
+2022-06-20 11:38:15.671 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:38:15.673 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:38:15.673 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:38:15.706 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:38:15.707 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:38:15.708 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 34.5745ms
+2022-06-20 11:38:15.708 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:38:15.709 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:38:15.709 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 38.1615ms
+2022-06-20 11:38:16.583 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:38:16.585 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:38:16.586 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:38:16.832 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:38:16.832 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:38:16.833 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 247.629ms
+2022-06-20 11:38:16.833 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:38:16.834 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:38:16.834 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 251.5012ms
+2022-06-20 11:38:18.067 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:38:18.069 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:38:18.070 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:38:18.086 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:38:18.086 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:38:18.087 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 17.6161ms
+2022-06-20 11:38:18.087 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:38:18.088 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:38:18.088 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 20.6679ms
+2022-06-20 11:39:04.004 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:04.005 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:04.005 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:04.020 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:04.020 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:04.022 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 16.0904ms
+2022-06-20 11:39:04.022 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:04.022 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:04.022 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 18.7116ms
+2022-06-20 11:39:10.795 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:10.797 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:10.797 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:10.802 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:10.803 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:10.803 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 6.3584ms
+2022-06-20 11:39:10.803 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:10.804 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:10.804 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 8.7704ms
+2022-06-20 11:39:13.032 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:13.035 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:13.035 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:13.055 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:13.055 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:13.055 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 20.5186ms
+2022-06-20 11:39:13.055 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:13.056 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:13.056 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 25.4849ms
+2022-06-20 11:39:14.284 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:14.285 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:14.286 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:14.308 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:14.309 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:14.310 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 24.5595ms
+2022-06-20 11:39:14.310 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:14.311 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:14.312 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 27.4595ms
+2022-06-20 11:39:14.933 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:14.935 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:14.935 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:14.947 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:14.947 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:14.949 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 14.0307ms
+2022-06-20 11:39:14.949 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:14.950 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:14.950 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 16.9192ms
+2022-06-20 11:39:15.684 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:15.685 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:15.686 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:15.710 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:15.710 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:15.710 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 24.8199ms
+2022-06-20 11:39:15.710 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:15.711 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:15.711 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 27.2590ms
+2022-06-20 11:39:16.755 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:16.756 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:16.757 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:16.776 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:16.777 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:16.777 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 20.508ms
+2022-06-20 11:39:16.777 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:16.778 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:16.778 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 22.8778ms
+2022-06-20 11:39:17.354 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:17.356 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:17.356 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:17.367 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:17.367 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:17.368 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 12.3861ms
+2022-06-20 11:39:17.368 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:17.369 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:17.372 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 18.1935ms
+2022-06-20 11:39:18.241 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:18.242 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:18.242 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:18.266 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:18.266 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:18.267 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 24.5754ms
+2022-06-20 11:39:18.267 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:18.267 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:18.268 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 27.2355ms
+2022-06-20 11:39:18.800 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:18.802 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:18.802 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:18.817 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:18.817 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:18.817 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 15.3613ms
+2022-06-20 11:39:18.817 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:18.818 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:18.818 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 18.1166ms
+2022-06-20 11:39:19.360 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:19.361 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:19.361 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:19.373 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:19.373 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:19.373 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 12.3909ms
+2022-06-20 11:39:19.373 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:19.374 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:19.377 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 17.0597ms
+2022-06-20 11:39:20.296 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:20.298 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:20.298 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:20.302 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:20.302 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:20.303 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 5.3013ms
+2022-06-20 11:39:20.303 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:20.303 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:20.304 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 7.7352ms
+2022-06-20 11:39:21.069 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:21.070 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:21.070 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:21.075 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:21.075 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:21.076 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 5.7385ms
+2022-06-20 11:39:21.076 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:21.076 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:21.077 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 7.8745ms
+2022-06-20 11:39:21.627 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:21.628 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:21.628 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:21.651 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:21.652 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:21.654 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 25.3484ms
+2022-06-20 11:39:21.654 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:21.654 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:21.655 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 28.0024ms
+2022-06-20 11:39:22.167 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:22.169 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:22.169 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:22.203 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:22.203 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:22.204 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 34.7692ms
+2022-06-20 11:39:22.204 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:22.205 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:22.208 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 40.9344ms
+2022-06-20 11:39:22.805 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:22.806 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:22.806 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:22.839 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:22.840 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:22.840 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 33.805ms
+2022-06-20 11:39:22.840 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:22.840 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:22.843 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 38.3672ms
+2022-06-20 11:39:23.222 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:23.225 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:23.225 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:23.234 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:23.234 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:23.235 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 10.3791ms
+2022-06-20 11:39:23.235 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:23.236 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:23.237 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 15.8025ms
+2022-06-20 11:39:23.908 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:23.910 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:23.910 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:23.916 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:23.916 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:23.917 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 7.258ms
+2022-06-20 11:39:23.917 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:23.917 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:23.918 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?Sorting=id+asc&SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 9.4885ms
+2022-06-20 11:39:24.629 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - -
+2022-06-20 11:39:24.635 +07:00 [INF] Executing endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:24.635 +07:00 [INF] Route matched with {controller = "TinhThanh", action = "GetList", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[TinhThanhModule.TinhThanhs.TinhThanhDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller TinhThanhModule.Controllers.TinhThanhController (TinhThanhModule.HttpApi).
+2022-06-20 11:39:24.649 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:24.649 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[TinhThanhModule.TinhThanhs.TinhThanhDto, TinhThanhModule.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-20 11:39:24.651 +07:00 [INF] Executed action TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi) in 16.4312ms
+2022-06-20 11:39:24.651 +07:00 [INF] Executed endpoint 'TinhThanhModule.Controllers.TinhThanhController.GetListAsync (TinhThanhModule.HttpApi)'
+2022-06-20 11:39:24.652 +07:00 [DBG] Added 0 entity changes to the current audit log
+2022-06-20 11:39:24.652 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/app/tinhThanh?SkipCount=0&MaxResultCount=10&api-version=1.0 - - - 200 - application/json;+charset=utf-8 23.7772ms
+2022-06-20 11:41:39.146 +07:00 [INF] Application is shutting down...

@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\TinhThanhModule\src\TinhThanhModule.Application.Contracts\TinhThanhModule.Application.Contracts.csproj" />
     <ProjectReference Include="..\QuanHuyenModule.Application.Contracts\QuanHuyenModule.Application.Contracts.csproj" />
   </ItemGroup>
 
