@@ -4,3 +4,4 @@
 
 /TTQH/src/Main.IdentityServer/tempkey.jwk
 *.jwk
+/.vs

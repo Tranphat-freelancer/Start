@@ -8,8 +8,6 @@ using Volo.Abp.Modularity;
 using Volo.Abp.PermissionManagement.HttpApi;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
-using TinhThanhModule;
-using QuanHuyenModule;
 
 namespace Main;
 
@@ -22,8 +20,6 @@ namespace Main;
     typeof(AbpFeatureManagementHttpApiModule),
     typeof(AbpSettingManagementHttpApiModule)
     )]
-[DependsOn(typeof(TinhThanhModuleHttpApiModule))]
-[DependsOn(typeof(QuanHuyenModuleHttpApiModule))]
 public class MainHttpApiModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)

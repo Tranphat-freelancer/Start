@@ -14,8 +14,6 @@ using Volo.Abp.PermissionManagement.EntityFrameworkCore;
 using Volo.Abp.SettingManagement.EntityFrameworkCore;
 using Volo.Abp.TenantManagement;
 using Volo.Abp.TenantManagement.EntityFrameworkCore;
-using TinhThanhModule.EntityFrameworkCore;
-using QuanHuyenModule.EntityFrameworkCore;
 
 namespace Main.EntityFrameworkCore;
 
@@ -90,7 +88,7 @@ public class MainDbContext :
             b.ToTable(MainConsts.DbTablePrefix + "MainApps", MainConsts.DbSchema);
             b.ConfigureByConvention(); //auto configure for the base class props
         });
-        builder.ConfigureTinhThanhModule();
-            builder.ConfigureQuanHuyenModule();
-        }
+        //builder.ConfigureTinhThanhModule();
+        //builder.ConfigureQuanHuyenModule();
+    }
 }

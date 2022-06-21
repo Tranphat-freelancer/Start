@@ -8,16 +8,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Main.Application.Contracts\Main.Application.Contracts.csproj" />
-  <ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.HttpApi\TinhThanhModule.HttpApi.csproj" /><ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.HttpApi\TinhThanhModule.HttpApi.csproj" /><ProjectReference Include="..\..\modules\QuanHuyenModule\src\QuanHuyenModule.HttpApi\QuanHuyenModule.HttpApi.csproj" /></ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Volo.Abp.Account.HttpApi" Version="5.3.0" />
     <PackageReference Include="Volo.Abp.Identity.HttpApi" Version="5.3.0" />
     <PackageReference Include="Volo.Abp.PermissionManagement.HttpApi" Version="5.3.0" />
     <PackageReference Include="Volo.Abp.TenantManagement.HttpApi" Version="5.3.0" />
     <PackageReference Include="Volo.Abp.FeatureManagement.HttpApi" Version="5.3.0" />
     <PackageReference Include="Volo.Abp.SettingManagement.HttpApi" Version="5.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Main.Application.Contracts\Main.Application.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>

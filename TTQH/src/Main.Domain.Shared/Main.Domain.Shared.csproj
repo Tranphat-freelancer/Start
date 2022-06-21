@@ -16,8 +16,7 @@
     <PackageReference Include="Volo.Abp.TenantManagement.Domain.Shared" Version="5.3.0" />
     <PackageReference Include="Volo.Abp.FeatureManagement.Domain.Shared" Version="5.3.0" />
     <PackageReference Include="Volo.Abp.PermissionManagement.Domain.Shared" Version="5.3.0" />
-    <PackageReference Include="Volo.Abp.SettingManagement.Domain.Shared" Version="5.3.0" />
-  <ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.Domain.Shared\TinhThanhModule.Domain.Shared.csproj" /><ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.Domain.Shared\TinhThanhModule.Domain.Shared.csproj" /><ProjectReference Include="..\..\modules\QuanHuyenModule\src\QuanHuyenModule.Domain.Shared\QuanHuyenModule.Domain.Shared.csproj" /></ItemGroup>
+    <PackageReference Include="Volo.Abp.SettingManagement.Domain.Shared" Version="5.3.0" /></ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Localization\Main\*.json" />

@@ -1,14 +1,14 @@
 using Microsoft.Extensions.DependencyInjection;
+using QuanHuyenModule;
+using TinhThanhModule;
 using Volo.Abp.Account;
 using Volo.Abp.FeatureManagement;
 using Volo.Abp.Identity;
 using Volo.Abp.Modularity;
 using Volo.Abp.PermissionManagement;
-using Volo.Abp.TenantManagement;
 using Volo.Abp.SettingManagement;
+using Volo.Abp.TenantManagement;
 using Volo.Abp.VirtualFileSystem;
-using TinhThanhModule;
-using QuanHuyenModule;
 
 namespace Main;
 
@@ -21,10 +21,11 @@ namespace Main;
     typeof(AbpFeatureManagementHttpApiClientModule),
     typeof(AbpSettingManagementHttpApiClientModule)
 )]
+
 [DependsOn(
-    typeof(TinhThanhModuleHttpApiClientModule)
+    typeof(TinhThanhModuleHttpApiClientModule),
+    typeof(QuanHuyenModuleHttpApiClientModule)
     )]
-[DependsOn(typeof(QuanHuyenModuleHttpApiClientModule))]
 public class MainHttpApiClientModule : AbpModule
 {
     public const string RemoteServiceName = "Default";

@@ -9,8 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Main.Domain\Main.Domain.csproj" />
-    <ProjectReference Include="..\Main.Application.Contracts\Main.Application.Contracts.csproj" />
-  <ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.Application\TinhThanhModule.Application.csproj" /><ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.Application\TinhThanhModule.Application.csproj" /><ProjectReference Include="..\..\modules\QuanHuyenModule\src\QuanHuyenModule.Application\QuanHuyenModule.Application.csproj" /></ItemGroup>
+    <ProjectReference Include="..\Main.Application.Contracts\Main.Application.Contracts.csproj" /></ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Account.Application" Version="5.3.0" />

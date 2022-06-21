@@ -1,4 +1,3 @@
-using System;
 using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp.AuditLogging.EntityFrameworkCore;
 using Volo.Abp.BackgroundJobs.EntityFrameworkCore;
@@ -11,8 +10,6 @@ using Volo.Abp.Modularity;
 using Volo.Abp.PermissionManagement.EntityFrameworkCore;
 using Volo.Abp.SettingManagement.EntityFrameworkCore;
 using Volo.Abp.TenantManagement.EntityFrameworkCore;
-using TinhThanhModule.EntityFrameworkCore;
-using QuanHuyenModule.EntityFrameworkCore;
 
 namespace Main.EntityFrameworkCore;
 
@@ -28,9 +25,7 @@ namespace Main.EntityFrameworkCore;
     typeof(AbpTenantManagementEntityFrameworkCoreModule),
     typeof(AbpFeatureManagementEntityFrameworkCoreModule)
     )]
-[DependsOn(typeof(TinhThanhModuleEntityFrameworkCoreModule))]
-    [DependsOn(typeof(QuanHuyenModuleEntityFrameworkCoreModule))]
-    public class MainEntityFrameworkCoreModule : AbpModule
+public class MainEntityFrameworkCoreModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
     {
@@ -41,15 +36,15 @@ namespace Main.EntityFrameworkCore;
     {
         context.Services.AddAbpDbContext<MainDbContext>(options =>
         {
-                /* Remove "includeAllEntities: true" to create
-                 * default repositories only for aggregate roots */
+            /* Remove "includeAllEntities: true" to create
+             * default repositories only for aggregate roots */
             options.AddDefaultRepositories(includeAllEntities: true);
         });
 
         Configure<AbpDbContextOptions>(options =>
         {
-                /* The main point to change your DBMS.
-                 * See also MainMigrationsDbContextFactory for EF Core tooling. */
+            /* The main point to change your DBMS.
+             * See also MainMigrationsDbContextFactory for EF Core tooling. */
             options.UseSqlServer();
         });
     }
