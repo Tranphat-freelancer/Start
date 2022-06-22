@@ -17,6 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\modules\QuanHuyenModule\src\QuanHuyenModule.HttpApi\QuanHuyenModule.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\TinhThanhModule\src\TinhThanhModule.HttpApi\TinhThanhModule.HttpApi.csproj" />
     <ProjectReference Include="..\Main.Application.Contracts\Main.Application.Contracts.csproj" />
   </ItemGroup>
 
