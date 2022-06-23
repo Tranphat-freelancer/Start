@@ -5,3 +5,6 @@
 /TTQH/src/Main.IdentityServer/tempkey.jwk
 *.jwk
 /.vs
+*.txt
+*.rsa
+*.lock
