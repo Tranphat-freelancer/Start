@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Serilog;
 using Serilog.Events;
 
-namespace AuthServer;
+namespace Tasky;
 
 public class Program
 {
@@ -22,17 +22,19 @@ public class Program
             .MinimumLevel.Override("Microsoft.EntityFrameworkCore", LogEventLevel.Warning)
             .Enrich.FromLogContext()
             .WriteTo.Async(c => c.File("Logs/logs.txt"))
+#if DEBUG
             .WriteTo.Async(c => c.Console())
+#endif
             .CreateLogger();
 
         try
         {
-            Log.Information("Starting AuthServer.IdentityServer.");
+            Log.Information("Starting Tasky.IdentityServer.");
             var builder = WebApplication.CreateBuilder(args);
             builder.Host.AddAppSettingsSecretsJson()
                 .UseAutofac()
                 .UseSerilog();
-            await builder.AddApplicationAsync<AuthServerIdentityServerModule>();
+            await builder.AddApplicationAsync<TaskyIdentityServerModule>();
             var app = builder.Build();
             await app.InitializeApplicationAsync();
             await app.RunAsync();
@@ -40,7 +42,7 @@ public class Program
         }
         catch (Exception ex)
         {
-            Log.Fatal(ex, "AuthServer.IdentityServer terminated unexpectedly!");
+            Log.Fatal(ex, "Tasky.IdentityServer terminated unexpectedly!");
             return 1;
         }
         finally

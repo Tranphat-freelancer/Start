@@ -3,12 +3,12 @@ using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Ms.Shared.Consts;
-using Ms.Shared.Hosting;
+using Microsoft.IdentityModel.Logging;
 using StackExchange.Redis;
 using System;
-using System.IO;
 using System.Linq;
+using Tasky.Administration.EntityFrameworkCore;
+using Tasky.IdentityService.EntityFrameworkCore;
 using Volo.Abp;
 using Volo.Abp.Account;
 using Volo.Abp.Account.Web;
@@ -22,30 +22,32 @@ using Volo.Abp.Autofac;
 using Volo.Abp.BackgroundJobs;
 using Volo.Abp.Caching;
 using Volo.Abp.Caching.StackExchangeRedis;
+using Volo.Abp.EntityFrameworkCore;
+using Volo.Abp.EntityFrameworkCore.SqlServer;
 using Volo.Abp.Modularity;
+using Volo.Abp.MultiTenancy;
 using Volo.Abp.UI.Navigation.Urls;
-using Volo.Abp.VirtualFileSystem;
 
-namespace AuthServer;
+namespace Tasky;
 
 [DependsOn(
-    typeof(MsHostingModule),
     typeof(AbpAutofacModule),
     typeof(AbpCachingStackExchangeRedisModule),
     typeof(AbpAccountWebIdentityServerModule),
     typeof(AbpAccountApplicationModule),
     typeof(AbpAccountHttpApiModule),
     typeof(AbpAspNetCoreMvcUiBasicThemeModule),
-    typeof(AbpAspNetCoreSerilogModule)
-    )]
-public class AuthServerIdentityServerModule : AbpModule
+    typeof(AbpAspNetCoreSerilogModule),
+    typeof(AbpEntityFrameworkCoreSqlServerModule),
+    typeof(AdministrationEntityFrameworkCoreModule),
+    typeof(IdentityServiceEntityFrameworkCoreModule)
+)]
+public class TaskyIdentityServerModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
         var hostingEnvironment = context.Services.GetHostingEnvironment();
         var configuration = context.Services.GetConfiguration();
-
-
 
         Configure<AbpBundlingOptions>(options =>
         {
@@ -57,6 +59,17 @@ public class AuthServerIdentityServerModule : AbpModule
                 }
             );
         });
+
+        Configure<AbpDbContextOptions>(options =>
+        {
+            options.UseSqlServer();
+        });
+
+        Configure<AbpMultiTenancyOptions>(options =>
+        {
+            options.IsEnabled = true;
+        });
+
 
         Configure<AbpAuditingOptions>(options =>
         {
@@ -80,14 +93,14 @@ public class AuthServerIdentityServerModule : AbpModule
 
         Configure<AbpDistributedCacheOptions>(options =>
         {
-            options.KeyPrefix = "AuthServer:";
+            options.KeyPrefix = "Tasky:";
         });
 
-        var dataProtectionBuilder = context.Services.AddDataProtection().SetApplicationName("AuthServer");
+        var dataProtectionBuilder = context.Services.AddDataProtection().SetApplicationName("Tasky");
         if (!hostingEnvironment.IsDevelopment())
         {
             var redis = ConnectionMultiplexer.Connect(configuration["Redis:Configuration"]);
-            dataProtectionBuilder.PersistKeysToStackExchangeRedis(redis, "AuthServer-Protection-Keys");
+            dataProtectionBuilder.PersistKeysToStackExchangeRedis(redis, "Tasky-Protection-Keys");
         }
 
         context.Services.AddCors(options =>
@@ -112,6 +125,7 @@ public class AuthServerIdentityServerModule : AbpModule
 
     public override void OnApplicationInitialization(ApplicationInitializationContext context)
     {
+        IdentityModelEventSource.ShowPII = true;
         var app = context.GetApplicationBuilder();
         var env = context.GetEnvironment();
 
@@ -133,10 +147,7 @@ public class AuthServerIdentityServerModule : AbpModule
         app.UseCors();
         app.UseAuthentication();
 
-        //if (ServiceConsts.IsEnabled)
-        //{
-        //    app.UseMultiTenancy();
-        //}
+        app.UseMultiTenancy();
 
         app.UseUnitOfWork();
         app.UseIdentityServer();

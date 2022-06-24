@@ -1,6 +1,6 @@
 using Volo.Abp.AspNetCore.Mvc.UI.RazorPages;
 
-namespace AuthServer.Pages;
+namespace Tasky.Pages;
 
 public class IndexModel : AbpPageModel
 {

@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\shared\Ms.Shared.Hosting\Ms.Shared.Hosting.csproj" />
     <ProjectReference Include="..\TinhThanhModule.Application\TinhThanhModule.Application.csproj" />
     <ProjectReference Include="..\TinhThanhModule.EntityFrameworkCore\TinhThanhModule.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\TinhThanhModule.HttpApi\TinhThanhModule.HttpApi.csproj" />
