@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "https://localhost:44343",
-      "sslPort": 44343
+      "applicationUrl": "https://localhost:44355",
+      "sslPort": 44355
     }
   },
   "profiles": {
@@ -18,7 +18,7 @@
     "QuanHuyenModule.HttpApi.Host": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:44343",
+      "applicationUrl": "https://localhost:44355",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

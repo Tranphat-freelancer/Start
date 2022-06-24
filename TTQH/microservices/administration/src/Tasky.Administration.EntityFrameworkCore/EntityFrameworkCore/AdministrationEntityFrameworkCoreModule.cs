@@ -25,7 +25,7 @@ public class AdministrationEntityFrameworkCoreModule : AbpModule
         {
             options.UseSqlServer();
         });
-        AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+        //AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
         context.Services.AddAbpDbContext<AdministrationDbContext>(options =>
         {
             /* Add custom repositories here. Example:

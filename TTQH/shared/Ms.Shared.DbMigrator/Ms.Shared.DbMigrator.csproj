@@ -7,4 +7,59 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="appsettings.Development.json" />
+    <None Remove="appsettings.json" />
+    <None Remove="appsettings.secrets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.Development.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="appsettings.secrets.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Serilog.Extensions.Logging" Version="3.0.1"/>
+		<PackageReference Include="Serilog.Sinks.Async" Version="1.5.0"/>
+		<PackageReference Include="Serilog.Sinks.File" Version="5.0.0"/>
+		<PackageReference Include="Serilog.Sinks.Console" Version="4.0.0"/>
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0"/>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.Autofac" Version="5.1.4"/>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Remove="Logs\**"/>
+		<Content Remove="Logs\**"/>
+		<EmbeddedResource Remove="Logs\**"/>
+		<None Remove="Logs\**"/>
+	</ItemGroup>
+	
+	
+  <ItemGroup>
+    <ProjectReference Include="..\..\microservices\administration\src\Tasky.Administration.Application.Contracts\Tasky.Administration.Application.Contracts.csproj" />
+    <ProjectReference Include="..\..\microservices\administration\src\Tasky.Administration.EntityFrameworkCore\Tasky.Administration.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\microservices\identity\src\Tasky.IdentityService.Application.Contracts\Tasky.IdentityService.Application.Contracts.csproj" />
+    <ProjectReference Include="..\..\microservices\identity\src\Tasky.IdentityService.EntityFrameworkCore\Tasky.IdentityService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\microservices\QuanHuyenModule\src\QuanHuyenModule.Application.Contracts\QuanHuyenModule.Application.Contracts.csproj" />
+    <ProjectReference Include="..\..\microservices\QuanHuyenModule\src\QuanHuyenModule.EntityFrameworkCore\QuanHuyenModule.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\microservices\TinhThanhModule\src\TinhThanhModule.Application.Contracts\TinhThanhModule.Application.Contracts.csproj" />
+    <ProjectReference Include="..\..\microservices\TinhThanhModule\src\TinhThanhModule.EntityFrameworkCore\TinhThanhModule.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
 </Project>
