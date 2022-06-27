@@ -75,10 +75,10 @@ public class IdentityServerDataSeeder : ITransientDependency
         foreach (var client in clients)
         {
             await CreateClientAsync(
-                client.ClientId,
-                commonScopes.Union(client.Scopes),
-                client.GrantTypes,
-                client.ClientSecret.Sha256(),
+                name:client.ClientId,
+                scopes:commonScopes.Union(client.Scopes),
+                grantTypes:client.GrantTypes,
+                secret:(client.ClientSecret ?? "1q2w3e*").Sha256(),
                 requireClientSecret: false,
                 redirectUris: client.RedirectUris,
                 postLogoutRedirectUris: client.PostLogoutRedirectUris,
