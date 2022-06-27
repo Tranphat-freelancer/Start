@@ -1,4 +1,3 @@
 ﻿@using Microsoft.AspNetCore.Mvc.Localization
-@using Ms.Shared.Hosting.TTQH
-@inject IHtmlLocalizer<AppTTQHResource> L
+@inherits Ms.AppTTQH.Web.Pages.AppTTQHPage
 <a class="nav-link" role="button" href="~/Account/Login">@L["Login"]</a>

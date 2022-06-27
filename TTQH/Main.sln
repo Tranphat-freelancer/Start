@@ -31,8 +31,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanHuyenModule.HttpApi.Cli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanHuyenModule.HttpApi.Host", "microservices\QuanHuyenModule\src\QuanHuyenModule.HttpApi.Host\QuanHuyenModule.HttpApi.Host.csproj", "{D6D68BC1-8F9E-4D4C-A102-EBA7000CE588}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanHuyenModule.Web", "microservices\QuanHuyenModule\src\QuanHuyenModule.Web\QuanHuyenModule.Web.csproj", "{45B92E99-9615-4D17-A6CB-2A2B7F2B97D2}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TinhThanhModule.Application", "microservices\TinhThanhModule\src\TinhThanhModule.Application\TinhThanhModule.Application.csproj", "{8629093C-9E17-4E71-A49D-36FD2F2EBD02}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TinhThanhModule.Application.Contracts", "microservices\TinhThanhModule\src\TinhThanhModule.Application.Contracts\TinhThanhModule.Application.Contracts.csproj", "{73D98DF4-245F-4A92-809D-6B189092CDDB}"
@@ -48,8 +46,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TinhThanhModule.HttpApi.Client", "microservices\TinhThanhModule\src\TinhThanhModule.HttpApi.Client\TinhThanhModule.HttpApi.Client.csproj", "{A2271AE7-C6A3-46A6-AB12-0CAE71F1C072}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TinhThanhModule.HttpApi.Host", "microservices\TinhThanhModule\src\TinhThanhModule.HttpApi.Host\TinhThanhModule.HttpApi.Host.csproj", "{97A0654F-FDB5-46D5-A207-6D7A0C6C58DE}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TinhThanhModule.Web", "microservices\TinhThanhModule\src\TinhThanhModule.Web\TinhThanhModule.Web.csproj", "{FA1487F5-119F-4BCD-87C6-057FE8614F1F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanHuyenModule.EntityFrameworkCore", "microservices\QuanHuyenModule\src\QuanHuyenModule.EntityFrameworkCore\QuanHuyenModule.EntityFrameworkCore.csproj", "{258880E3-1EFD-411A-BC07-03C5ECA5F246}"
 EndProject
@@ -97,7 +93,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.AppTTQH.Web", "applicati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.AppTTQH.IdentityServer", "applications\Ms.AppTTQH.IdentityServer\Ms.AppTTQH.IdentityServer.csproj", "{859207C1-5EBD-431A-A145-A13C0F760BCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Shared.Localization", "shared\Ms.Shared.Localization\Ms.Shared.Localization.csproj", "{0075E44B-DECE-4C8E-9FFC-043A3CC2459B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Shared.Localization", "shared\Ms.Shared.Localization\Ms.Shared.Localization.csproj", "{0075E44B-DECE-4C8E-9FFC-043A3CC2459B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,10 +133,6 @@ Global
 		{D6D68BC1-8F9E-4D4C-A102-EBA7000CE588}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6D68BC1-8F9E-4D4C-A102-EBA7000CE588}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6D68BC1-8F9E-4D4C-A102-EBA7000CE588}.Release|Any CPU.Build.0 = Release|Any CPU
-		{45B92E99-9615-4D17-A6CB-2A2B7F2B97D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{45B92E99-9615-4D17-A6CB-2A2B7F2B97D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{45B92E99-9615-4D17-A6CB-2A2B7F2B97D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{45B92E99-9615-4D17-A6CB-2A2B7F2B97D2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8629093C-9E17-4E71-A49D-36FD2F2EBD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8629093C-9E17-4E71-A49D-36FD2F2EBD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8629093C-9E17-4E71-A49D-36FD2F2EBD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -173,10 +165,6 @@ Global
 		{97A0654F-FDB5-46D5-A207-6D7A0C6C58DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97A0654F-FDB5-46D5-A207-6D7A0C6C58DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97A0654F-FDB5-46D5-A207-6D7A0C6C58DE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA1487F5-119F-4BCD-87C6-057FE8614F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA1487F5-119F-4BCD-87C6-057FE8614F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA1487F5-119F-4BCD-87C6-057FE8614F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA1487F5-119F-4BCD-87C6-057FE8614F1F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{258880E3-1EFD-411A-BC07-03C5ECA5F246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{258880E3-1EFD-411A-BC07-03C5ECA5F246}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{258880E3-1EFD-411A-BC07-03C5ECA5F246}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -280,7 +268,6 @@ Global
 		{872E0C71-0315-493E-B678-80C5832D1B2E} = {C7F6FF76-D786-4151-9708-A7BBAC4F71D6}
 		{A4494DDE-72F2-4CD0-B1CF-034BBD8E5B41} = {C7F6FF76-D786-4151-9708-A7BBAC4F71D6}
 		{D6D68BC1-8F9E-4D4C-A102-EBA7000CE588} = {C7F6FF76-D786-4151-9708-A7BBAC4F71D6}
-		{45B92E99-9615-4D17-A6CB-2A2B7F2B97D2} = {C7F6FF76-D786-4151-9708-A7BBAC4F71D6}
 		{8629093C-9E17-4E71-A49D-36FD2F2EBD02} = {582751E6-6E8C-45F6-A84F-1C3F9210FF42}
 		{73D98DF4-245F-4A92-809D-6B189092CDDB} = {582751E6-6E8C-45F6-A84F-1C3F9210FF42}
 		{23711D2F-B513-40A5-99AB-9CE84AB8A47B} = {582751E6-6E8C-45F6-A84F-1C3F9210FF42}
@@ -289,7 +276,6 @@ Global
 		{FC177E21-952F-44F7-8D9E-D74503AD9AD1} = {582751E6-6E8C-45F6-A84F-1C3F9210FF42}
 		{A2271AE7-C6A3-46A6-AB12-0CAE71F1C072} = {582751E6-6E8C-45F6-A84F-1C3F9210FF42}
 		{97A0654F-FDB5-46D5-A207-6D7A0C6C58DE} = {582751E6-6E8C-45F6-A84F-1C3F9210FF42}
-		{FA1487F5-119F-4BCD-87C6-057FE8614F1F} = {582751E6-6E8C-45F6-A84F-1C3F9210FF42}
 		{258880E3-1EFD-411A-BC07-03C5ECA5F246} = {C7F6FF76-D786-4151-9708-A7BBAC4F71D6}
 		{B1D058FB-4142-4300-9917-AE0ACFF578E4} = {A94D0DCD-C618-4891-96D0-99AAFF794AD5}
 		{38B90A7B-63F1-4659-AD6E-41851E437DB2} = {A94D0DCD-C618-4891-96D0-99AAFF794AD5}

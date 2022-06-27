@@ -8,7 +8,7 @@ namespace QuanHuyenModule.Controllers;
 
 [RemoteService(Name = QuanHuyenModuleRemoteServiceConsts.RemoteServiceName)]
 [ControllerName("QuanHuyen")]
-[Route("api/app/quanHuyens")]
+[Route("api/app/quanHuyen")]
 public class QuanHuyenController : QuanHuyenModuleController, IQuanHuyenAppService
 {
     protected IQuanHuyenAppService QuanHuyenAppService { get; }

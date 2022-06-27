@@ -6,8 +6,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using Ms.AppTTQH.Web.Menus;
+using Ms.Shared.Localization;
+using QuanHuyenModule;
 using StackExchange.Redis;
 using System;
+using TinhThanhModule;
 using Volo.Abp;
 using Volo.Abp.AspNetCore.Authentication.OpenIdConnect;
 using Volo.Abp.AspNetCore.Mvc.Client;
@@ -39,8 +42,10 @@ namespace Ms.AppTTQH.Web;
     typeof(AbpHttpClientIdentityModelWebModule),
     typeof(AbpIdentityWebModule),
     typeof(AbpTenantManagementWebModule),
-    typeof(AbpAspNetCoreSerilogModule)
-
+    typeof(AbpAspNetCoreSerilogModule),
+    typeof(TinhThanhModuleHttpApiClientModule),
+    typeof(QuanHuyenModuleHttpApiClientModule),
+    typeof(MsLocalizationModule)
     )]
 public class AppTTQHWebModule : AbpModule
 {

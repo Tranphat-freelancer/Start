@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
-using Ms.Shared.Hosting.TTQH;
+using Ms.Shared.Localization;
 using System;
 using System.Threading.Tasks;
 using Volo.Abp.Authorization.Permissions;

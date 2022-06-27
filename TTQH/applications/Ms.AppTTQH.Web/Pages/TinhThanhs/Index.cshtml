@@ -1,0 +1,27 @@
+﻿@page
+@using Microsoft.Extensions.Localization
+@model Ms.AppTTQH.Web.Pages.TinhThanhs.IndexModel
+@inherits Ms.AppTTQH.Web.Pages.AppTTQHPage
+
+@section scripts
+{
+    <abp-script src="/Pages/TinhThanhs/Index.js"/>
+}
+    <abp-card>
+        <abp-card-header>
+            <abp-row>
+                <abp-column size-md="_6">
+                    <abp-card-title>@L["TinhThanhModule"]</abp-card-title>
+                </abp-column>
+                <abp-column size-md="_6" class="text-end">
+                    <abp-button id="NewTinhThanhButton"
+                            text="@L["NewTinhThanh"].Value"
+                            icon="plus"
+                            button-type="Primary" />
+                </abp-column>
+            </abp-row>
+        </abp-card-header>
+        <abp-card-body>
+                <abp-table striped-rows="true" id="TinhThanhTable"></abp-table>
+        </abp-card-body>
+    </abp-card>

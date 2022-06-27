@@ -1,16 +1,13 @@
-﻿using Ms.Shared.Hosting.TTQH;
-using Volo.Abp.AspNetCore.MultiTenancy;
+﻿using Volo.Abp.AspNetCore.MultiTenancy;
 using Volo.Abp.AspNetCore.Serilog;
 using Volo.Abp.Autofac;
 using Volo.Abp.Caching.StackExchangeRedis;
 using Volo.Abp.Data;
 using Volo.Abp.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore.SqlServer;
-using Volo.Abp.EventBus.RabbitMq;
 using Volo.Abp.Localization;
 using Volo.Abp.Modularity;
 using Volo.Abp.MultiTenancy;
-using Volo.Abp.Validation.Localization;
 
 namespace Ms.Shared.Hosting;
 
@@ -79,13 +76,6 @@ public class MsHostingModule : AbpModule
             options.Languages.Add(new LanguageInfo("de-DE", "de-DE", "Deutsch"));
             options.Languages.Add(new LanguageInfo("es", "es", "Español"));
         });
-        Configure<AbpLocalizationOptions>(options =>
-        {
-            //Define a new localization resource (TestResource)
-            options.Resources
-                .Add<AppTTQHResource>("en")
-                .AddBaseTypes(typeof(AbpValidationResource))
-                .AddVirtualJson("/Localization/AppTTQH");
-        });
+
     }
 }

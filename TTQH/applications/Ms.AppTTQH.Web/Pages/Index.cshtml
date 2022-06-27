@@ -1,10 +1,10 @@
 ﻿@page
 @model Ms.AppTTQH.Web.Pages.IndexModel
 @using Microsoft.AspNetCore.Mvc.Localization
-@using Ms.Shared.Hosting.TTQH
+@using Ms.AppTTQH.Web.Pages
+@using Ms.Shared.Localization
 @using Volo.Abp.Users
-@inject IHtmlLocalizer<AppTTQHResource> L
-@inject ICurrentUser CurrentUser
+@inherits AppTTQHPage
 @section styles {
 <abp-style src="/Pages/Index.css" />
 }
