@@ -17,11 +17,13 @@ using Tasky.IdentityService.EntityFrameworkCore;
 using Volo.Abp;
 using Volo.Abp.Caching;
 using Volo.Abp.Modularity;
+using Volo.Abp.Swashbuckle;
 using Volo.Abp.VirtualFileSystem;
 
 namespace Tasky.IdentityService;
 
 [DependsOn(
+    typeof(AbpSwashbuckleModule),
     typeof(MsHostingModule),
     typeof(IdentityServiceApplicationModule),
     typeof(IdentityServiceEntityFrameworkCoreModule),

@@ -18,6 +18,7 @@ using Volo.Abp;
 using Volo.Abp.Caching;
 using Volo.Abp.Identity;
 using Volo.Abp.Modularity;
+using Volo.Abp.Swashbuckle;
 
 namespace Tasky.Administration;
 
@@ -28,6 +29,7 @@ namespace Tasky.Administration;
     typeof(AdministrationHttpApiModule),
     typeof(IdentityServiceApplicationContractsModule),
     typeof(IdentityServiceEntityFrameworkCoreModule),
+    typeof(AbpSwashbuckleModule),
     typeof(AbpIdentityDomainModule)
 )]
 public class AdministrationHttpApiHostModule : AbpModule

@@ -1,4 +1,5 @@
-﻿using Volo.Abp.AspNetCore.MultiTenancy;
+﻿using Ms.Shared.Hosting.TTQH;
+using Volo.Abp.AspNetCore.MultiTenancy;
 using Volo.Abp.AspNetCore.Serilog;
 using Volo.Abp.Autofac;
 using Volo.Abp.Caching.StackExchangeRedis;
@@ -9,7 +10,7 @@ using Volo.Abp.EventBus.RabbitMq;
 using Volo.Abp.Localization;
 using Volo.Abp.Modularity;
 using Volo.Abp.MultiTenancy;
-using Volo.Abp.Swashbuckle;
+using Volo.Abp.Validation.Localization;
 
 namespace Ms.Shared.Hosting;
 
@@ -19,10 +20,10 @@ namespace Ms.Shared.Hosting;
     typeof(AbpCachingStackExchangeRedisModule),
     typeof(AbpAspNetCoreSerilogModule),
     typeof(AbpAspNetCoreMultiTenancyModule),
-    typeof(AbpSwashbuckleModule),
-    typeof(AbpEventBusRabbitMqModule),
+    //typeof(AbpEventBusRabbitMqModule),
     typeof(AbpEntityFrameworkCoreModule),
-    typeof(AbpEntityFrameworkCoreSqlServerModule)
+    typeof(AbpEntityFrameworkCoreSqlServerModule),
+    typeof(AbpLocalizationModule)
 )]
 public class MsHostingModule : AbpModule
 {
@@ -40,7 +41,7 @@ public class MsHostingModule : AbpModule
 
         Configure<AbpDbConnectionOptions>(options =>
         {
-           
+
             options.Databases.Configure("AdministrationService", database =>
             {
                 database.MappedConnections.Add("AbpAuditLogging");
@@ -77,6 +78,14 @@ public class MsHostingModule : AbpModule
             options.Languages.Add(new LanguageInfo("zh-Hant", "zh-Hant", "繁體中文"));
             options.Languages.Add(new LanguageInfo("de-DE", "de-DE", "Deutsch"));
             options.Languages.Add(new LanguageInfo("es", "es", "Español"));
+        });
+        Configure<AbpLocalizationOptions>(options =>
+        {
+            //Define a new localization resource (TestResource)
+            options.Resources
+                .Add<AppTTQHResource>("en")
+                .AddBaseTypes(typeof(AbpValidationResource))
+                .AddVirtualJson("/Localization/AppTTQH");
         });
     }
 }
