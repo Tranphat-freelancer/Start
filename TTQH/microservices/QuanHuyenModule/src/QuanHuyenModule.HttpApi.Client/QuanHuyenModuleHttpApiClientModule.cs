@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using TinhThanhModule;
 using Volo.Abp.Http.Client;
 using Volo.Abp.Modularity;
 using Volo.Abp.VirtualFileSystem;
@@ -15,9 +14,9 @@ namespace QuanHuyenModule;
     typeof(QuanHuyenModuleApplicationContractsModule)
     )]
 //DI orther microservice
-[DependsOn(
-    typeof(TinhThanhModuleHttpApiClientModule)
-    )]
+//[DependsOn(
+//    typeof(TinhThanhModuleHttpApiClientModule)
+//    )]
 public class QuanHuyenModuleHttpApiClientModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)

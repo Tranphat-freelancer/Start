@@ -53,10 +53,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\microservices\QuanHuyenModule\src\QuanHuyenModule.Application.Contracts\QuanHuyenModule.Application.Contracts.csproj" />
 		<ProjectReference Include="..\..\microservices\QuanHuyenModule\src\QuanHuyenModule.HttpApi.Client\QuanHuyenModule.HttpApi.Client.csproj" />
 		<ProjectReference Include="..\..\microservices\QuanHuyenModule\src\QuanHuyenModule.HttpApi\QuanHuyenModule.HttpApi.csproj" />
-		<ProjectReference Include="..\..\microservices\TinhThanhModule\src\TinhThanhModule.Application.Contracts\TinhThanhModule.Application.Contracts.csproj" />
 		<ProjectReference Include="..\..\microservices\TinhThanhModule\src\TinhThanhModule.HttpApi.Client\TinhThanhModule.HttpApi.Client.csproj" />
 		<ProjectReference Include="..\..\microservices\TinhThanhModule\src\TinhThanhModule.HttpApi\TinhThanhModule.HttpApi.csproj" />
 		<ProjectReference Include="..\..\shared\Ms.Shared.Localization\Ms.Shared.Localization.csproj" />

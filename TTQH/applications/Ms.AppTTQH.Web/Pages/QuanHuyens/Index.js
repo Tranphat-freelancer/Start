@@ -86,10 +86,10 @@
         e.preventDefault();
         createModal.open();
     });
-    tinhThanhModule.controllers.tinhThanh.getList({
-        maxResultCount: 10
-    }).then(function (result) {
-        console.log(result.items);
-    });
+    //tinhThanhModule.controllers.tinhThanh.getList({
+    //    maxResultCount: 10
+    //}).then(function (result) {
+    //    console.log(result.items);
+    //});
 
 });
