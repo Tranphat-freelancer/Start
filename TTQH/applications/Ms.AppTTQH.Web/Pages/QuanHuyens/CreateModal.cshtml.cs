@@ -32,7 +32,7 @@ public class CreateModalModel : AppTTQHPageModel
     {
         QuanHuyen = new CreateQuanHuyenViewModel();
         var tinhThanhLookup = TinhThanhAppService
-            .GetListAsync(new PagedAndSortedResultRequestDto() { MaxResultCount = 10 })
+            .GetListAsync(new PagedAndSortedResultRequestDto() { MaxResultCount = 1000 })
             .Result;
         TinhThanhs = tinhThanhLookup.Items
             .Select(x => new SelectListItem(x.TenTinhThanh, x.Id.ToString()))

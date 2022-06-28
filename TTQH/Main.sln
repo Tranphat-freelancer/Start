@@ -95,6 +95,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.AppTTQH.IdentityServer",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Shared.Localization", "shared\Ms.Shared.Localization\Ms.Shared.Localization.csproj", "{0075E44B-DECE-4C8E-9FFC-043A3CC2459B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicGateway", "gateways\PublicGateway\PublicGateway.csproj", "{127BC3B3-390B-4ACF-823C-3AEE0F80506A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -253,6 +255,10 @@ Global
 		{0075E44B-DECE-4C8E-9FFC-043A3CC2459B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0075E44B-DECE-4C8E-9FFC-043A3CC2459B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0075E44B-DECE-4C8E-9FFC-043A3CC2459B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127BC3B3-390B-4ACF-823C-3AEE0F80506A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127BC3B3-390B-4ACF-823C-3AEE0F80506A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127BC3B3-390B-4ACF-823C-3AEE0F80506A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127BC3B3-390B-4ACF-823C-3AEE0F80506A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -300,6 +306,7 @@ Global
 		{FFC4694C-525F-4F72-87A6-5BC0FF3AC820} = {DE7F0CC7-5404-44F4-B9C4-985C5D9796AF}
 		{859207C1-5EBD-431A-A145-A13C0F760BCA} = {DE7F0CC7-5404-44F4-B9C4-985C5D9796AF}
 		{0075E44B-DECE-4C8E-9FFC-043A3CC2459B} = {A94D0DCD-C618-4891-96D0-99AAFF794AD5}
+		{127BC3B3-390B-4ACF-823C-3AEE0F80506A} = {6C163401-0351-4427-A198-198C744F8558}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {28315BFD-90E7-4E14-A2EA-F3D23AF4126F}

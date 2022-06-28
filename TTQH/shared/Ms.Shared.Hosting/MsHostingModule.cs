@@ -31,10 +31,10 @@ public class MsHostingModule : AbpModule
             options.UseSqlServer();
         });
 
-        Configure<AbpMultiTenancyOptions>(options =>
-        {
-            options.IsEnabled = true;
-        });
+        //Configure<AbpMultiTenancyOptions>(options =>
+        //{
+        //    options.IsEnabled = true;
+        //});
 
         Configure<AbpDbConnectionOptions>(options =>
         {

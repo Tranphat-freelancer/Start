@@ -37,7 +37,7 @@ public class EditModalModel : AppTTQHPageModel
         var QuanHuyenDto = await QuanHuyenService.GetAsync(Id);
         QuanHuyen = ObjectMapper.Map<QuanHuyenDto, EditQuanHuyenViewModel>(QuanHuyenDto);
         var tinhThanhLookup = TinhThanhAppService
-            .GetListAsync(new PagedAndSortedResultRequestDto() { MaxResultCount = 10 })
+            .GetListAsync(new PagedAndSortedResultRequestDto() { MaxResultCount = 1000 })
             .Result;
         TinhThanhs = tinhThanhLookup.Items
             .Select(x => new SelectListItem(x.TenTinhThanh, x.Id.ToString()))

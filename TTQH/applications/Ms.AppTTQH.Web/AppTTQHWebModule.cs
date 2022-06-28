@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.OAuth.Claims;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Hosting;
@@ -137,12 +138,12 @@ public class AppTTQHWebModule : AbpModule
 
                 options.SaveTokens = true;
                 options.GetClaimsFromUserInfoEndpoint = true;
-
-                options.Scope.Add("role");
-                options.Scope.Add("email");
-                options.Scope.Add("phone");
-                options.Scope.Add("TinhThanhService");
-                options.Scope.Add("QuanHuyenService");
+                var apiScopes = configuration.GetSection("ApiScope").Get<string[]>();
+                foreach (var item in apiScopes)
+                {
+                    options.Scope.Add(item);
+                }
+                options.ClaimActions.MapAbpClaimTypes();
             });
     }
 
