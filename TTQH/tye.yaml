@@ -1,0 +1,33 @@
+
+name: main
+services:
+- name: ms-appttqh-identityserver
+  project: applications/Ms.AppTTQH.IdentityServer/Ms.AppTTQH.IdentityServer.csproj
+  bindings:
+    - protocol: https
+      port: 44444
+- name: publicwebsitegateway-host
+  project: gateways/PublicWebSiteGateway.Host/PublicWebSiteGateway.Host.csproj
+  bindings:
+    - protocol: https
+      port: 55555
+- name: tasky-administration-httpapi-host
+  project: microservices/administration/host/Tasky.Administration.HttpApi.Host/Tasky.Administration.HttpApi.Host.csproj
+  bindings:
+    - protocol: https
+      port: 7001
+- name: tasky-identityservice-httpapi-host
+  project: microservices/identity/host/Tasky.IdentityService.HttpApi.Host/Tasky.IdentityService.HttpApi.Host.csproj
+  bindings:
+    - protocol: https
+      port: 7002
+- name: tinhthanhmodule-httpapi-host
+  project: microservices/TinhThanhModule/src/TinhThanhModule.HttpApi.Host/TinhThanhModule.HttpApi.Host.csproj
+  bindings:
+    - protocol: https
+      port: 44344
+- name: quanhuyenmodule-httpapi-host
+  project: microservices/QuanHuyenModule/src/QuanHuyenModule.HttpApi.Host/QuanHuyenModule.HttpApi.Host.csproj
+  bindings:
+    - protocol: https
+      port: 44355
